@@ -1,0 +1,8 @@
+[
+  {"name": "cloud-only", "color": "1E90FF", "description": "Feature only available in Tableau Cloud"},
+  {"name": "desktop-only", "color": "32CD32", "description": "Feature only available in Tableau Desktop"},
+  {"name": "both-different", "color": "FFD700", "description": "Feature exists in both but with differences"},
+  {"name": "enhancement", "color": "FF69B4", "description": "Potential improvement or suggestion"},
+  {"name": "documentation", "color": "8A2BE2", "description": "Documentation related"},
+  {"name": "needs-verification", "color": "FF4500", "description": "Needs verification or confirmation"}
+]
