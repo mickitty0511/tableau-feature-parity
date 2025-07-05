@@ -5,92 +5,90 @@
 - [x] Extract and translate feature difference items
 - [x] Propose and create label presets
 - [x] Create issue template
-- [ ] Register issues with labels
+- [x] Register issues with labels
     【desktop-only】
-    - [] Add version name to workbook file on export
-    - [] Analytics: cycle fields
-    - [] Analytics: forecasting, clustering, box plot
-    - [] Assign highlight color to palette option when enabling "Highlight selected item" from legend
-    - [] Axis and pane formatting by clicking axis (default, totals, special values like NULL)
-    - [] Blend settings options
-    - [] Bookmark feature for important worksheets (Cloud: similar to favorites)
-    - [] Change total and grand total labels from formatting
-    - [] Context menu for string fields in data source pane (split, custom split, create date, pivot)
-    - [] Context menu in data pane blank area (paste field, create folder, etc.)
-    - [] Context menu on shelf blank area (clear shelf, new calculation, etc.)
-    - [] Context menu on worksheet blank area for toggling shelves, legends, parameters, captions, summary (Cloud: toolbar icons only, cannot select shelves/legends)
-    - [] Copy selected data from sheet
-    - [] Copy/paste selected sheets from other workbooks
-    - [] Copy/paste worksheet formatting
-    - [] Ctrl + drag shortcut to duplicate sheet
-    - [] Custom color palettes available
-    - [] Custom shapes available
-    - [] Data source replacement command that inherits sort and color settings
-    - [] Default properties for fields (color, number format, comments, shape for string fields; aggregation and totals for numeric fields)
-    - [] Drop lines available
-    - [] Export all data from connected data source to local CSV or hyper
-    - [] Export single sheet as workbook file
-    - [] Fine cell size adjustment
-    - [] Fiscal year settings available
-    - [] Font, alignment, shading, border, and line formatting managed by icon
-    - [] Hide all unused fields in the data pane
-    - [] Import custom themes (as of version 2025.1 only)
-    - [] Import other workbooks into current workbook
-    - [] Label mark text alignment (left, right, center) and appearance settings
-    - [] List and select workbooks in selected project when publishing (easy overwrite)
-    - [] Manual/fixed size settings for measure fields in rows/columns
-    - [] Marker options for line chart (show points at each data point)
-    - [] More keyboard shortcuts
-    - [] Multi-select pills on row/column/filters/marks shelves (Cloud: only from data pane)
-    - [] Rearrange shelves, parameters, legends on worksheet edit screen
-    - [] Replace references: batch replace fields used in calculated fields and worksheets
-    - [] Rich map tab settings (background images, etc.)
-    - [] Rich print options from File tab
-    - [] Set default fiscal year start month, week start, and date format from date properties
-    - [] Set default formatting for reference lines, annotations, drop lines, titles, captions, field labels
-    - [] Sheet sorter, filmstrip, tab display options
-    - [] Show hidden data command in Analytics tab to redisplay hidden values
-    - [] Show/hide back/forward buttons in story
-    - [] Slider and ruler in tooltip for field arrangement
-    - [] Story formatting
-    - [] Table Layout in Analytics tab for showing empty rows/columns and more design options
-    - [] Toggle toolbar/status bar display (from Window tab)
-    - [] Toolbar: refresh, group members, presentation, dynamic axis, share workbook
-    - [] Update description, tags, permissions, and visible sheets at publish (Cloud: must right-click each sheet to set/unset publish option)
-    - [] User filter settings
-    - [] User switch option to check data visibility differences
-    - [] Workbook theme options in formatting
+    - [x] Add version name to workbook file on export
+    - [x] Analytics: cycle fields
+    - [x] Analytics: forecasting, clustering, box plot
+    - [x] Assign highlight color to palette option when enabling "Highlight selected item" from legend
+    - [x] Axis and pane formatting by clicking axis (default, totals, special values like NULL)
+    - [x] Blend settings options
+    - [x] Bookmark feature for important worksheets (Cloud: similar to favorites)
+    - [x] Change total and grand total labels from formatting
+    - [x] Context menu for string fields in data source pane (split, custom split, create date, pivot)
+    - [x] Context menu in data pane blank area (paste field, create folder, etc.)
+    - [x] Context menu on shelf blank area (clear shelf, new calculation, etc.)
+    - [x] Context menu on worksheet blank area for toggling shelves, legends, parameters, captions, summary (Cloud: toolbar icons only, cannot select shelves/legends)
+    - [x] Context menu when right-clicking after selecting multiple fields in the data pane
+     - description: Desktop: multiple options including "Hide" / Cloud: only "Hide"
+    - [x] Copy selected data from sheet
+    - [x] Copy/paste selected sheets from other workbooks
+    - [x] Copy/paste worksheet formatting
+    - [x] Ctrl + drag shortcut to duplicate sheet
+    - [x] Custom color palettes available
+    - [x] Custom shapes available
+    - [x] Data source replacement command that inherits sort and color settings
+    - [x] Default properties for fields (color, number format, comments, shape for string fields; aggregation and totals for numeric fields)
+    - [x] Drop lines available
+    - [x] Export all data from connected data source to local CSV or hyper
+    - [x] Export single sheet as workbook file
+    - [x] Fine cell size adjustment
+    - [x] Fiscal year settings available
+    - [x] Font, alignment, shading, border, and line formatting managed by icon
+    - [x] Hide all unused fields in the data pane
+    - [x] Import custom themes (as of version 2025.1 only)
+    - [x] Import other workbooks into current workbook
+    - [x] Label mark text alignment (left, right, center) and appearance settings
+    - [x] List and select workbooks in selected project when publishing (easy overwrite)
+    - [x] Manual/fixed size settings for measure fields in rows/columns
+    - [x] Marker options for line chart (show points at each data point)
+    - [x] More keyboard shortcuts
+    - [x] Multi-select pills on row/column/filters/marks shelves (Cloud: only from data pane)
+    - [x] Rearrange shelves, parameters, legends on worksheet edit screen
+    - [x] Replace references: batch replace fields used in calculated fields and worksheets
+    - [x] Rich map tab settings (background images, etc.)
+    - [x] Rich print options from File tab
+    - [x] Set default fiscal year start month, week start, and date format from date properties
+    - [x] Set default formatting for reference lines, annotations, drop lines, titles, captions, field labels
+    - [x] Sheet sorter, filmstrip, tab display options
+    - [x] Show hidden data command in Analytics tab to redisplay hidden values
+    - [x] Show/hide back/forward buttons in story
+    - [x] Slider and ruler in tooltip for field arrangement
+    - [x] Story formatting
+    - [x] Table Layout in Analytics tab for showing empty rows/columns and more design options
+    - [x] Toggle toolbar/status bar display (from Window tab)
+    - [x] Toolbar: refresh, group members, presentation, dynamic axis, share workbook
+    - [x] Update description, tags, permissions, and visible sheets at publish (Cloud: must right-click each sheet to set/unset publish option)
+    - [x] User filter settings
+    - [x] User switch option to check data visibility differences
+    - [x] Workbook theme options in formatting
 
     【cloud-only】
-    - [ ] Add/change hyperlink and display name in text editing mode
-    - [ ] Auto-save workbook drafts (up to 5MB)
-    - [ ] Create from option for geographic role even for string fields without assigned role (Desktop: must assign role)
-    - [ ] Description in context menu for measure names
-    - [ ] Drag and drop items in dashboard layout hierarchy
-    - [ ] Enter size as a value from size mark
-    - [ ] Search project name at publish
-    - [ ] Toolbar: total options, workbook formatting, download
-    - [ ] View URL does not change even if worksheet name is changed (favorites/bookmarks remain valid)
+    - [x] Add/change hyperlink and display name in text editing mode
+    - [x] Auto-save workbook drafts (up to 5MB)
+    - [x] Create from option for geographic role even for string fields without assigned role (Desktop: must assign role)
+    - [x] Description in context menu for measure names
+    - [x] Drag and drop items in dashboard layout hierarchy
+    - [x] Enter size as a value from size mark
+    - [x] Search project name at publish
+    - [x] Toolbar: total options, workbook formatting, download
+    - [x] View URL does not change even if worksheet name is changed (favorites/bookmarks remain valid)
     
     【both-different】
-    - [ ] Access to dashboard formatting
+    - [x] Access to dashboard formatting
      - description: Desktop: Dashboard tab > Formatting / Cloud: Formatting tab > Dashboard
-    - [ ] Export dashboard/story image
+    - [x] Export dashboard/story image
      - description: Cloud: toolbar for Creator, download button for all (with permission) / Desktop: context menu or Dashboard/Story tab > Export image
-    - [ ] Fields shown in "Edit Alias" from measure name context menu
+    - [x] Fields shown in "Edit Alias" from measure name context menu
      - description: Desktop: only those used in worksheet / Cloud: all measure fields
-    - [ ] Formatting access for legend/parameter/filter cards
+    - [x] Formatting access for legend/parameter/filter cards
      - description: Cloud: seamless tab switching for all cards / Desktop: select and format one or all cards
-    - [ ] Show Data command location:
+    - [x] Show Data command location:
      - description: Desktop: context menu on worksheet blank, context menu on selected data, right of data pane search, Data > [source] > Show Data, context menu on data source in data pane / Cloud: context menu on worksheet blank, context menu on selected data
-    - [] Quick access to data source replacement command (Cloud: more clicks required)
-    - [ ] Worksheet clear commands in toolbar
+    - [x] Quick access to data source replacement command (Cloud: more clicks required)
+    - [x] Worksheet clear commands in toolbar
      - description: Desktop: clear manual size, axis range, filter, sort, context / Cloud: clear worksheet only
-    - [ ] Context menu when right-clicking after selecting multiple fields in the data pane
-     - description: Desktop: multiple options including "Hide" / Cloud: only "Hide"
-- [ ] Maintain and update this checklist
-
-- [ ] Create issue files in docs/issues
+- [x] Create issue files in docs/issues
     - [x] desktop-only/add_version_name_to_workbook_file_on_export/add_version_name_to_workbook_file_on_export.md
       - [x] desktop screenshot
       - [x] cloud screenshot
@@ -290,4 +288,143 @@
     - [x] both-different/worksheet_clear_commands_in_toolbar/worksheet_clear_commands_in_toolbar.md
       - [x] desktop screenshot
       - [x] cloud screenshot
-    
+- [ ] Create an article in ja corresponding to each issue
+    - [ ] Issue #1
+    - [ ] Issue #2
+    - [ ] Issue #3
+    - [ ] Issue #4
+    - [ ] Issue #5
+    - [ ] Issue #6
+    - [ ] Issue #7
+    - [ ] Issue #8
+    - [ ] Issue #9
+    - [ ] Issue #10
+    - [ ] Issue #11
+    - [ ] Issue #12
+    - [ ] Issue #13
+    - [ ] Issue #14
+    - [ ] Issue #15
+    - [ ] Issue #16
+    - [ ] Issue #17
+    - [ ] Issue #18
+    - [ ] Issue #19
+    - [ ] Issue #20
+    - [ ] Issue #21
+    - [ ] Issue #22
+    - [ ] Issue #23
+    - [ ] Issue #24
+    - [ ] Issue #25
+    - [ ] Issue #26
+    - [ ] Issue #27
+    - [ ] Issue #28
+    - [ ] Issue #29
+    - [ ] Issue #30
+    - [ ] Issue #31
+    - [ ] Issue #32
+    - [ ] Issue #33
+    - [ ] Issue #34
+    - [ ] Issue #35
+    - [ ] Issue #36
+    - [ ] Issue #37
+    - [ ] Issue #38
+    - [ ] Issue #39
+    - [ ] Issue #40
+    - [ ] Issue #41
+    - [ ] Issue #42
+    - [ ] Issue #43
+    - [ ] Issue #44
+    - [ ] Issue #45
+    - [ ] Issue #46
+    - [ ] Issue #47
+    - [ ] Issue #48
+    - [ ] Issue #49
+    - [ ] Issue #50
+    - [ ] Issue #51
+    - [ ] Issue #52
+    - [ ] Issue #53
+    - [ ] Issue #54
+    - [ ] Issue #55
+    - [ ] Issue #56
+    - [ ] Issue #57
+    - [ ] Issue #58
+    - [ ] Issue #59
+    - [ ] Issue #60
+    - [ ] Issue #61
+    - [ ] Issue #62
+    - [ ] Issue #63
+    - [ ] Issue #64
+    - [ ] Issue #65
+    - [ ] Issue #66
+    - [ ] Issue #67
+    - [ ] Issue #68
+    - [ ] Issue #69
+- [ ] Create an article in en, corresponding to each issue
+    - [ ] Issue #1
+    - [ ] Issue #2
+    - [ ] Issue #3
+    - [ ] Issue #4
+    - [ ] Issue #5
+    - [ ] Issue #6
+    - [ ] Issue #7
+    - [ ] Issue #8
+    - [ ] Issue #9
+    - [ ] Issue #10
+    - [ ] Issue #11
+    - [ ] Issue #12
+    - [ ] Issue #13
+    - [ ] Issue #14
+    - [ ] Issue #15
+    - [ ] Issue #16
+    - [ ] Issue #17
+    - [ ] Issue #18
+    - [ ] Issue #19
+    - [ ] Issue #20
+    - [ ] Issue #21
+    - [ ] Issue #22
+    - [ ] Issue #23
+    - [ ] Issue #24
+    - [ ] Issue #25
+    - [ ] Issue #26
+    - [ ] Issue #27
+    - [ ] Issue #28
+    - [ ] Issue #29
+    - [ ] Issue #30
+    - [ ] Issue #31
+    - [ ] Issue #32
+    - [ ] Issue #33
+    - [ ] Issue #34
+    - [ ] Issue #35
+    - [ ] Issue #36
+    - [ ] Issue #37
+    - [ ] Issue #38
+    - [ ] Issue #39
+    - [ ] Issue #40
+    - [ ] Issue #41
+    - [ ] Issue #42
+    - [ ] Issue #43
+    - [ ] Issue #44
+    - [ ] Issue #45
+    - [ ] Issue #46
+    - [ ] Issue #47
+    - [ ] Issue #48
+    - [ ] Issue #49
+    - [ ] Issue #50
+    - [ ] Issue #51
+    - [ ] Issue #52
+    - [ ] Issue #53
+    - [ ] Issue #54
+    - [ ] Issue #55
+    - [ ] Issue #56
+    - [ ] Issue #57
+    - [ ] Issue #58
+    - [ ] Issue #59
+    - [ ] Issue #60
+    - [ ] Issue #61
+    - [ ] Issue #62
+    - [ ] Issue #63
+    - [ ] Issue #64
+    - [ ] Issue #65
+    - [ ] Issue #66
+    - [ ] Issue #67
+    - [ ] Issue #68
+    - [ ] Issue #69
