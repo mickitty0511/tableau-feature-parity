@@ -1,0 +1,15 @@
+---
+description: When "/draft-issue" is called, trigger this
+globs: 
+alwaysApply: false
+---
+# Issue Creation Process: 
+
+This rule describes the process for documenting and managing the feature difference.
+
+## Process Overview
+1. Extract the relevant difference from [Tableau Cloud vs Desktop-feature-diff.md](mdc:docs/feature-diff-list/Tableau Cloud vs Desktop-feature-diff.md)
+2. Add an item as a folder in Japanese to the [checklist.md](mdc:docs/plan/checklist.md) under the appropriate section which is based on [checklist.md](mdc:docs/plan/checklist.md)
+3. Create an jp/ folder inside the folder you made in the previous step.
+3. Inside the jp/ folder, create <issue-name>.md whose format references [access_to_dashboard_formatting.md](mdc:docs/issues/both-different/access_to_dashboard_formatting/en/access_to_dashboard_formatting.md)
+4. Additionally, inside the jp/ folder, create an img/ folder for screenshots and related images

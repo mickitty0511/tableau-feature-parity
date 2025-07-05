@@ -7,160 +7,287 @@
 - [x] Create issue template
 - [ ] Register issues with labels
     【desktop-only】
-    - [ ] Default properties for fields (color, number format, comments, shape for string fields; aggregation and totals for numeric fields)
-    - [ ] Hide all unused fields in the data pane
-    - [ ] Replace references: batch replace fields used in calculated fields and worksheets
-    - [ ] Fiscal year settings available
-    - [ ] Set default fiscal year start month, week start, and date format from date properties
-    - [ ] Custom shapes available
-    - [ ] Axis and pane formatting by clicking axis (default, totals, special values like NULL)
-    - [ ] Custom color palettes available
-    - [ ] Copy selected data from sheet
-    - [ ] Drop lines available
-    - [ ] Change total and grand total labels from formatting
-    - [ ] Context menu on shelf blank area (clear shelf, new calculation, etc.)
-    - [ ] Label mark text alignment (left, right, center) and appearance settings
-    - [ ] Data source replacement command that inherits sort and color settings
-    - [ ] "Table Layout" in Analytics tab for showing empty rows/columns and more design options
-    - [ ] More keyboard shortcuts
-    - [ ] List and select workbooks in selected project when publishing (easy overwrite)
-    - [ ] Update description, tags, permissions, and visible sheets at publish (Cloud: must right-click each sheet to set/unset publish option)
-    - [ ] Rich map tab settings (background images, etc.)
-    - [ ] Font, alignment, shading, border, and line formatting managed by icon
-    - [ ] Fine cell size adjustment
-    - [ ] Slider and ruler in tooltip for field arrangement
-    - [ ] Rich data export options (entire source, worksheet, selected data, local)
-    - [ ] Story formatting
-    - [ ] Show/hide back/forward buttons in story
-    - [ ] Bookmark feature for important worksheets (Cloud: similar to favorites)
-    - [ ] Analytics: forecasting, clustering, box plot
-    - [ ] Context menu in data pane blank area (paste field, create folder, etc.)
-    - [ ] Ctrl + drag shortcut to duplicate sheet
-    - [ ] Copy/paste worksheet formatting
-    - [ ] Set default formatting for reference lines, annotations, drop lines, titles, captions, field labels
-    - [ ] Context menu on worksheet blank area for toggling shelves, legends, parameters, captions, summary (Cloud: toolbar icons only, cannot select shelves/legends)
-    - [ ] Toggle toolbar/status bar display (from Window tab)
-    - [ ] Rearrange shelves, parameters, legends on worksheet edit screen
-    - [ ] Marker options for line chart (show points at each data point)
-    - [ ] Import custom themes (as of version 2025.1 only)
-    - [ ] User filter settings
-    - [ ] "Assign highlight color to palette" option when enabling "Highlight selected item" from legend
-    - [ ] Blend settings options
-    - [ ] "Show hidden data" command in Analytics tab to redisplay hidden values
-    - [ ] Quick access to data source replacement command (Cloud: more clicks required)
-    - [ ] Export all data from connected data source to local CSV or hyper
-    - [ ] Multi-select pills on row/column/filters/marks shelves (Cloud: only from data pane)
-    - [ ] Manual/fixed size settings for measure fields in rows/columns
-    - [ ] Context menu for string fields in data source pane (split, custom split, create date, pivot)
-    - [ ] Sheet sorter, filmstrip, tab display options
-    - [ ] User switch option to check data visibility differences
-    - [ ] Workbook theme options in formatting
-    - [ ] Toolbar: refresh, group members, presentation, dynamic axis, share workbook
-    - [ ] Copy/paste selected sheets from other workbooks
-    - [ ] Import other workbooks into current workbook
-    - [ ] Export single sheet as workbook file
-    - [ ] Add version name to workbook file on export
-    - [ ] Rich print options from File tab
-    - [ ] Analytics: cycle fields
+    - [] Add version name to workbook file on export
+    - [] Analytics: cycle fields
+    - [] Analytics: forecasting, clustering, box plot
+    - [] Assign highlight color to palette option when enabling "Highlight selected item" from legend
+    - [] Axis and pane formatting by clicking axis (default, totals, special values like NULL)
+    - [] Blend settings options
+    - [] Bookmark feature for important worksheets (Cloud: similar to favorites)
+    - [] Change total and grand total labels from formatting
+    - [] Context menu for string fields in data source pane (split, custom split, create date, pivot)
+    - [] Context menu in data pane blank area (paste field, create folder, etc.)
+    - [] Context menu on shelf blank area (clear shelf, new calculation, etc.)
+    - [] Context menu on worksheet blank area for toggling shelves, legends, parameters, captions, summary (Cloud: toolbar icons only, cannot select shelves/legends)
+    - [] Copy selected data from sheet
+    - [] Copy/paste selected sheets from other workbooks
+    - [] Copy/paste worksheet formatting
+    - [] Ctrl + drag shortcut to duplicate sheet
+    - [] Custom color palettes available
+    - [] Custom shapes available
+    - [] Data source replacement command that inherits sort and color settings
+    - [] Default properties for fields (color, number format, comments, shape for string fields; aggregation and totals for numeric fields)
+    - [] Drop lines available
+    - [] Export all data from connected data source to local CSV or hyper
+    - [] Export single sheet as workbook file
+    - [] Fine cell size adjustment
+    - [] Fiscal year settings available
+    - [] Font, alignment, shading, border, and line formatting managed by icon
+    - [] Hide all unused fields in the data pane
+    - [] Import custom themes (as of version 2025.1 only)
+    - [] Import other workbooks into current workbook
+    - [] Label mark text alignment (left, right, center) and appearance settings
+    - [] List and select workbooks in selected project when publishing (easy overwrite)
+    - [] Manual/fixed size settings for measure fields in rows/columns
+    - [] Marker options for line chart (show points at each data point)
+    - [] More keyboard shortcuts
+    - [] Multi-select pills on row/column/filters/marks shelves (Cloud: only from data pane)
+    - [] Rearrange shelves, parameters, legends on worksheet edit screen
+    - [] Replace references: batch replace fields used in calculated fields and worksheets
+    - [] Rich map tab settings (background images, etc.)
+    - [] Rich print options from File tab
+    - [] Set default fiscal year start month, week start, and date format from date properties
+    - [] Set default formatting for reference lines, annotations, drop lines, titles, captions, field labels
+    - [] Sheet sorter, filmstrip, tab display options
+    - [] Show hidden data command in Analytics tab to redisplay hidden values
+    - [] Show/hide back/forward buttons in story
+    - [] Slider and ruler in tooltip for field arrangement
+    - [] Story formatting
+    - [] Table Layout in Analytics tab for showing empty rows/columns and more design options
+    - [] Toggle toolbar/status bar display (from Window tab)
+    - [] Toolbar: refresh, group members, presentation, dynamic axis, share workbook
+    - [] Update description, tags, permissions, and visible sheets at publish (Cloud: must right-click each sheet to set/unset publish option)
+    - [] User filter settings
+    - [] User switch option to check data visibility differences
+    - [] Workbook theme options in formatting
+
     【cloud-only】
-    - [ ] Enter size as a value from size mark
-    - [ ] Drag and drop items in dashboard layout hierarchy
     - [ ] Add/change hyperlink and display name in text editing mode
-    - [ ] View URL does not change even if worksheet name is changed (favorites/bookmarks remain valid)
-    - [ ] Search project name at publish
-    - [ ] "Create from" option for geographic role even for string fields without assigned role (Desktop: must assign role)
-    - [ ] "Description" in context menu for measure names
-    - [ ] Toolbar: total options, workbook formatting, download
     - [ ] Auto-save workbook drafts (up to 5MB)
+    - [ ] Create from option for geographic role even for string fields without assigned role (Desktop: must assign role)
+    - [ ] Description in context menu for measure names
+    - [ ] Drag and drop items in dashboard layout hierarchy
+    - [ ] Enter size as a value from size mark
+    - [ ] Search project name at publish
+    - [ ] Toolbar: total options, workbook formatting, download
+    - [ ] View URL does not change even if worksheet name is changed (favorites/bookmarks remain valid)
+    
     【both-different】
     - [ ] Access to dashboard formatting
      - description: Desktop: Dashboard tab > Formatting / Cloud: Formatting tab > Dashboard
+    - [ ] Export dashboard/story image
+     - description: Cloud: toolbar for Creator, download button for all (with permission) / Desktop: context menu or Dashboard/Story tab > Export image
     - [ ] Fields shown in "Edit Alias" from measure name context menu
      - description: Desktop: only those used in worksheet / Cloud: all measure fields
     - [ ] Formatting access for legend/parameter/filter cards
      - description: Cloud: seamless tab switching for all cards / Desktop: select and format one or all cards
-    - [ ] Deselect value background in filter
-     - description: Desktop: Ctrl + click after selection / Cloud: click only
+    - [ ] Show Data command location:
+     - description: Desktop: context menu on worksheet blank, context menu on selected data, right of data pane search, Data > [source] > Show Data, context menu on data source in data pane / Cloud: context menu on worksheet blank, context menu on selected data
+    - [] Quick access to data source replacement command (Cloud: more clicks required)
     - [ ] Worksheet clear commands in toolbar
      - description: Desktop: clear manual size, axis range, filter, sort, context / Cloud: clear worksheet only
-    - [ ] Export dashboard/story image
-     - description: Cloud: toolbar for Creator, download button for all (with permission) / Desktop: context menu or Dashboard/Story tab > Export image
-    - [ ] Export crosstab
-     - description: Desktop: context menu or Worksheet > Export > Crosstab to Excel (selected data or sheet) / Cloud: toolbar download > Crosstab to Excel/CSV (sheet only)
-    - [ ] "Show Data" command location:
-     - description: Desktop: context menu on worksheet blank, context menu on selected data, right of data pane search, Data > [source] > Show Data, context menu on data source in data pane / Cloud: context menu on worksheet blank, context menu on selected data
+    - [ ] Context menu when right-clicking after selecting multiple fields in the data pane
+     - description: Desktop: multiple options including "Hide" / Cloud: only "Hide"
 - [ ] Maintain and update this checklist
 
 - [ ] Create issue files in docs/issues
-    - [x] default_properties_for_fields.md
-    - [x] hide_all_unused_fields_in_the_data_pane.md
-    - [x] replace_references_batch_replace_fields_used_in_calculated_fields_and_worksheets.md
-    - [x] fiscal_year_settings_available.md
-    - [x] set_default_fiscal_year_start_month_week_start_and_date_format_from_date_properties.md
-    - [x] custom_shapes_available.md
-    - [x] axis_and_pane_formatting_by_clicking_axis.md
-    - [x] custom_color_palettes_available.md
-    - [ ] copy_selected_data_from_sheet.md
-    - [ ] drop_lines_available.md
-    - [ ] change_total_and_grand_total_labels_from_formatting.md
-    - [ ] context_menu_on_shelf_blank_area.md
-    - [ ] label_mark_text_alignment_and_appearance_settings.md
-    - [ ] data_source_replacement_command_that_inherits_sort_and_color_settings.md
-    - [ ] table_layout_in_analytics_tab_for_showing_empty_rows_columns_and_more_design_options.md
-    - [ ] more_keyboard_shortcuts.md
-    - [ ] list_and_select_workbooks_in_selected_project_when_publishing_easy_overwrite.md
-    - [ ] update_description_tags_permissions_and_visible_sheets_at_publish.md
-    - [ ] rich_map_tab_settings.md
-    - [ ] font_alignment_shading_border_and_line_formatting_managed_by_icon.md
-    - [ ] fine_cell_size_adjustment.md
-    - [ ] slider_and_ruler_in_tooltip_for_field_arrangement.md
-    - [ ] rich_data_export_options.md
-    - [ ] story_formatting.md
-    - [ ] show_hide_back_forward_buttons_in_story.md
-    - [ ] bookmark_feature_for_important_worksheets.md
-    - [ ] analytics_forecasting_clustering_box_plot.md
-    - [ ] context_menu_in_data_pane_blank_area.md
-    - [ ] ctrl_drag_shortcut_to_duplicate_sheet.md
-    - [ ] copy_paste_worksheet_formatting.md
-    - [ ] set_default_formatting_for_reference_lines_annotations_drop_lines_titles_captions_field_labels.md
-    - [ ] context_menu_on_worksheet_blank_area_for_toggling_shelves_legends_parameters_captions_summary.md
-    - [ ] toggle_toolbar_status_bar_display.md
-    - [ ] rearrange_shelves_parameters_legends_on_worksheet_edit_screen.md
-    - [ ] marker_options_for_line_chart.md
-    - [ ] import_custom_themes.md
-    - [ ] user_filter_settings.md
-    - [ ] assign_highlight_color_to_palette_option_when_enabling_highlight_selected_item_from_legend.md
-    - [ ] blend_settings_options.md
-    - [ ] show_hidden_data_command_in_analytics_tab_to_redisplay_hidden_values.md
-    - [ ] quick_access_to_data_source_replacement_command.md
-    - [ ] export_all_data_from_connected_data_source_to_local_csv_or_hyper.md
-    - [ ] multi_select_pills_on_row_column_filters_marks_shelves.md
-    - [ ] manual_fixed_size_settings_for_measure_fields_in_rows_columns.md
-    - [ ] context_menu_for_string_fields_in_data_source_pane.md
-    - [ ] sheet_sorter_filmstrip_tab_display_options.md
-    - [ ] user_switch_option_to_check_data_visibility_differences.md
-    - [ ] workbook_theme_options_in_formatting.md
-    - [ ] toolbar_refresh_group_members_presentation_dynamic_axis_share_workbook.md
-    - [ ] copy_paste_selected_sheets_from_other_workbooks.md
-    - [ ] import_other_workbooks_into_current_workbook.md
-    - [ ] export_single_sheet_as_workbook_file.md
-    - [ ] add_version_name_to_workbook_file_on_export.md
-    - [ ] rich_print_options_from_file_tab.md
-    - [ ] analytics_cycle_fields.md
-    - [ ] enter_size_as_a_value_from_size_mark.md
-    - [ ] drag_and_drop_items_in_dashboard_layout_hierarchy.md
-    - [ ] add_change_hyperlink_and_display_name_in_text_editing_mode.md
-    - [ ] view_url_does_not_change_even_if_worksheet_name_is_changed.md
-    - [ ] search_project_name_at_publish.md
-    - [ ] create_from_option_for_geographic_role_even_for_string_fields_without_assigned_role.md
-    - [ ] description_in_context_menu_for_measure_names.md
-    - [ ] toolbar_total_options_workbook_formatting_download.md
-    - [ ] auto_save_workbook_drafts.md
-    - [ ] access_to_dashboard_formatting.md
-    - [ ] fields_shown_in_edit_alias_from_measure_name_context_menu.md
-    - [ ] formatting_access_for_legend_parameter_filter_cards.md
-    - [ ] deselect_value_background_in_filter.md
-    - [ ] worksheet_clear_commands_in_toolbar.md
-    - [ ] export_dashboard_story_image.md
-    - [ ] export_crosstab.md
-    - [ ] show_data_command_location.md 
+    - [x] desktop-only/add_version_name_to_workbook_file_on_export/add_version_name_to_workbook_file_on_export.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/analytics_cycle_fields/analytics_cycle_fields.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/analytics_forecasting_clustering_box_plot/analytics_forecasting_clustering_box_plot.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/assign_highlight_color_to_palette_option_when_enabling_highlight_selected_item_from_legend/assign_highlight_color_to_palette_option_when_enabling_highlight_selected_item_from_legend.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/axis_and_pane_formatting_by_clicking_axis/axis_and_pane_formatting_by_clicking_axis.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/blend_settings_options/blend_settings_options.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/bookmark_feature_for_important_worksheets/bookmark_feature_for_important_worksheets.md
+      - [x] desktop screenshot
+    - [x] desktop-only/change_total_and_grand_total_labels_from_formatting/change_total_and_grand_total_labels_from_formatting.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/context_menu_for_string_fields_in_data_source_pane/context_menu_for_string_fields_in_data_source_pane.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/context_menu_in_data_pane_blank_area/context_menu_in_data_pane_blank_area.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/context_menu_on_shelf_blank_area/context_menu_on_shelf_blank_area.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/context_menu_on_worksheet_blank_area_for_toggling_shelves_legends_parameters_captions_summary/context_menu_on_worksheet_blank_area_for_toggling_shelves_legends_parameters_captions_summary.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/copy_paste_selected_sheets_from_other_workbooks/copy_paste_selected_sheets_from_other_workbooks.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/copy_paste_worksheet_formatting/copy_paste_worksheet_formatting.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/copy_selected_data_from_sheet/copy_selected_data_from_sheet.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/ctrl_drag_shortcut_to_duplicate_sheet/ctrl_drag_shortcut_to_duplicate_sheet.md
+      - [x] desktop screenshot
+    - [x] desktop-only/custom_color_palettes_available/custom_color_palettes_available.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/custom_shapes_available/custom_shapes_available.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/data_source_replacement_command_that_inherits_sort_and_color_settings/data_source_replacement_command_that_inherits_sort_and_color_settings.md
+      - [x] desktop screenshot
+    - [x] desktop-only/default_properties_for_fields/default_properties_for_fields.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/drop_lines_available/drop_lines_available.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/export_all_data_from_connected_data_source_to_local_csv_or_hyper/export_all_data_from_connected_data_source_to_local_csv_or_hyper.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/export_single_sheet_as_workbook_file/export_single_sheet_as_workbook_file.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/fine_cell_size_adjustment/fine_cell_size_adjustment.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/fiscal_year_settings_available/fiscal_year_settings_available.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/hide_all_unused_fields_in_the_data_pane/hide_all_unused_fields_in_the_data_pane.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/import_custom_themes/import_custom_themes.md
+      - [x] desktop screenshot
+    - [x] desktop-only/import_other_workbooks_into_current_workbook/import_other_workbooks_into_current_workbook.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/label_mark_text_alignment_and_appearance_settings/label_mark_text_alignment_and_appearance_settings.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/list_and_select_workbooks_in_selected_project_when_publishing_easy_overwrite/list_and_select_workbooks_in_selected_project_when_publishing_easy_overwrite.md
+      - [x] desktop screenshot
+    - [x] desktop-only/manual_fixed_size_settings_for_measure_fields_in_rows_columns/manual_fixed_size_settings_for_measure_fields_in_rows_columns.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/marker_options_for_line_chart/marker_options_for_line_chart.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/more_keyboard_shortcuts/more_keyboard_shortcuts.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/multi_select_pills_on_row_column_filters_marks_shelves/multi_select_pills_on_row_column_filters_marks_shelves.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/rearrange_shelves_parameters_legends_on_worksheet_edit_screen/rearrange_shelves_parameters_legends_on_worksheet_edit_screen.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/replace_references_batch_replace_fields_used_in_calculated_fields_and_worksheets/replace_references_batch_replace_fields_used_in_calculated_fields_and_worksheets.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/rich_map_tab_settings/rich_map_tab_settings.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/rich_print_options_from_file_tab/rich_print_options_from_file_tab.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/set_default_fiscal_year_start_month_week_start_and_date_format_from_date_properties/set_default_fiscal_year_start_month_week_start_and_date_format_from_date_properties.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/set_default_formatting_for_reference_lines_annotations_drop_lines_titles_captions_field_labels/set_default_formatting_for_reference_lines_annotations_drop_lines_titles_captions_field_labels.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/sheet_sorter_filmstrip_tab_display_options/sheet_sorter_filmstrip_tab_display_options.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/show_hidden_data_command_in_analytics_tab_to_redisplay_hidden_values/show_hidden_data_command_in_analytics_tab_to_redisplay_hidden_values.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/show_hide_back_forward_buttons_in_story/show_hide_back_forward_buttons_in_story.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/slider_and_ruler_in_tooltip_for_field_arrangement/slider_and_ruler_in_tooltip_for_field_arrangement.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/story_formatting/story_formatting.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/table_layout_in_analytics_tab_for_showing_empty_rows_columns_and_more_design_options/table_layout_in_analytics_tab_for_showing_empty_rows_columns_and_more_design_options.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/toggle_toolbar_status_bar_display/toggle_toolbar_status_bar_display.md
+      - [x] desktop screenshot
+    - [x] desktop-only/toolbar_refresh_group_members_presentation_dynamic_axis_share_workbook/toolbar_refresh_group_members_presentation_dynamic_axis_share_workbook.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/update_description_tags_permissions_and_visible_sheets_at_publish/update_description_tags_permissions_and_visible_sheets_at_publish.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] desktop-only/user_filter_settings/user_filter_settings.md
+      - [x] desktop screenshot
+    - [x] desktop-only/user_switch_option_to_check_data_visibility_differences/user_switch_option_to_check_data_visibility_differences.md
+      - [x] desktop screenshot
+    - [x] desktop-only/workbook_theme_options_in_formatting/workbook_theme_options_in_formatting.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] cloud-only/add_change_hyperlink_and_display_name_in_text_editing_mode/add_change_hyperlink_and_display_name_in_text_editing_mode.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] cloud-only/auto_save_workbook_drafts/auto_save_workbook_drafts.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] cloud-only/create_from_option_for_geographic_role_even_for_string_fields_without_assigned_role/create_from_option_for_geographic_role_even_for_string_fields_without_assigned_role.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] cloud-only/description_in_context_menu_for_measure_names/description_in_context_menu_for_measure_names.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] cloud-only/drag_and_drop_items_in_dashboard_layout_hierarchy/drag_and_drop_items_in_dashboard_layout_hierarchy.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] cloud-only/enter_size_as_a_value_from_size_mark/enter_size_as_a_value_from_size_mark.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] cloud-only/search_project_name_at_publish/search_project_name_at_publish.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] cloud-only/toolbar_total_options_workbook_formatting_download/toolbar_total_options_workbook_formatting_download.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] cloud-only/view_url_does_not_change_even_if_worksheet_name_is_changed/view_url_does_not_change_even_if_worksheet_name_is_changed.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] both-different/access_to_dashboard_formatting/access_to_dashboard_formatting.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] both-different/data_source_replacement_command/data_source_replacement_command.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] both-different/export_dashboard_story_image/export_dashboard_story_image.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] both-different/fields_shown_in_edit_alias_from_measure_name_context_menu/fields_shown_in_edit_alias_from_measure_name_context_menu.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] both-different/font_alignment_shading_border_and_line_formatting_managed_by_icon/font_alignment_shading_border_and_line_formatting_managed_by_icon.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] both-different/formatting_access_for_legend_parameter_filter_cards/formatting_access_for_legend_parameter_filter_cards.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] both-different/show_data_command_location/show_data_command_location.md 
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    - [x] both-different/worksheet_clear_commands_in_toolbar/worksheet_clear_commands_in_toolbar.md
+      - [x] desktop screenshot
+      - [x] cloud screenshot
+    
