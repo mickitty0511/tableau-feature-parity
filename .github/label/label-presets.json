@@ -1,8 +1,13 @@
 [
-  {"name": "cloud-only", "color": "1E90FF", "description": "Feature only available in Tableau Cloud"},
-  {"name": "desktop-only", "color": "32CD32", "description": "Feature only available in Tableau Desktop"},
-  {"name": "both-different", "color": "FFD700", "description": "Feature exists in both but with differences"},
-  {"name": "enhancement", "color": "FF69B4", "description": "Potential improvement or suggestion"},
-  {"name": "documentation", "color": "8A2BE2", "description": "Documentation related"},
-  {"name": "needs-verification", "color": "FF4500", "description": "Needs verification or confirmation"}
+  {"name": "cloud-only", "color": "17b2ee", "description": "Feature only available in Tableau Cloud"},
+  {"name": "desktop-only", "color": "1d76db", "description": "Feature only available in Tableau Desktop"},
+  {"name": "both-different", "color": "ededed", "description": "Feature exists in both but with differences"},
+  {"name": "operationally-critical", "color": "FF0000", "description": "Critical issue affecting workbook editing functionality"},
+  {"name": "documentation", "color": "c5def5", "description": "Documentation related"},
+  {"name": "invalid", "color": "e4e669", "description": "This doesn't seem right"},
+  {"name": "question", "color": "d876e3", "description": "Further information is requested"},
+  {"name": "wontfix", "color": "ffffff", "description": "This will not be worked on"},
+  {"name": "duplicate", "color": "ffffff", "description": "This issue or pull request already exists"},
+  {"name": "help wanted", "color": "008672", "description": "Extra attention is needed"},
+  {"name": "ver-2025-1.X", "color": "ededed", "description": "Feature accessible only on Tableau 2025.1.X"}
 ]
