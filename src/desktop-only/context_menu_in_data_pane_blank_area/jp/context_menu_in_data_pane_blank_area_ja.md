@@ -9,14 +9,16 @@
 1. データペインの空白エリア（フィールドが配置されていない部分）を右クリックします。
 2. コンテキストメニューが表示され、利用可能なオプションを選択できます。
 
-Desktop例:
+Desktop例：
+
 ![Desktopでのコンテキストメニュー](./img/desktop/context_menu_blank_area_desktop_jp.gif)
 
 ### Tableau Cloud
 1. データペインの空白エリアを右クリックしても、コンテキストメニューは表示されません。
 2. この機能はCloudでは利用できません。
 
-Cloud例:
+Cloud例：
+
 ![Cloudではコンテキストメニューなし](./img/cloud/no_context_menu_blank_area_cloud_jp.gif)
 
 ## 注意事項

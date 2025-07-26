@@ -18,6 +18,7 @@ Multiple detailed clear options are available:
    - Clear all (entire worksheet)
 
 Desktop example:
+
 ![Desktop clear command list](../jp/img/desktop/ツールバーのシートのクリアのコマンド一覧_jp.png)
 
 ### Tableau Cloud
@@ -27,6 +28,7 @@ Only limited clear options are available:
 2. Only "Clear Worksheet" option is selectable
 
 Cloud example:
+
 ![Cloud clear command](../jp/img/cloud/ツールバーのシートのクリア_jp.png)
 
 ## Considerations

@@ -19,6 +19,7 @@
    - **すべての小計を削除**: 全ての小計を一括削除
 
 クラウド版の総計機能：
+
 ![クラウド版総計機能](./img/cloud/toolbar_total_cloud_jp.png)
 ![クラウド版書式設定・ダウンロード](./img/cloud/toolbar_workbook_formatting_download_cloud_jp.png)
 
@@ -43,6 +44,7 @@ Tableau Desktopでは、これらの機能はツールバーに専用ボタン�
 3. **エクスポート**: 「ファイル」メニュー → 「エクスポート」から各形式を選択
 
 デスクトップ版のツールバー：
+
 ![デスクトップ版ツールバー](./img/desktop/toolbar_all_but_total_desktop_jp.png)
 
 ## 利用例

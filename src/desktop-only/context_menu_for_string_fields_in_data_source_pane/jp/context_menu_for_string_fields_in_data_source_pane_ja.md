@@ -10,7 +10,8 @@
 2. フィールドを右クリックしてコンテキストメニューを表示します
 3. 表示される拡張されたメニューオプションから必要な操作を選択します
 
-Desktop の例:
+Desktop の例：
+
 ![Desktopの拡張コンテキストメニュー](./img/desktop/extended_context_menu_desktop_jp.png)
 
 ### Tableau Cloud の場合
@@ -18,7 +19,8 @@ Desktop の例:
 2. フィールドを右クリックしてコンテキストメニューを表示します
 3. 基本的なメニューオプションのみが利用可能です
 
-Cloud の例:
+Cloud の例：
+
 ![Cloudの基本コンテキストメニュー](./img/cloud/basic_context_menu_cloud_jp.png)
 
 ## 使用例・活用場面

@@ -12,6 +12,7 @@
 4. 非表示にしていたデータが再表示されます
 
 Desktopでの例:
+
 ![Desktopアナリティクスメニュー](./img/desktop/show_hidden_data_menu_desktop_jp.png)
 ![Desktop隠されたデータ表示デモ](./img/desktop/show_hidden_data_demo_desktop_jp.gif)
 
@@ -20,6 +21,7 @@ Desktopでの例:
 2. 「隠されたデータを表示」コマンドは表示されません
 
 Cloudでの例:
+
 ![Cloudアナリティクスメニュー](./img/cloud/basic_analytics_menu_cloud_jp.png)
 
 ## 使用例・活用場面

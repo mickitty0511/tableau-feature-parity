@@ -10,6 +10,7 @@ The availability of icon-managed formatting features for font, alignment, shadin
 2. Use icons in the formatting panel to manage various formatting settings
 
 Desktop example:
+
 ![Desktop formatting icons](../jp/img/desktop/アイコンごとコンパクトに書式設定_jp.png)
 
 ### Tableau Cloud
@@ -17,6 +18,7 @@ Desktop example:
 2. Formatting options are limited, with restricted intuitive icon-based operations
 
 Cloud examples:
+
 ![Cloud formatting screen 1](../jp/img/cloud/アコーディオン形式_jp.png)
 ![Cloud formatting screen 2](../jp/img/cloud/書式設定_表示_jp.png)
 

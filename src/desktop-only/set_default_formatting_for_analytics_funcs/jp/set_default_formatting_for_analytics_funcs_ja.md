@@ -11,6 +11,7 @@
 3. 設定した内容は、新しく作成する該当要素に自動的に適用されます。
 
 Desktop例:
+
 ![Desktopでの分析機能書式設定オプション](./img/desktop/analytics_formatting_options_desktop_jp.png)
 
 ### Tableau Cloudの場合
@@ -18,6 +19,7 @@ Desktop例:
 2. 基本的な書式設定メニューのみが利用可能です。
 
 Cloud例:
+
 ![Cloudでの基本書式設定メニュー](./img/cloud/basic_formatting_menu_cloud_jp.png)
 
 ## 使用例・活用場面

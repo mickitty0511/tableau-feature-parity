@@ -19,6 +19,7 @@ The toolbar contains three main feature buttons:
    - **Remove All Subtotals**: Remove all subtotals in bulk
 
 Cloud total functionality:
+
 ![Cloud total functionality](../jp/img/cloud/toolbar_total_cloud_jp.png)
 ![Cloud formatting and download](../jp/img/cloud/toolbar_workbook_formatting_download_cloud_jp.png)
 
@@ -43,6 +44,7 @@ These features are not arranged as dedicated buttons in the toolbar in Tableau D
 3. **Export**: Select each format from "File" menu → "Export"
 
 Desktop toolbar:
+
 ![Desktop toolbar](../jp/img/desktop/toolbar_all_but_total_desktop_jp.png)
 
 ## Use Cases

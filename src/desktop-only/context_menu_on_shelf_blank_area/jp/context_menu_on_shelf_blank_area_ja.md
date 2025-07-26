@@ -27,12 +27,15 @@
 ## スクリーンショット
 ### Tableau Desktop
 棚の空白部分のコンテキストメニューオプション：
+
 ![デスクトップ版の棚の空白部分のコンテキストメニュー](./img/desktop/shelf_context_menu_options_desktop_jp.png)
 
 棚のコンテキストメニューのデモ：
+
 ![デスクトップ版の棚のコンテキストメニューデモ](./img/desktop/shelf_context_menu_demo_desktop_jp.gif)
 
 ### Tableau Cloud
+
 ![Cloud版では棚のコンテキストメニューなし](./img/cloud/no_shelf_context_menu_cloud_jp.gif)
 
 ## 備考と注意点

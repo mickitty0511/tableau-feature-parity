@@ -21,6 +21,7 @@ Project names can be directly searched in the publish dialog.
 - **Typo prevention**: Accurate project names can be selected, preventing publishing to incorrect projects
 
 Cloud example:
+
 ![Cloud example](../jp/img/cloud/search_project_at_publish_cloud_jp.gif)
 
 ### For Tableau Desktop
@@ -32,6 +33,7 @@ Project name search functionality is not available in Tableau Desktop.
 3. Risk of incorrect selection increases when similar project names exist
 
 Desktop example:
+
 ![Desktop example](../jp/img/desktop/project_non_searchable_at_publish_desktop_jp.gif)
 
 ## Use Cases

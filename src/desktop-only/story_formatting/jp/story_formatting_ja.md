@@ -11,6 +11,7 @@
 3. 様々なフォーマットオプションを設定できます
 
 Desktop例：
+
 ![Desktop ストーリーフォーマットメニュー](./img/desktop/story_formatting_menu_desktop_jp.png)
 ![Desktop ストーリーフォーマットパネル](./img/desktop/story_formatting_panel_desktop_jp.png)
 
@@ -19,6 +20,7 @@ Desktop例：
 2. ただし、高度なフォーマット機能は利用できません
 
 Cloud例：
+
 ![Cloud 基本的なストーリーメニュー](./img/cloud/basic_story_menu_cloud_jp.png)
 
 ## 使用例・活用場面

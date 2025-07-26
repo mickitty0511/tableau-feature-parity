@@ -12,6 +12,7 @@
 4. ユーザーフィルターの設定を構成し、個人用のデータビューを作成します。
 
 Desktop例:
+
 ![Desktop ユーザーフィルター設定](./img/desktop/user_filter_settings_demo_desktop_jp.gif)
 
 ### Tableau Cloud

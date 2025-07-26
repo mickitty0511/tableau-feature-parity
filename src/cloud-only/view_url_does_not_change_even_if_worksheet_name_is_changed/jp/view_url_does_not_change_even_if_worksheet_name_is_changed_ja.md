@@ -15,6 +15,7 @@
 4. URLの安定性により、外部システムとの統合や継続的なリンク管理が容易になります。
 
 クラウド版の例：
+
 ![クラウド版](./img/cloud/view_url_no_change_cloud_jp.gif)
 
 ### Tableau Desktopの場合
@@ -27,6 +28,7 @@ Tableau Desktopでは、ワークシート名の変更がURLに影響を与え�
 4. Tableau Desktopではシート名の変更控える必要があります・
 
 デスクトップ版の例：
+
 ![デスクトップ版](./img/desktop/view_url_changeable_desktop_jp.gif)
 
 ## 備考

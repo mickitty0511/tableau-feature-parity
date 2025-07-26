@@ -21,6 +21,7 @@
 - **タイプミス防止**: 正確なプロジェクト名を選択できるため、誤ったプロジェクトへのパブリッシュを防げます。
 
 クラウド版の例：
+
 ![クラウド版](./img/cloud/search_project_at_publish_cloud_jp.gif)
 
 ### Tableau Desktopの場合
@@ -32,6 +33,7 @@ Tableau Desktopでは、プロジェクト名の検索機能は利用できま�
 3. 似たようなプロジェクト名がある場合、誤選択のリスクが高まります。
 
 デスクトップ版の例：
+
 ![デスクトップ版](./img/desktop/project_non_searchable_at_publish_desktop_jp.gif)
 
 ## 利用例

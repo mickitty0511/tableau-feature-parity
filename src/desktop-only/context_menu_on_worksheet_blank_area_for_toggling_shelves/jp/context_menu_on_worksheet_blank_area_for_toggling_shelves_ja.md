@@ -29,12 +29,15 @@
 ## スクリーンショット
 ### Tableau Desktop
 ワークシートの空白部分のコンテキストメニューオプション：
+
 ![デスクトップ版のワークシート空白部分のコンテキストメニュー](./img/desktop/worksheet_toggle_shelves_menu_desktop_jp.png)
 
 ワークシートの表示切り替えのデモ：
+
 ![デスクトップ版のワークシート表示切り替えデモ](./img/desktop/worksheet_toggle_shelves_demo_desktop_jp.gif)
 
 ### Tableau Cloud
+
 ![Cloud版ではワークシートのコンテキストメニューなし](./img/cloud/no_worksheet_context_menu_cloud_jp.gif)
 
 ## 備考と注意点

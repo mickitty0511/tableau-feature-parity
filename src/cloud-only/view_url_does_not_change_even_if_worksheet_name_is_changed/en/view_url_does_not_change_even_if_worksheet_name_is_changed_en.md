@@ -15,6 +15,7 @@ Existing bookmarks and shared links continue to function even when worksheet nam
 4. URL stability facilitates external system integration and continuous link management
 
 Cloud example:
+
 ![Cloud example](../jp/img/cloud/view_url_no_change_cloud_jp.gif)
 
 ### For Tableau Desktop
@@ -27,6 +28,7 @@ Worksheet name changes may affect URLs in Tableau Desktop.
 4. In Tableau Desktop, worksheet name changes should be avoided
 
 Desktop example:
+
 ![Desktop example](../jp/img/desktop/view_url_changeable_desktop_jp.gif)
 
 ## Notes

@@ -13,6 +13,7 @@
 5. レイアウト階層が即座に更新され、ダッシュボードのレイアウトが変更されます。
 
 クラウド版の例：
+
 ![クラウド版](./img/cloud/moveable_items_dashboard_layout_cloud_jp.gif)
 
 ### Tableau Desktopの場合
@@ -23,6 +24,7 @@ Tableau Desktopでは、この機能は利用できません。レイアウト�
 3. 複雑なレイアウト変更には手動での再配置が必要です。
 
 デスクトップ版の例：
+
 ![デスクトップ版](./img/desktop/non-movable_dashboard_layout_desktop_jp.gif)
 
 ## 利用例

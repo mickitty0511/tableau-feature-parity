@@ -10,6 +10,7 @@
 2. 書式設定パネルでアイコンを使用して各種書式設定を管理できます
 
 Desktop例:
+
 ![Desktop書式設定アイコン](./img/desktop/アイコンごとコンパクトに書式設定_jp.png)
 
 ### Tableau Cloud
@@ -17,6 +18,7 @@ Desktop例:
 2. 書式設定オプションが制限されており、アイコンによる直感的な操作が限定的です
 
 Cloud例:
+
 ![Cloud書式設定画面1](./img/cloud/アコーディオン形式_jp.png)
 ![Cloud書式設定画面2](./img/cloud/書式設定_表示_jp.png)
 

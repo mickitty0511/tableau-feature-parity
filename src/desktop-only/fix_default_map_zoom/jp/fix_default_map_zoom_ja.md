@@ -12,12 +12,14 @@
 4. 設定が適用され、今後このワークシートを開く際は固定されたズームレベルで表示されます。
 
 Desktop例:
+
 ![Desktop デフォルトマップズーム固定](./img/desktop/fix_default_map_zoom_desktop_jp.gif)
 
 ### Tableau Cloud
 Tableau Cloudでは、デフォルトマップズームの固定機能は利用できません。
 
 Cloud例:
+
 ![Cloud デフォルトマップズーム固定不可](./img/cloud/no_fix_default_map_zoom_cloud_jp.png)
 
 ## 使用例・活用シーン

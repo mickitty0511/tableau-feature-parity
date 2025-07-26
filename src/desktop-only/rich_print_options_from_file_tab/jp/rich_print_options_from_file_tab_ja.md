@@ -11,6 +11,7 @@
 3. 印刷オプションから詳細な設定を選択できます
 
 Desktop例:
+
 ![ファイルメニューの印刷オプション](./img/desktop/print_options_file_menu_desktop_jp.png)
 ![印刷オプションのデモ](./img/desktop/print_options_demo_desktop_jp.gif)
 

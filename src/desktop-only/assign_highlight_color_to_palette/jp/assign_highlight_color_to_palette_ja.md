@@ -10,14 +10,16 @@
 2. コンテキストメニューから「選択したアイテムをハイライト」を選択します。
 3. 「ハイライト色をパレット割り当てる」オプションを選択して、ハイライト時の色をカスタマイズします。
 
-Desktop での表示例:
+Desktop での表示例：
+
 ![Desktop でのハイライト色オプション](./img/desktop/highlight_color_option_desktop_jp.png)
 
 ### Tableau Cloud の場合
 1. ワークシートでレジェンドを右クリックします。
 2. コンテキストメニューから「選択したアイテムをハイライト」を選択できますが、ハイライト色の詳細設定オプションは利用できません。
 
-Cloud での表示例:
+Cloud での表示例：
+
 ![Cloud でのハイライト色オプション](./img/cloud/highlight_color_option_cloud_jp.png)
 
 ## 利用例・使用場面

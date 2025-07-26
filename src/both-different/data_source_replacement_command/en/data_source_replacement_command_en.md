@@ -12,6 +12,7 @@ Access methods for the data source replacement command differ between Tableau De
 4. Choose replacement options and configure the "Replace for current worksheet only" option
 
 Desktop examples:
+
 ![Desktop Data tab replacement](../jp/img/desktop/データソースの置換_データタブ_desktop.png)
 ![Desktop Data Pane replacement](../jp/img/desktop/データソースの置換_データペーン_desktop.png)
 ![Desktop current worksheet only option](../jp/img/desktop/現在のワークシートのみ置換オプション_desktop.png)
@@ -21,6 +22,7 @@ Desktop examples:
 2. Access methods and features are restricted compared to Desktop
 
 Cloud example:
+
 ![Cloud data source replacement](../jp/img/cloud/データソースの置換_cloud.gif)
 
 ## Considerations

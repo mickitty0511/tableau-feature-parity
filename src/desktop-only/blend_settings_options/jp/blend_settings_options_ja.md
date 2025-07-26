@@ -10,14 +10,16 @@
 2. データメニューまたはリレーションシップの編集画面でブレンド設定にアクセスします
 3. ブレンド設定オプションを使用して、高度なデータブレンドの設定を行います
 
-Desktopでの例:
+Desktopでの例：
+
 ![Desktopでのブレンド設定](./img/desktop/blend_relationships_editing_desktop_jp.png)
 
 ### Tableau Cloud
 1. データブレンドは基本的な機能のみ利用可能です
 2. ブレンド設定オプションは表示されません
 
-Cloudでの例:
+Cloudでの例：
+
 ![Cloudではブレンド設定なし](./img/cloud/no_blend_settings_cloud_jp.png)
 
 ## 使用例・ユースケース

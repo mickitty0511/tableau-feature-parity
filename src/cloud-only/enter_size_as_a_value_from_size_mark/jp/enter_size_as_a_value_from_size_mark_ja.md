@@ -22,6 +22,7 @@ Tableau Desktopでは、この機能は利用できません。サイズの調�
 3. 正確な数値を指定することはできません。
 
 デスクトップ版の例：
+
 ![デスクトップ版](./img/desktop/slider_size_desktop_jp.png)
 
 ## 利用例

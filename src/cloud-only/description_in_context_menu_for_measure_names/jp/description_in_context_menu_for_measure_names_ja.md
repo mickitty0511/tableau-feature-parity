@@ -15,12 +15,14 @@
 4. 説明を確認することで、そのメジャーが何を表しているかを理解できます。
 
 クラウド版のメジャーネーム説明表示：
+
 ![クラウド版メジャーネーム説明表示](./img/cloud/measure_name_description_cloud_jp.png)
 
 ### Tableau Desktopの場合
 Tableau Desktopでは、メジャーネームのコンテキストメニューに説明は表示されません。
 
 デスクトップ版のメジャーネーム（説明表示なし）：
+
 ![デスクトップ版メジャーネーム](./img/desktop/no_measure_name_description_desktop_jp.png)
 
 ## 備考

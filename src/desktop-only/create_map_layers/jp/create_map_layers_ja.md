@@ -12,12 +12,14 @@
 4. 各レイヤーの透明度や表示/非表示を調整できます。
 
 Desktopでの例:
+
 ![Desktopマップレイヤー機能](./desktop/map_layers_available_desktop_jp.gif)
 
 ### Tableau Cloud
 Tableau Cloudでは、マップレイヤーの作成機能は提供されていません。
 
 Cloudでの例:
+
 ![Cloudマップレイヤー機能なし](./cloud/no_map_layers_cloud_jp.gif)
 
 ## 使用例・ユースケース

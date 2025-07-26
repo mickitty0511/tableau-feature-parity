@@ -18,6 +18,7 @@
    - すべてクリア（ワークシート全体）
 
 Desktop例:
+
 ![Desktop クリアコマンド一覧](./img/desktop/ツールバーのシートのクリアのコマンド一覧_jp.png)
 
 ### Tableau Cloud
@@ -27,6 +28,7 @@ Desktop例:
 2. 「ワークシートのクリア」オプションのみ選択可能です
 
 Cloud例:
+
 ![Cloud クリアコマンド](./img/cloud/ツールバーのシートのクリア_jp.png)
 
 ## 注意事項

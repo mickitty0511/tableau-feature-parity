@@ -11,6 +11,7 @@
 3. 既存のフィールド（国、都道府県、市区町村など）から適切なものを選択します。
 
 クラウド版の例：
+
 ![クラウド版](./img/cloud/select_fields_geographic_role_cloud_jp.png)
 
 ### Tableau Desktopの場合
@@ -19,6 +20,7 @@ Tableau Desktopでは、この機能は制限されています。地理的ロ�
 1. 文字列フィールドを右クリックしても、「地理的役割」から「次から作成」オプションは表示されません。
 
 デスクトップ版の例：
+
 ![デスクトップ版](./img/desktop/geographic_role_desktop_jp.png)
 
 ## 備考

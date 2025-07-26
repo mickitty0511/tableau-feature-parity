@@ -10,6 +10,7 @@ Tableau Desktop and Tableau Cloud have different methods for accessing dashboard
 2. Select "Formatting" to display the dashboard formatting menu.
 
 Desktop example:
+
 ![Desktop example 1](../jp/img/desktop/ダッシュボード-書式設定_desktop.png)
 ![Desktop example 2](../jp/img/desktop/書式設定-ダッシュボード_desktop.png)
 
@@ -18,6 +19,7 @@ Desktop example:
 2. Select "Dashboard" to display the formatting menu.
 
 Cloud example:
+
 ![Cloud example](../jp/img/cloud/ダッシュボード書式設定_cloud.png)
 
 ## Notes

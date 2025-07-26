@@ -10,14 +10,16 @@ Analytics の cycle fields 機能は、Tableau Desktop でのみ利用可能で�
 2. Analytics ペインから cycle fields オプションを確認できます。
 3. この機能を使用してフィールドを循環させることができます。
 
-Desktop での例:
+Desktop での例：
+
 ![Desktop Analytics Cycle Fields](./img/desktop/analytics_cylcle_option_desktop_jp.png)
 
 ### Tableau Cloud の場合
 1. ワークシートビューで Analytics ペインを開きます。
 2. Cloud では cycle fields オプションは表示されません。
 
-Cloud での例:
+Cloud での例：
+
 ![Cloud No Analytics Cycle Fields](./img/cloud/no_analytics_cycle_option_cloud_jp.png)
 
 ## 使用例・ユースケース

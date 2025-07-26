@@ -16,6 +16,7 @@
    - 罫線の表示設定
 
 Desktop例:
+
 ![Desktopテーブルレイアウトデモ](./img/desktop/table_layout_demo_desktop_jp.gif)
 ![Desktopテーブルレイアウトオプション](./img/desktop/table_layout_options_desktop_jp.png)
 
@@ -25,6 +26,7 @@ Desktop例:
 3. 基本的な分析オプションのみが表示され、テーブルレイアウトの詳細設定は利用できません。
 
 Cloud例:
+
 ![Cloud基本分析オプション](./img/cloud/basic_analytics_options_cloud_jp.png)
 
 ## 利用例・使用場面

@@ -11,6 +11,7 @@ This feature is only available in Tableau Cloud. Tableau Cloud allows using the 
 3. Choose the appropriate option from existing fields (country, state/province, city, etc.)
 
 Cloud example:
+
 ![Cloud example](../jp/img/cloud/select_fields_geographic_role_cloud_jp.png)
 
 ### For Tableau Desktop
@@ -19,6 +20,7 @@ This functionality is limited in Tableau Desktop. The "Create From" option is no
 1. Right-clicking on string fields does not display the "Create From" option from "Geographic Role"
 
 Desktop example:
+
 ![Desktop example](../jp/img/desktop/geographic_role_desktop_jp.png)
 
 ## Notes

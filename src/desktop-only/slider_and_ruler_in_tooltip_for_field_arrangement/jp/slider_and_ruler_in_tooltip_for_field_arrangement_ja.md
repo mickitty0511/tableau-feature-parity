@@ -13,6 +13,7 @@
 5. ルーラーを使用して視覚的に配置を確認しながら調整できます。
 
 Desktop例:
+
 ![Desktop例](./img/desktop/slider_ruler_tooltip_desktop_jp.gif)
 
 ### Tableau Cloudの場合
@@ -22,6 +23,7 @@ Desktop例:
 4. 基本的なテキスト編集機能のみが利用可能です。
 
 Cloud例:
+
 ![Cloud例](./img/cloud/basic_tooltip_editor_cloud_jp.png)
 
 ## 使用例・活用場面

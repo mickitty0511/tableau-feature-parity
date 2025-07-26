@@ -12,6 +12,7 @@ This feature is only available in Tableau Cloud. Tableau Cloud allows direct inp
 4. Settings are immediately applied and precise size is implemented
 
 Cloud example:
+
 ![Cloud example](../jp/img/cloud/manual_input_size_cloud_jp.png)
 
 ### For Tableau Desktop
@@ -22,6 +23,7 @@ This functionality is not available in Tableau Desktop. Size adjustment is done 
 3. Precise numerical values cannot be specified
 
 Desktop example:
+
 ![Desktop example](../jp/img/desktop/slider_size_desktop_jp.png)
 
 ## Use Cases

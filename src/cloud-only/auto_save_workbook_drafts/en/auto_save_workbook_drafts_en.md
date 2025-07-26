@@ -19,6 +19,7 @@ Auto-save functionality is automatically enabled for Creator and Explorer users 
 - **Note**: If another user publishes a revision after you start editing, you may not receive notifications
 
 Cloud example:
+
 ![Cloud example](../jp/img/cloud/autosave_enabled_cloud.png)
 
 ### For Tableau Desktop

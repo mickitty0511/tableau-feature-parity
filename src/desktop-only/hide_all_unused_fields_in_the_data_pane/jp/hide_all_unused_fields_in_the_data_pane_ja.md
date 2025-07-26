@@ -11,9 +11,11 @@
 3. 現在のワークシートで使用されていないフィールドがすべて非表示になります
 
 データペインの状態（全フィールド表示時）:
+
 ![全フィールド表示時のデータペイン](./img/data_pane_all_fields_desktop_jp.png)
 
 未使用フィールドを非表示にする操作:
+
 ![未使用フィールドを非表示にする操作](./img/hide_unused_fields_demo_desktop_jp.gif)
 
 ### Tableau Cloud

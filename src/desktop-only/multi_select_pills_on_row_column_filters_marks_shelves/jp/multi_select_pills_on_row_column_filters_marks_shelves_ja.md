@@ -12,6 +12,7 @@
 4. 複数選択したピルを一括で移動、削除、または他の操作を実行できます
 
 Desktopでの複数選択例:
+
 ![Desktop複数選択例](./img/desktop/multi_select_pills_desktop_jp.gif)
 
 ### Tableau Cloud
@@ -20,6 +21,7 @@ Desktopでの複数選択例:
 3. 複数のピルを操作したい場合は、個別に処理する必要があります
 
 Cloudでの単一選択例:
+
 ![Cloud単一選択例](./img/cloud/basic_pill_selection_cloud_jp.gif)
 
 ## 使用例・ユースケース

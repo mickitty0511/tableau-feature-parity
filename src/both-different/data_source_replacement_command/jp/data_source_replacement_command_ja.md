@@ -12,6 +12,7 @@
 4. 置換オプションを選択し、「現在のワークシートのみ置換」オプションを設定できます
 
 Desktop例:
+
 ![Desktop データタブからの置換](./img/desktop/データソースの置換_データタブ_desktop.png)
 ![Desktop データペインからの置換](./img/desktop/データソースの置換_データペーン_desktop.png)
 ![Desktop 現在のワークシートのみ置換オプション](./img/desktop/現在のワークシートのみ置換オプション_desktop.png)
@@ -21,6 +22,7 @@ Desktop例:
 2. Desktopと比較して、アクセス方法や機能が制限されています
 
 Cloud例:
+
 ![Cloud データソース置換](./img/cloud/データソースの置換_cloud.gif)
 
 ## 注意事項

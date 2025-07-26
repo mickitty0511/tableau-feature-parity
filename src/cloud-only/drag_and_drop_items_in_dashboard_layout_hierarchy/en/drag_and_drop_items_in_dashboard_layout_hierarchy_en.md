@@ -13,6 +13,7 @@ This feature is only available in Tableau Cloud. Tableau Cloud allows direct dra
 5. The layout hierarchy is immediately updated and the dashboard layout changes
 
 Cloud example:
+
 ![Cloud example](../jp/img/cloud/moveable_items_dashboard_layout_cloud_jp.gif)
 
 ### For Tableau Desktop
@@ -23,6 +24,7 @@ This functionality is not available in Tableau Desktop. Direct item movement in 
 3. Complex layout changes require manual repositioning
 
 Desktop example:
+
 ![Desktop example](../jp/img/desktop/non-movable_dashboard_layout_desktop_jp.gif)
 
 ## Use Cases

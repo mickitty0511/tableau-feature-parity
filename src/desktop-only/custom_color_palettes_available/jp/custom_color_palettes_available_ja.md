@@ -12,6 +12,7 @@
 4. 独自のカラーパレットを定義・保存して使用
 
 Desktop例:
+
 ![Desktop カスタムカラーパレット](./img/desktop/custom_color_palettes_available_desktop_jp.png)
 
 ### Tableau Cloud
@@ -20,6 +21,7 @@ Desktop例:
 3. 標準で提供されているカラーパレットのみ利用可能
 
 Cloud例:
+
 ![Cloud 限定的なカラーパレット](./img/cloud/limited_color_palettes_cloud_jp.png)
 
 ## 使用例・活用場面

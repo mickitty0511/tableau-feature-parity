@@ -13,6 +13,7 @@
 3. 希望する位置にドロップして配置を変更します
 
 Desktop例:
+
 ![Desktopでの配置変更](./img/desktop/rearrange_shelves_desktop_jp.gif)
 
 ### Tableau Cloud
@@ -20,6 +21,7 @@ Desktop例:
 2. レイアウトは固定されており、ドラッグ&ドロップによる配置変更はできません
 
 Cloud例:
+
 ![Cloudでの固定レイアウト](./img/cloud/fixed_layout_cloud_jp.gif)
 
 ## 使用例・活用方法

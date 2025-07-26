@@ -13,10 +13,13 @@
 4. 保存先を指定してエクスポートを実行します
 
 **Desktop での使用例:**
+
 ![データのエクスポートメニュー](./img/desktop/export_data_menu_desktop_jp.png)
+
 *データソースの右クリックメニューからデータのエクスポートを選択*
 
 ![エクスポートオプション](./img/desktop/export_data_options_desktop_jp.png)
+
 *CSVまたはHyperファイルでのエクスポートオプション*
 
 ### Tableau Cloud
@@ -24,7 +27,9 @@
 2. 基本的なコンテキストメニューのみ表示され、データのエクスポート機能は利用できません
 
 **Cloud での表示例:**
+
 ![基本的なデータソースメニュー](./img/cloud/basic_data_source_menu_cloud_jp.png)
+
 *Cloudでは基本的なメニューのみで、データエクスポート機能は利用不可*
 
 ## 使用例・活用場面

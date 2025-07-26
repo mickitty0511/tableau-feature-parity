@@ -19,10 +19,9 @@
    - シートタブの表示方法をカスタマイズ可能
 
 Desktop例:
+
 ![シートソーターとフィルムストリップビュー](./img/desktop/sheet_sorter_filmstrip_view_desktop_jp.png)
-
 ![シートタブコントロール](./img/desktop/sheet_tab_controls_desktop_jp.png)
-
 ![タブ表示オプション](./img/desktop/tab_display_options_desktop_jp.png)
 
 ### Tableau Cloud
@@ -30,6 +29,7 @@ Desktop例:
 2. シート間の移動は、タブをクリックすることでのみ可能です
 
 Cloud例:
+
 ![基本的なシートタブ表示](./img/cloud/basic_sheet_tabs_cloud_jp.png)
 
 ## 使用例・ユースケース

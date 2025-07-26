@@ -29,12 +29,14 @@ You can manage hyperlinks in text objects or text marks.
 3. This provides user-friendly text display while maintaining proper link functionality
 
 Cloud example:
+
 ![Cloud example](../jp/img/cloud/hyperlink_editor_cloud_jp.gif)
 
 ### For Tableau Desktop
 This advanced hyperlink editing functionality is not available in Tableau Desktop.
 
 Desktop example:
+
 ![Desktop example](../jp/img/desktop/no_hyperlink_editor_desktop.png)
 
 ## Use Cases

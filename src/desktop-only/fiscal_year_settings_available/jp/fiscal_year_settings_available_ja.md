@@ -11,12 +11,14 @@
 3. 会計年度の開始月を選択し、必要に応じて関連する設定を調整します。
 
 Desktop例:
+
 ![Desktop会計年度設定](./img/desktop/fiscal_year_settings_available_desktop_jp.png)
 
 ### Tableau Cloud
 Tableau Cloudでは会計年度設定の機能は提供されていません。
 
 Cloud例:
+
 ![Cloud基本設定画面](./img/cloud/basic_default_properties_cloud_jp.png)
 
 ## 利用例・使用事例

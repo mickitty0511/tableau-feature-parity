@@ -43,11 +43,13 @@ Access is available through limited methods only:
 Method 1: From blank areas of worksheet view
 1. Right-click on a blank area within the worksheet view
 2. Select "View Data" from the context menu
+
 ![Cloud worksheet blank context menu](../jp/img/cloud/ビュー内の空白部分から_cloud_jp.png)
 
 Method 2: From selected data
 1. Select the data you want to display
 2. Right-click and select "View Data" from the context menu
+
 ![Cloud selected data context menu](../jp/img/cloud/データを選択後_cloud_jp.png)
 
 ## Considerations

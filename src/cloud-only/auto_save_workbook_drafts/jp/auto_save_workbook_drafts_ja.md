@@ -20,6 +20,7 @@
 - **注意**: 編集開始後に他のユーザーがリビジョンを公開した場合、通知を受け取れない場合があります。
 
 クラウド版の例：
+
 ![クラウド版](./img/cloud/autosave_enabled_cloud.png)
 
 ### Tableau Desktopの場合

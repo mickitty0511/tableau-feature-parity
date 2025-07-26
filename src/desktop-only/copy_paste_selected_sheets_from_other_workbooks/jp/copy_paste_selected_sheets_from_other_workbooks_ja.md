@@ -12,14 +12,16 @@
 4. ターゲット（コピー先）のワークブックを開きます
 5. ワークシートタブ領域で右クリックし、「貼り付け」を選択します
 
-Desktop例:
+Desktop例：
+
 ![ワークシートコピー・貼り付けデモ](./img/desktop/copy_paste_sheets_demo_desktop_jp.gif)
 ![ワークシートコンテキストメニュー](./img/desktop/copy_paste_sheets_menu_desktop_jp.png)
 
 ### Tableau Cloud
 Tableau Cloudでは、ワークシートの右クリックメニューに基本的なオプションのみ表示され、コピー・貼り付け機能は利用できません。
 
-Cloud例:
+Cloud例：
+
 ![基本的なワークシートメニュー](./img/cloud/basic_sheet_context_menu_cloud_jp.png)
 
 ## 使用例・ユースケース
