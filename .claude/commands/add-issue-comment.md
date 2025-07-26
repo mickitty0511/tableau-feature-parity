@@ -28,8 +28,6 @@ This command adds a comment to the GitHub issue corresponding to the created art
 - 各プラットフォームでの具体的な使用方法
 - 日本語での操作手順
 - 注意事項と使用例
-
-この記事により、日本語ユーザーが[機能名]の違いを理解しやすくなります。
 ```
 
 ### 英語記事用 / For English Articles
@@ -45,8 +43,6 @@ Created a detailed English article about [Feature Name]:
 - Specific usage methods for each platform
 - Step-by-step instructions in English
 - Notes and usage examples
-
-This article helps English-speaking users understand the differences in [Feature Name].
 ```
 
 ## 注意事項 / Notes

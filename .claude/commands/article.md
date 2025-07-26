@@ -5,11 +5,16 @@ Generating articles(.md) based on issue_number={$issue_num} in the Tableau Featu
 1. **Identify the Target Issue**
    - Use the GitHub MCP to retrieve the specified issue number($issue_num)'s details (title, body, labels, related md files).
 
-2. **Identify Related md Files and Images**
+2. **Reference Terminology Guide**
+   - **IMPORTANT**: Always reference `docs/terminology/tableau-desktop-feature-terminology.md` for consistent Japanese-English terminology
+   - Use the standardized translations provided in the terminology guide
+   - Ensure technical terms are translated correctly according to the established vocabulary
+
+3. **Identify Related md Files and Images**
    - Refer to the relevant English md file under docs/issues/.
    - Check for image files in the corresponding directory under src/ (e.g., src/{category}/{issue_title}/img/).
 
-3. **Create a New Article**
+4. **Create a New Article**
    - Create new articles using the following path and naming conventions for each language:
    - Based on {$lang}, jp means Japanese while en means English. 
      - Japanese: src/{category}/{issue_title}/jp/{issue_title}_ja.md
@@ -23,10 +28,10 @@ Generating articles(.md) based on issue_number={$issue_num} in the Tableau Featu
      - Notes and Considerations (include current limitations or future plans)
      - Reference: Link to the GitHub Issue
 
-4. **Adjust Image Paths**
+5. **Adjust Image Paths**
    - Use relative paths for images in the article.
 
-5. **Edit and Save**
+6. **Edit and Save**
    - Review and save the article after creation.
 
 ## Language-Specific Considerations
