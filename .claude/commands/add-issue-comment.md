@@ -45,8 +45,18 @@ Created a detailed English article about [Feature Name]:
 - Notes and usage examples
 ```
 
+## ファイルリンクの形式 / File Link Format
+記事へのリンクは以下の形式で作成してください：
+```
+https://github.com/mickitty0511/tableau-feature-parity/blob/main/[ARTICLE_PATH]
+```
+
+### URL構成例 / URL Structure Examples
+`https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/access_to_dashboard_formatting/jp/access_to_dashboard_formatting_ja.md`
+
 ## 注意事項 / Notes
 - リポジトリは mickitty0511/tableau-feature-parity 固定 / Repository is fixed to mickitty0511/tableau-feature-parity
 - 記事パスは src/ から始まる相対パスを使用 / Use relative paths starting with src/
 - 言語に応じて適切なテンプレートを選択 / Select appropriate template based on language
 - コメントには絵文字を使用して視認性を向上 / Use emojis in comments for better visibility
+- ファイルへの直接リンクにはGitHubの blob/main/ 形式を使用 / Use GitHub's blob/main/ format for direct file links
