@@ -1,8 +1,3 @@
----
-title: Font, Alignment, Shading, Border, and Line Formatting Managed by Icon
-category: both-different
----
-
 ## Feature Differences
 The availability of icon-managed formatting features for font, alignment, shading, border, and line settings differs between Tableau Desktop and Tableau Cloud.
 

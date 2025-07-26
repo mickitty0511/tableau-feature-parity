@@ -1,8 +1,3 @@
----
-title: 接続されたデータソースから全データをローカルCSVまたはHyperファイルにエクスポート
-category: desktop-only
----
-
 ## 機能の違い
 接続されたデータソースから全データをローカルCSVまたはHyperファイルにエクスポートする機能は、Tableau Desktopでのみ利用可能です。
 

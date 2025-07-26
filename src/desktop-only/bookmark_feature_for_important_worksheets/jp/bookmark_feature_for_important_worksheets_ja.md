@@ -1,8 +1,3 @@
----
-title: 重要なワークシートのブックマーク機能
-category: desktop-only
----
-
 ## 機能の差異
 重要なワークシートをブックマークする機能は、Tableau Desktopでのみ利用可能です。
 

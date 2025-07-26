@@ -1,8 +1,3 @@
----
-title: ファイルタブからのリッチ印刷オプション
-category: desktop-only
----
-
 ## 機能の違い
 ファイルタブからのリッチ印刷オプションは，Tableau Desktopでのみ利用可能です。
 

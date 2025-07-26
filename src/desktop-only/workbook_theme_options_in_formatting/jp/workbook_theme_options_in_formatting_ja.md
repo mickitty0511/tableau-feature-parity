@@ -1,7 +1,3 @@
----
-title: 書式設定のワークブックテーマオプション
-category: desktop-only
----
 
 ## 機能の違い
 書式設定におけるワークブックテーマオプションは、Tableau Desktopでのみ利用可能です。

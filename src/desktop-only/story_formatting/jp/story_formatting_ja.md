@@ -1,8 +1,3 @@
----
-title: ストーリーフォーマット機能
-category: desktop-only
----
-
 ## 機能差異
 ストーリーフォーマット機能は、Tableau Desktopでのみ利用可能です。
 

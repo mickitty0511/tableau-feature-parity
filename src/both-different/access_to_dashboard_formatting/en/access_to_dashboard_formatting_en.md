@@ -1,8 +1,3 @@
----
-title: Access to Dashboard Formatting
-category: both-different
----
-
 ## Feature Differences
 Tableau Desktop and Tableau Cloud have different methods for accessing dashboard formatting.
 

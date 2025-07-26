@@ -1,8 +1,3 @@
----
-title: 凡例・パラメータ・フィルターカードの書式設定アクセス
-category: both-different
----
-
 ## 機能の違い
 凡例・パラメータ・フィルターカードの書式設定へのアクセス方法が、Tableau DesktopとTableau Cloudで異なります。
 

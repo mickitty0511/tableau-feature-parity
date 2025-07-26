@@ -1,8 +1,3 @@
----
-title: 会計年度設定が利用可能
-category: desktop-only,operationally-critical
----
-
 ## 機能の違い
 会計年度設定は、Tableau Desktopでのみ利用可能です。
 

@@ -1,8 +1,3 @@
----
-title: デフォルトマップズームの固定
-category: desktop-only
----
-
 ## 機能の違い
 デフォルトマップズームの固定機能は、Tableau Desktopでのみ利用可能です。
 

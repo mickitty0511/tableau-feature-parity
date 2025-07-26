@@ -1,8 +1,3 @@
----
-title: Show Data Command Location
-category: both-different
----
-
 ## Feature Differences
 Access locations for the Show Data command differ between Tableau Desktop and Tableau Cloud.
 

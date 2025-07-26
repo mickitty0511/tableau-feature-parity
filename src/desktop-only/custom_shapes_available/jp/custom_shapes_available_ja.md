@@ -1,8 +1,3 @@
----
-title: カスタムシェイプの利用
-category: desktop-only
----
-
 ## 機能の違い
 カスタムシェイプ機能はTableau Desktopでのみ利用可能です。
 

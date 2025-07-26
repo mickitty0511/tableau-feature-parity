@@ -1,8 +1,3 @@
----
-title: 棚の空白部分のコンテキストメニュー
-category: desktop-only
----
-
 ## 機能の違い
 棚（シェルフ）の空白部分でのコンテキストメニューは、Tableau Desktopでのみ利用可能です。
 

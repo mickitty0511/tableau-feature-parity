@@ -1,8 +1,3 @@
----
-title: Fields Shown in Edit Alias from Measure Name Context Menu
-category: both-different
----
-
 ## Feature Differences
 Tableau Desktop and Tableau Cloud display different fields when selecting "Edit Alias" from the measure name context menu in the data pane.
 

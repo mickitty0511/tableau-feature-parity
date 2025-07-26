@@ -1,8 +1,3 @@
----
-title: ダッシュボード書式設定へのアクセス
-category: both-different
----
-
 ## 機能の違い
 Tableau DesktopとTableau Cloudでは、ダッシュボードの書式設定へのアクセス方法が異なります。
 

@@ -1,8 +1,3 @@
----
-title: ツールバー/ステータスバー表示の切り替え
-category: desktop-only
----
-
 ## 機能差異
 ツールバー/ステータスバー表示の切り替え機能は、Tableau Desktopでのみ利用可能です。
 

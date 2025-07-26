@@ -1,8 +1,3 @@
----
-title: サイズマークから値を入力
-category: cloud-only
----
-
 ## 機能の違い
 この機能はTableau Cloudでのみ利用可能です。Tableau Cloudでは、サイズマークから具体的な数値を直接入力することができます。
 

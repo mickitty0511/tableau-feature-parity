@@ -1,8 +1,3 @@
----
-title: データ表示コマンドの場所
-category: both-different
----
-
 ## 機能の違い
 データ表示コマンドへのアクセス場所が、Tableau DesktopとTableau Cloudで異なります。
 

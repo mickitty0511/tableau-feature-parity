@@ -1,8 +1,3 @@
----
-title: セルサイズの細かい調整
-category: desktop-only
----
-
 ## 機能の違い
 セルサイズの細かい調整機能は、Tableau Desktopでのみ利用可能です。
 

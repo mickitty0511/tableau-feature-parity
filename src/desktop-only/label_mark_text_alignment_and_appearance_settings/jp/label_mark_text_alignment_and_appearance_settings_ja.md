@@ -1,8 +1,3 @@
----
-title: ラベルマークのテキスト配置と外観設定
-category: desktop-only
----
-
 ## 機能の違い
 ラベルマークのテキスト配置と外観設定は、Tableau Desktopでのみ利用可能です。
 

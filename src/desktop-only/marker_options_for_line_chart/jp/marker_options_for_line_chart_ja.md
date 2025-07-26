@@ -1,8 +1,3 @@
----
-title: 折れ線グラフのマーカーオプション
-category: desktop-only,operationally-critical
----
-
 ## 機能の違い
 折れ線グラフのマーカーオプションは、Tableau Desktopでのみ利用可能です。
 

@@ -1,8 +1,3 @@
----
-title: ワークシートの書式設定のコピー・貼り付け
-category: desktop-only
----
-
 ## 機能の違い
 ワークシートの書式設定のコピー・貼り付け機能は、Tableau Desktopでのみ利用可能です。
 

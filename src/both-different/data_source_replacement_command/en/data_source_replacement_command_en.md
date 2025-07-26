@@ -1,8 +1,3 @@
----
-title: Quick Access to Data Source Replacement Command
-category: both-different
----
-
 ## Feature Differences
 Access methods for the data source replacement command differ between Tableau Desktop and Tableau Cloud.
 

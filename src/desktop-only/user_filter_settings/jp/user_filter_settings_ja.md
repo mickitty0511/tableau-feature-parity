@@ -1,8 +1,3 @@
----
-title: ユーザーフィルター設定
-category: desktop-only
----
-
 ## 機能の違い
 ユーザーフィルター設定は、Tableau Desktopでのみ利用可能です。
 

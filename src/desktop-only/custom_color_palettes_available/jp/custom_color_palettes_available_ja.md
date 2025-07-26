@@ -1,8 +1,3 @@
----
-title: カスタムカラーパレットの利用
-category: desktop-only
----
-
 ## 機能の違い
 カスタムカラーパレットは、Tableau Desktopでのみ利用可能です。
 

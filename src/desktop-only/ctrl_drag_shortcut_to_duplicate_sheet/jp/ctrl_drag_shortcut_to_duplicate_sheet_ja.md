@@ -1,8 +1,3 @@
----
-title: Ctrl + ドラッグでシートを複製するショートカット
-category: desktop-only
----
-
 ## 機能の違い
 Ctrl + ドラッグでシートを複製するショートカットは、Tableau Desktop でのみ利用可能です。
 

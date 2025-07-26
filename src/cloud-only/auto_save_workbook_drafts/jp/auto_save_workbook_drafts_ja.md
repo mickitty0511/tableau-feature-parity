@@ -1,7 +1,3 @@
----
-title: ワークブック草稿の自動保存
-category: cloud-only
----
 
 ## 機能の違い
 この機能はTableau Cloudでのみ利用可能です。Tableau Cloudでは、編集中のワークブックが自動的に個人用の草稿として保存されます。

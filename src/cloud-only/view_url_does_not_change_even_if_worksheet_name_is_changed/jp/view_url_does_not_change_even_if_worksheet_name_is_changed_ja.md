@@ -1,8 +1,3 @@
----
-title: ワークシート名を変更してもビューURLが変わらない
-category: cloud-only
----
-
 ## 機能の違い
 この機能はTableau Cloudでのみ利用可能です。Tableau Cloudでは、ワークシート名を変更してもビューのURLが変わらず、安定したリンクを維持できます。
 

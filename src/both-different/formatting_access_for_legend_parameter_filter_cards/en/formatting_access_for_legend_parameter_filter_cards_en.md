@@ -1,8 +1,3 @@
----
-title: Formatting Access for Legend, Parameter, and Filter Cards
-category: both-different
----
-
 ## Feature Differences
 Access methods for formatting legend, parameter, and filter cards differ between Tableau Desktop and Tableau Cloud.
 

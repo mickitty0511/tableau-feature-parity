@@ -1,8 +1,3 @@
----
-title: ドロップラインの利用可能性
-category: desktop-only
----
-
 ## 機能の違い
 ドロップラインは、Tableau Desktopでのみ利用可能です。
 

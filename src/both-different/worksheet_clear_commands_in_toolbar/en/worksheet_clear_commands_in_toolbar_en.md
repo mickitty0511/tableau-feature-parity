@@ -1,8 +1,3 @@
----
-title: Worksheet Clear Commands in Toolbar
-category: both-different
----
-
 ## Feature Differences
 Worksheet clear command options in the toolbar differ between Tableau Desktop and Tableau Cloud.
 

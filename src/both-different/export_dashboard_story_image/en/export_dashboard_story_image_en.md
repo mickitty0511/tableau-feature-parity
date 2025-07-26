@@ -1,8 +1,3 @@
----
-title: Export Dashboard and Story Images
-category: both-different
----
-
 <!-- Download icon definition -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0&icon_names=download" />
 <!-- Download icon definition -->

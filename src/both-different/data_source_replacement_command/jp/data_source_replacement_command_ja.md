@@ -1,8 +1,3 @@
----
-title: データソース置換コマンドへのクイックアクセス
-category: both-different
----
-
 ## 機能の違い
 データソース置換コマンドへのアクセス方法が、Tableau DesktopとTableau Cloudで異なります。
 

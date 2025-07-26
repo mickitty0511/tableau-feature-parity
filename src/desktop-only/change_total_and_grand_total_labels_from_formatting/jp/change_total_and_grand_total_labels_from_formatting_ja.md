@@ -1,8 +1,3 @@
----
-title: 書式設定から合計・総合計のラベルを変更
-category: desktop-only
----
-
 ## 機能差異
 書式設定から合計・総合計のラベルを変更する機能は、Tableau Desktop でのみ利用可能です。
 

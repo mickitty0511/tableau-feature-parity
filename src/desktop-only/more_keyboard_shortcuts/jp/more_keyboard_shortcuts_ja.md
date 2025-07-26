@@ -1,8 +1,3 @@
----
-title: キーボードショートカットの追加
-category: desktop-only
----
-
 ## 機能の違い
 Tableau Desktopでは、Tableau Cloudよりも多くのキーボードショートカットが利用可能で、作業効率を大幅に向上させることができます。
 

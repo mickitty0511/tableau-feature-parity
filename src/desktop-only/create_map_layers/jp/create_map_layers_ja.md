@@ -1,8 +1,3 @@
----
-title: マップレイヤーの作成
-category: desktop-only
----
-
 ## 機能の違い
 マップレイヤーの作成機能は、Tableau Desktopでのみ利用可能です。
 

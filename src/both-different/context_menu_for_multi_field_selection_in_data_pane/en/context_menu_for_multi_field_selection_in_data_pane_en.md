@@ -1,8 +1,3 @@
----
-title: Context Menu for Multi-Field Selection in Data Pane
-category: both-different
----
-
 ## Feature Differences
 Tableau Desktop and Tableau Cloud show different context menu options when right-clicking on multiple selected fields in the data pane.
 

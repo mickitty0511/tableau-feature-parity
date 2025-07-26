@@ -1,8 +1,3 @@
----
-title: Analytics: 予測、クラスタリング、ボックスプロット
-category: desktop-only
----
-
 ## 機能の違い
 予測、クラスタリング、ボックスプロットなどの高度な分析機能は、Tableau Desktopでのみ利用可能です。
 

@@ -1,8 +1,3 @@
----
-title: リッチマップタブ設定
-category: desktop-only
----
-
 ## 機能の違い
 リッチマップタブ設定は、Tableau Desktopでのみ利用可能な機能です。
 

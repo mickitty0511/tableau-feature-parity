@@ -1,8 +1,3 @@
----
-title: ツールバーのワークシートクリアコマンド
-category: both-different
----
-
 ## 機能の違い
 ツールバーのワークシートクリアコマンドのオプションが、Tableau DesktopとTableau Cloudで異なります。
 

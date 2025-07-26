@@ -1,8 +1,3 @@
----
-title: ブレンド設定オプション
-category: desktop-only
----
-
 ## 機能の違い
 ブレンド設定オプションは、Tableau Desktopでのみ利用可能です。
 

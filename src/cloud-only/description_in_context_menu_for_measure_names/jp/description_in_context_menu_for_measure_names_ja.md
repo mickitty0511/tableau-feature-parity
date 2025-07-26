@@ -1,8 +1,3 @@
----
-title: メジャーネームのコンテキストメニュー内の説明表示
-category: cloud-only
----
-
 ## 機能の違い
 この機能はTableau Cloudでのみ利用可能です。Tableau Cloudでは、メジャーネーム（Measure Names）のコンテキストメニューに各メジャーの説明（Description）が表示されます。
 

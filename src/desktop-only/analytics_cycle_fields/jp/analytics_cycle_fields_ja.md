@@ -1,8 +1,3 @@
----
-title: Analytics: cycle fields
-category: desktop-only
----
-
 ## 機能の違い
 Analytics の cycle fields 機能は、Tableau Desktop でのみ利用可能です。
 
