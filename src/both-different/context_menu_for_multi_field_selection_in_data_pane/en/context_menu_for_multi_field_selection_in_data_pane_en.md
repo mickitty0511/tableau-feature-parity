@@ -9,23 +9,13 @@ Tableau Desktop and Tableau Cloud show different context menu options when right
 1. Select multiple fields in the data pane using Ctrl or Shift keys.
 2. Right-click on the selected fields to display various command options.
 
-Desktop examples:
 
-![Desktop example 1](../jp/img/desktop/数値_desktop.png)
-![Desktop example 2](../jp/img/desktop/文字列_desktop.png)
-![Desktop example 3](../jp/img/desktop/日付_desktop.png)
-![Desktop example 4](../jp/img/desktop/複数のデータ型_文字列+日付_desktop.png)
 
 ### For Tableau Cloud
 1. Select multiple fields in the data pane.
 2. Right-click to display only the "Hide" command.
 
-Cloud examples:
 
-![Cloud example 1](../jp/img/cloud/数値_cloud.png)
-![Cloud example 2](../jp/img/cloud/文字列_cloud.png)
-![Cloud example 3](../jp/img/cloud/日付_cloud.png)
-![Cloud example 4](../jp/img/cloud/複数のデータ型_文字列+日付_cloud.png)
 
 ## Notes
 - Desktop supports various operations beyond "Hide", including grouping, copying, and folder creation.

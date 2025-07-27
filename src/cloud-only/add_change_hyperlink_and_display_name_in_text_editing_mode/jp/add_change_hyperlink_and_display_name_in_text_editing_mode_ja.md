@@ -28,14 +28,12 @@
 2. 例：URLが「https://www.example.com/very-long-complex-url」でも、表示テキストは「サンプルサイト」として設定可能。
 3. これにより、ユーザーフレンドリーなテキスト表示を保ちながら適切なリンク機能を提供できます。
 
-クラウド版の例：
 
 ![クラウド版](./img/cloud/hyperlink_editor_cloud_jp.gif)
 
 ### Tableau Desktopの場合
 Tableau Desktopでは、この高度なハイパーリンク編集機能は利用できません。
 
-デスクトップ版の例：
 
 ![デスクトップ版](./img/desktop/no_hyperlink_editor_desktop.png)
 

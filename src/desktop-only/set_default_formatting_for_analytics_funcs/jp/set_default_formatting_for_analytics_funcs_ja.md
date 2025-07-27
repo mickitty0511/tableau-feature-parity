@@ -10,7 +10,6 @@
 2. 書式設定ダイアログで各要素（参照線、注釈、ドロップライン、タイトル、キャプション、フィールドラベル）のデフォルト設定を変更できます。
 3. 設定した内容は、新しく作成する該当要素に自動的に適用されます。
 
-Desktop例:
 
 ![Desktopでの分析機能書式設定オプション](./img/desktop/analytics_formatting_options_desktop_jp.png)
 
@@ -18,7 +17,6 @@ Desktop例:
 1. 各要素を個別に選択して書式設定を行う必要があります。
 2. 基本的な書式設定メニューのみが利用可能です。
 
-Cloud例:
 
 ![Cloudでの基本書式設定メニュー](./img/cloud/basic_formatting_menu_cloud_jp.png)
 

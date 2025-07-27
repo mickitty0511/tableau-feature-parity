@@ -11,9 +11,7 @@ This feature is only available in Tableau Cloud. Tableau Cloud allows direct inp
 3. In the "Mark Size" dialog, directly enter a value (e.g., 99%) in the numerical input field
 4. Settings are immediately applied and precise size is implemented
 
-Cloud example:
 
-![Cloud example](../jp/img/cloud/manual_input_size_cloud_jp.png)
 
 ### For Tableau Desktop
 This functionality is not available in Tableau Desktop. Size adjustment is done using sliders only.
@@ -22,9 +20,7 @@ This functionality is not available in Tableau Desktop. Size adjustment is done 
 2. Adjust size using the slider
 3. Precise numerical values cannot be specified
 
-Desktop example:
 
-![Desktop example](../jp/img/desktop/slider_size_desktop_jp.png)
 
 ## Use Cases
 ### Specific Applications

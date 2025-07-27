@@ -14,14 +14,12 @@ You can view descriptions of each measure from the Measure Names context menu:
 3. Descriptions for each measure field are shown in the menu
 4. By reviewing the descriptions, you can understand what each measure represents
 
-Cloud example showing Measure Names descriptions:
 
 ![Cloud Measure Names description display](../jp/img/cloud/measure_name_description_cloud_jp.png)
 
 ### For Tableau Desktop
 Descriptions are not displayed in the context menu for Measure Names in Tableau Desktop.
 
-Desktop example of Measure Names (no description display):
 
 ![Desktop Measure Names](../jp/img/desktop/no_measure_name_description_desktop_jp.png)
 

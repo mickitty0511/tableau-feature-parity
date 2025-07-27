@@ -14,7 +14,6 @@ The operation methods for exporting dashboard and story images differ between Ta
 2. Right-click to display context menu or select the dashboard/story tab
 3. Select "Export Image"
 
-Desktop examples:
 
 ![Desktop image export 1](../jp/img/desktop/[ダッシュボード]イメージのエクスポート.png)
 ![Desktop image export 2](../jp/img/desktop/[ストーリーの]イメージのエクスポート.png)
@@ -30,7 +29,6 @@ Method 2: Execute from view screen
 
 B. For general users: Method 2 only
 
-Cloud examples:
 
 ![Cloud image export 1](../jp/img/cloud/[ビュー]イメージコマンド.png)
 ![Cloud image export 2](../jp/img/cloud/[ワークブック編集画面]イメージコマンド.png)

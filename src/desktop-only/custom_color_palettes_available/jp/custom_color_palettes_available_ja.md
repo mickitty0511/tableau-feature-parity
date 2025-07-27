@@ -11,7 +11,6 @@
 3. カラーパレットドロップダウンから「Import」を選択してカスタムパレットをインポート、または「New」で新規作成
 4. 独自のカラーパレットを定義・保存して使用
 
-Desktop例:
 
 ![Desktop カスタムカラーパレット](./img/desktop/custom_color_palettes_available_desktop_jp.png)
 
@@ -20,7 +19,6 @@ Desktop例:
 2. 「色の編集」を選択
 3. 標準で提供されているカラーパレットのみ利用可能
 
-Cloud例:
 
 ![Cloud 限定的なカラーパレット](./img/cloud/limited_color_palettes_cloud_jp.png)
 

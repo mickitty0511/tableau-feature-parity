@@ -9,18 +9,13 @@ Tableau Desktop and Tableau Cloud have different methods for accessing dashboard
 1. Click the "Dashboard" tab at the top of the worksheet.
 2. Select "Formatting" to display the dashboard formatting menu.
 
-Desktop example:
 
-![Desktop example 1](../jp/img/desktop/ダッシュボード-書式設定_desktop.png)
-![Desktop example 2](../jp/img/desktop/書式設定-ダッシュボード_desktop.png)
 
 ### For Tableau Cloud
 1. Click the "Formatting" tab at the top of the screen.
 2. Select "Dashboard" to display the formatting menu.
 
-Cloud example:
 
-![Cloud example](../jp/img/cloud/ダッシュボード書式設定_cloud.png)
 
 ## Notes
 - The formatting options and UI available may differ between versions.

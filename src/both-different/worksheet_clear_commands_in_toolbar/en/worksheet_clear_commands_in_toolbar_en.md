@@ -17,7 +17,6 @@ Multiple detailed clear options are available:
    - Clear context
    - Clear all (entire worksheet)
 
-Desktop example:
 
 ![Desktop clear command list](../jp/img/desktop/ツールバーのシートのクリアのコマンド一覧_jp.png)
 
@@ -27,7 +26,6 @@ Only limited clear options are available:
 1. Click the "Clear Sheet" button in the toolbar
 2. Only "Clear Worksheet" option is selectable
 
-Cloud example:
 
 ![Cloud clear command](../jp/img/cloud/ツールバーのシートのクリア_jp.png)
 

@@ -10,18 +10,14 @@ This feature is only available in Tableau Cloud. Tableau Cloud allows using the 
 2. Select "Geographic Role" > "Create From" from the context menu
 3. Choose the appropriate option from existing fields (country, state/province, city, etc.)
 
-Cloud example:
 
-![Cloud example](../jp/img/cloud/select_fields_geographic_role_cloud_jp.png)
 
 ### For Tableau Desktop
 This functionality is limited in Tableau Desktop. The "Create From" option is not displayed for string fields without pre-assigned geographic roles.
 
 1. Right-clicking on string fields does not display the "Create From" option from "Geographic Role"
 
-Desktop example:
 
-![Desktop example](../jp/img/desktop/geographic_role_desktop_jp.png)
 
 ## Notes
 - This feature enables faster and more intuitive utilization of geographic data in Tableau Cloud

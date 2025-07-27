@@ -12,9 +12,7 @@ This feature is only available in Tableau Cloud. Tableau Cloud allows direct dra
 4. Drag the item to the desired position and drop it in the appropriate location
 5. The layout hierarchy is immediately updated and the dashboard layout changes
 
-Cloud example:
 
-![Cloud example](../jp/img/cloud/moveable_items_dashboard_layout_cloud_jp.gif)
 
 ### For Tableau Desktop
 This functionality is not available in Tableau Desktop. Direct item movement in the layout hierarchy is not supported.
@@ -23,9 +21,7 @@ This functionality is not available in Tableau Desktop. Direct item movement in 
 2. The layout hierarchy panel only allows viewing and selecting items
 3. Complex layout changes require manual repositioning
 
-Desktop example:
 
-![Desktop example](../jp/img/desktop/non-movable_dashboard_layout_desktop_jp.gif)
 
 ## Use Cases
 ### Specific Applications

@@ -11,7 +11,6 @@
 3. **ブックマーク(B)**オプションを選択します
 4. ブックマークされたワークシートは後で素早くアクセスできるようになります
 
-Desktop例：
 
 ![Desktopでのブックマーク機能](./img/desktop/bookmark_feature_menu_desktop_jp.png)
 

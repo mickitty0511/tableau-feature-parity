@@ -11,7 +11,6 @@
 2. ワークブックテーマオプションから、プリセットされたテーマを選択します。
 3. 選択したテーマがワークブック全体に適用され、一貫したデザインが実現されます。
 
-Desktop例:
 
 ![Desktop ワークブックテーマオプション](./img/desktop/workbook_theme_options_desktop_jp.png)
 
@@ -19,7 +18,6 @@ Desktop例:
 1. 書式設定メニューにアクセスします。
 2. 基本的な書式設定オプションのみが利用可能で、ワークブックテーマオプションは表示されません。
 
-Cloud例:
 
 ![Cloud 基本的な書式設定](./img/cloud/basic_workbook_formatting_cloud_jp.png)
 
