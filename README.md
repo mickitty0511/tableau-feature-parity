@@ -18,13 +18,19 @@ Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を�
 
 ```
 tableau-feature-parity/
-├── docs/                          # プロジェクト文書
-│   └── terminology/              # 用語定義
-├── src/                          # ソース資料・画像
-│   ├── cloud-only/              # Cloud限定機能の資料
-│   ├── desktop-only/            # Desktop限定機能の資料
-│   └── both-different/          # 差異機能の資料
-└── README.md                    # このファイル
+├── .claude/                     # Claude Code ファイル
+│   ├── commands/                # このプロジェクト専用のカスタムスラッシュコマンド
+│   └── hooks/                   # このプロジェクト専用のカスタムフック
+├── docs/                        # プロジェクト文書
+│   └── terminology/            # 用語定義
+├── src/                        # ソース資料・画像
+│   ├── cloud-only/            # Cloud限定機能の資料
+│   ├── desktop-only/          # Desktop限定機能の資料
+│   └── both-different/        # 両方にあるが差異がある機能の資料
+└── CONTRIBUTING.md            # 日本語コントリビューションファイル
+└── CONTRIBUTING_EN.md         # 英語コントリビューションファイル
+└── README.md                  # このファイル
+└── README_EN.md               # 英語READMEファイル
 ```
 
 ## 主な成果物
