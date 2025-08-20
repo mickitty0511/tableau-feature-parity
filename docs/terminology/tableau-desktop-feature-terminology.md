@@ -107,14 +107,15 @@ This document provides a Japanese-English terminology reference for Tableau Desk
 
 | 日本語 | 英語 | 説明 / Description |
 |--------|------|-------------------|
-| アナリティクスタブ | Analytics Tab | 分析機能のタブメニュー |
-| 分析ペイン | Analytics Pane | 分析機能のメニュー |
-| 参照線 | Reference Line | 基準となる線 |
-| 参照バンド | Reference Band | 基準となる帯 |
+| 分析タブ | Analytics Tab | 分析機能のタブメニュー |
+| アナリティクスペイン | Analytics Pane | 分析機能のメニュー |
+| リファレンスライン | Reference Line | 基準となる線 |
+| リファレンスバンド | Reference Band | 基準となる帯 |
+| 分布バンド | Distribution Band | データの分布を示す帯 |
 | トレンドライン | Trend Line | 傾向を示す線 |
 | 予測 | Forecasting | 将来の予測値 |
 | クラスタリング | Clustering | データのグループ化 |
-| ボックスプロット | Box Plot | 統計的な分布表示 |
+| 箱ひげ図 | Box Plot | 統計的な分布表示 |
 | ドロップライン | Drop Lines | データポイントから軸への線 |
 | 小計・総計 | Subtotals & Grand Totals | 集計値の表示 |
 | 非表示データの表示 | Show Hidden Data | 非表示データの再表示 |

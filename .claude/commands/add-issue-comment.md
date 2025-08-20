@@ -11,7 +11,7 @@ This command adds a comment to the GitHub issue corresponding to the created art
 ## 実行手順 / Execution Steps
 1. 記事のGitHub issue参照からissue番号を取得 / Get issue number from GitHub issue reference in article
 2. 記事へのリンクと内容概要を含むコメントを作成 / Create comment with article link and content summary
-3. GitHub MCPを使用してコメントを投稿 / Post comment using GitHub MCP
+3. GitHub CLI (`gh issue comment`) を使用してコメントを投稿 / Post comment using GitHub CLI (`gh issue comment`)
 
 ## テンプレート / Templates
 

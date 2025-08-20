@@ -12,8 +12,14 @@ Translate an existing Japanese article to English, creating a new English versio
    - Use the standardized translations provided in the terminology guide
    - Ensure technical terms are translated correctly according to the established vocabulary
 
-3. **Create English Version**
-   - Create the English article at: `src/{category}/{issue_title}/en/{issue_title}_en.md`
+3. **Check for Existing English Version**
+   - Check if English article already exists at: `src/{category}/{issue_title}/en/{issue_title}_en.md`
+   - If exists: Read and compare with Japanese version to determine if update is needed
+   - If not exists: Create new English article
+
+4. **Create or Update English Version**
+   - **For new files**: Create the English article with full translation
+   - **For existing files**: Update content to match the Japanese version more accurately
    - Translate all content sections while maintaining the same structure:
      - Frontmatter (translate title, keep category)
      - Feature Differences section
@@ -21,11 +27,11 @@ Translate an existing Japanese article to English, creating a new English versio
      - Notes and Considerations section
      - Reference link (keep original GitHub link)
 
-3. **Image Path Adjustment**
+5. **Image Path Adjustment**
    - Update image paths to use English directory structure if needed
    - Ensure all relative paths work correctly from the English article location
 
-4. **Quality Check**
+6. **Quality Check**
    - Ensure natural English translation
    - Maintain technical accuracy
    - Keep formatting consistent with English article standards
