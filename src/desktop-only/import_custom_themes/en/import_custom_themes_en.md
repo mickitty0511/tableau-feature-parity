@@ -11,7 +11,7 @@ The import custom themes functionality is only available in Tableau Desktop (ver
 3. Hover over "Workbook Theme".
 4. Select "Import Custom Theme...".
 
-![Custom Theme Import Menu](./img/desktop/custom_theme_import_menu_desktop_jp.png)
+![Custom Theme Import Menu](../jp/img/desktop/custom_theme_import_menu_desktop_jp.png)
 
 5. Select a custom theme file (.tps format) from the file dialog.
 6. Once import is complete, the selected custom theme will be applied to the workbook.

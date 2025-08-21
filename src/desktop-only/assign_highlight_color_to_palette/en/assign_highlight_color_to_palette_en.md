@@ -12,7 +12,7 @@ The option to assign highlight colors to palettes when enabling "Highlight Selec
 
 Desktop example:
 
-![Desktop Highlight Color Option](./img/desktop/highlight_color_option_desktop_jp.png)
+![Desktop Highlight Color Option](../jp/img/desktop/highlight_color_option_desktop_jp.png)
 
 ### Tableau Cloud
 1. Right-click on a legend in the worksheet.
@@ -20,7 +20,7 @@ Desktop example:
 
 Cloud example:
 
-![Cloud Highlight Color Option](./img/cloud/highlight_color_option_cloud_jp.png)
+![Cloud Highlight Color Option](../jp/img/cloud/highlight_color_option_cloud_jp.png)
 
 ## Use Cases and Applications
 - **Visual Data Emphasis**: When you want to maintain color consistency while highlighting specific categories or data points

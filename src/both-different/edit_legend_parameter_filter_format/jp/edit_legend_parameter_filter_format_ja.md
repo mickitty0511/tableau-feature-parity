@@ -10,13 +10,13 @@
 2. 表示されたコンテキストメニューから書式設定で、選択したカードまたはすべてのカードのどちらに適用するかを選択できます
 3. 選択したカードとすべてのカードの間を行き来するには手順1から同じ操作をする必要があり、シームレス性に欠ける。
 
-![Desktop 書式設定適用先選択](./img/desktop/凡例の書式設定を適用先をどちらか選択_jp.png)
+![Desktop 書式設定適用先選択](./img/desktop/legend_format_target_selection_desktop_jp.png)
 
 ### Tableau Cloud
 1. 書式設定ペインにアクセスします
 2. タブ切り替えによって選択したカードとすべてのカード（凡例、パラメータ、フィルター）の書式設定をシームレスなUIで管理
 
-![Cloud タブ切り替え書式設定](./img/cloud/凡例の書式設定の適用先をタブ切り替え_jp.png)
+![Cloud タブ切り替え書式設定](./img/cloud/legend_format_target_tab_switching_cloud_jp.png)
 
 ## 注意事項
 - Desktopでは、特定のカードを選択して個別に書式設定するか、すべてのカードに一括適用するかを選択できます
