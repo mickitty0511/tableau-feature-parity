@@ -1,84 +1,84 @@
 # Update Issue Label Based on Path
 
-GitHub Issueのラベルをフォルダパス構造に基づいて自動更新するコマンドです。
+Command to automatically update GitHub Issue labels based on folder path structure.
 
-## 使用方法
+## Usage
 ```
 /update-issue-label {issue_number}
 ```
 
-例：
+Example:
 ```
 /update-issue-label 20
 ```
 
-## 機能説明
+## Feature Description
 
-このコマンドは以下の処理を自動実行します：
+This command automatically executes the following processes:
 
-1. **Issue情報の取得**: 指定されたIssue番号の情報を取得
-2. **記事ファイルの検索**: Issue番号に基づいて関連する記事ファイルを検索
-3. **パス構造の分析**: ファイルパスから適切なラベルを判定
-4. **ラベルの自動更新**: 現在のラベルを削除し、正しいラベルを追加
+1. **Get Issue Information**: Retrieve information for the specified Issue number
+2. **Search Article Files**: Search for related article files based on Issue number
+3. **Analyze Path Structure**: Determine appropriate labels from file paths
+4. **Auto-update Labels**: Remove current labels and add correct labels
 
-## ラベル判定ルール
+## Label Determination Rules
 
-パス構造に基づいて以下のラベルを自動判定します：
+Automatically determines the following labels based on path structure:
 
-| パス | ラベル | 説明 |
-|------|--------|------|
-| `src/desktop-only/` | `desktop-only` | Tableau Desktopでのみ利用可能な機能 |
-| `src/cloud-only/` | `cloud-only` | Tableau Cloudでのみ利用可能な機能 |
-| `src/both-different/` | `both-different` | 両プラットフォームで異なる実装の機能 |
+| Path | Label | Description |
+|------|-------|-------------|
+| `src/desktop-only/` | `desktop-only` | Features available only in Tableau Desktop |
+| `src/cloud-only/` | `cloud-only` | Features available only in Tableau Cloud |
+| `src/both-different/` | `both-different` | Features with different implementations on both platforms |
 
-## 実行例
+## Execution Example
 
 ```bash
-# Issue #20のラベルを更新
+# Update labels for Issue #20
 /update-issue-label 20
 
-# 実行結果例
-✅ Issue #20のラベルを更新しました
-- 削除: desktop-only
-- 追加: both-different  
-- パス: src/both-different/configure_publish_settings/
+# Example execution result
+✅ Updated labels for Issue #20
+- Removed: desktop-only
+- Added: both-different  
+- Path: src/both-different/configure_publish_settings/
 ```
 
-### GitHub CLIコマンド例
+### GitHub CLI Command Examples
 
 ```bash
-# ラベルの更新（desktop-onlyを削除してboth-differentを追加）
+# Update labels (remove desktop-only and add both-different)
 gh issue edit 75 --repo mickitty0511/tableau-feature-parity --remove-label "desktop-only" --add-label "both-different"
 
-# 更新後のラベル確認
+# Verify updated labels
 gh api repos/mickitty0511/tableau-feature-parity/issues/75 --jq '{number: .number, title: .title, labels: [.labels[].name]}'
 
-# 実際の出力例
+# Actual output example
 # {"labels":["both-different","operationally-critical"],"number":75,"title":"Distribution band"}
 ```
 
-## エラーハンドリング
+## Error Handling
 
-- **Issue番号が存在しない場合**: エラーメッセージを表示して終了
-- **関連ファイルが見つからない場合**: 手動でのラベル設定を促すメッセージを表示
-- **複数パスにファイルが存在する場合**: 最初に見つかったパスを使用し、警告を表示
-- **権限不足の場合**: GitHub権限の確認を促すメッセージを表示
+- **When Issue number doesn't exist**: Display error message and exit
+- **When related files are not found**: Display message prompting manual label setting
+- **When files exist in multiple paths**: Use first found path and display warning
+- **When insufficient permissions**: Display message prompting GitHub permission verification
 
-## 対象ラベル
+## Target Labels
 
-このコマンドは以下のラベルのみを操作対象とします：
+This command operates only on the following labels:
 - `desktop-only`
 - `cloud-only`  
 - `both-different`
 
-他のラベル（例：`bug`, `enhancement`等）は変更しません。
+Other labels (e.g., `bug`, `enhancement`, etc.) are not modified.
 
-## 注意事項
+## Important Notes
 
-- このコマンドを実行する前に、該当するIssueが正しいものか確認してください
-- ラベル変更は取り消し可能ですが、必要に応じて手動で元に戻してください
-- 複数の記事ファイルが異なるカテゴリに存在する場合は、手動での確認が必要です
+- Before executing this command, please verify that the corresponding Issue is correct
+- Label changes are reversible, but manually revert if necessary
+- When multiple article files exist in different categories, manual verification is required
 
 ---
 
-このコマンドにより、フォルダ構造の変更に伴うGitHub Issueラベルの更新が自動化されます。
+This command automates GitHub Issue label updates that accompany folder structure changes.

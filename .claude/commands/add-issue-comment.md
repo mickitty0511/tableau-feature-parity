@@ -1,62 +1,210 @@
 # Add Issue Comment
 
-このコマンドは、作成した記事（日本語/英語）に対応するGitHubイシューにコメントを追加します。
-This command adds a comment to the GitHub issue corresponding to the created article (Japanese/English).
+Command to add comments to GitHub issues corresponding to created articles (Japanese/English).
+Uses template-based comment generation for consistency and maintainability.
 
-## 使用方法 / Usage
-1. 記事のmarkdownファイルパスを確認 / Confirm the markdown file path of the article
-2. 記事のフォルダ名からGitHubイシューを検索 / Search for GitHub issue from article folder name
-3. 該当するイシューにコメントを追加 / Add comment to the corresponding issue
+## Design Philosophy
 
-## 実行手順 / Execution Steps
-1. 記事のGitHub issue参照からissue番号を取得 / Get issue number from GitHub issue reference in article
-2. 記事へのリンクと内容概要を含むコメントを作成 / Create comment with article link and content summary
-3. GitHub CLI (`gh issue comment`) を使用してコメントを投稿 / Post comment using GitHub CLI (`gh issue comment`)
+**Template-Driven Approach:**
+- All comment content sourced from `.github/ISSUE_COMMENT_TEMPLATE/`
+- No hardcoded comment templates in this command
+- Automatic placeholder replacement based on article information
+- Complete consistency with check-issue-comments command
 
-## テンプレート / Templates
+## Usage
 
-### 日本語記事用 / For Japanese Articles
+1. Identify article markdown file path
+2. Extract article metadata (category, feature name, file paths)
+3. Generate comments using appropriate templates
+4. Post comments to corresponding GitHub issue
+
+## Core Functions
+
+### 1. Article Analysis
+
+```bash
+# Extract article information from file path
+function analyze_article() {
+    local article_path="$1"
+    
+    # Determine category from path
+    local category=""
+    if [[ "$article_path" == *"/desktop-only/"* ]]; then
+        category="desktop-only"
+    elif [[ "$article_path" == *"/cloud-only/"* ]]; then
+        category="cloud-only"
+    elif [[ "$article_path" == *"/both-different/"* ]]; then
+        category="both-different"
+    fi
+    
+    # Extract feature name from directory structure
+    local feature_dir=$(echo "$article_path" | sed 's|.*/src/[^/]*/\([^/]*\)/.*|\1|')
+    
+    # Extract language from filename
+    local language=""
+    if [[ "$article_path" == *"_ja.md" ]]; then
+        language="japanese"
+    elif [[ "$article_path" == *"_en.md" ]]; then
+        language="english"
+    fi
+    
+    echo "{\"category\": \"$category\", \"feature_dir\": \"$feature_dir\", \"language\": \"$language\"}"
+}
+
+# Find corresponding issue number
+function find_issue_for_article() {
+    local feature_dir="$1"
+    local repo="mickitty0511/tableau-feature-parity"
+    
+    # Search for issue with matching title or labels
+    gh issue list --repo $repo --search "$feature_dir" --json number,title --jq '.[0].number'
+}
 ```
-📝 **日本語記事を作成しました**
 
-[機能名]に関する詳細な日本語記事を作成しました：
+### 2. Template-Based Comment Generation
 
-📄 [記事ファイル名](記事パス)
-
-## 記事の内容
-- Desktop と Cloud の機能差異の詳細説明
-- 各プラットフォームでの具体的な使用方法
-- 日本語での操作手順
-- 注意事項と使用例
+```bash
+# Generate comment using template (leverages check-issue-comments functions)
+function generate_article_comment() {
+    local article_path="$1"
+    local issue_title="$2"
+    
+    local article_info=$(analyze_article "$article_path")
+    local category=$(echo "$article_info" | jq -r '.category')
+    local language=$(echo "$article_info" | jq -r '.language')
+    
+    # Use the same template system as check-issue-comments
+    if [ "$language" = "japanese" ]; then
+        generate_japanese_comment "$issue_title" "$(dirname "$(dirname "$article_path")")" "$category"
+    elif [ "$language" = "english" ]; then
+        generate_english_comment "$issue_title" "$(dirname "$(dirname "$article_path")")" "$category"
+    fi
+}
 ```
 
-### 英語記事用 / For English Articles
+### 3. Issue Comment Posting
+
+```bash
+# Post comment to GitHub issue
+function post_article_comment() {
+    local article_path="$1"
+    local repo="mickitty0511/tableau-feature-parity"
+    
+    local article_info=$(analyze_article "$article_path")
+    local feature_dir=$(echo "$article_info" | jq -r '.feature_dir')
+    
+    # Find corresponding issue
+    local issue_number=$(find_issue_for_article "$feature_dir")
+    
+    if [ -z "$issue_number" ] || [ "$issue_number" = "null" ]; then
+        echo "Error: No corresponding issue found for $feature_dir"
+        return 1
+    fi
+    
+    # Get issue title for comment generation
+    local issue_title=$(gh issue view $issue_number --repo $repo --json title --jq -r '.title')
+    
+    # Generate comment using templates
+    local comment_body=$(generate_article_comment "$article_path" "$issue_title")
+    
+    if [ $? -eq 0 ] && [ -n "$comment_body" ]; then
+        # Post comment
+        gh issue comment $issue_number --repo $repo --body "$comment_body"
+        echo "Comment added to issue #$issue_number"
+    else
+        echo "Error: Failed to generate comment for $article_path"
+        return 1
+    fi
+}
 ```
-📝 **English Article Created**
 
-Created a detailed English article about [Feature Name]:
+## Main Processing Function
 
-📄 [Article Filename](Article Path)
+```bash
+# Process single article and add comment
+function add_comment_for_article() {
+    local article_path="$1"
+    
+    echo "=== Processing Article: $article_path ==="
+    
+    # Validate article path
+    if [ ! -f "$article_path" ]; then
+        echo "Error: Article file not found: $article_path"
+        return 1
+    fi
+    
+    # Validate article is in correct structure
+    if [[ ! "$article_path" =~ src/(desktop-only|cloud-only|both-different)/.*/[jp|en]/.*_(ja|en)\.md$ ]]; then
+        echo "Error: Article path does not match expected structure"
+        echo "Expected: src/{category}/{feature}/[jp|en]/{feature}_{ja|en}.md"
+        return 1
+    fi
+    
+    # Post comment
+    post_article_comment "$article_path"
+}
 
-## Article Contents
-- Detailed explanation of feature differences between Desktop and Cloud
-- Specific usage methods for each platform
-- Step-by-step instructions in English
-- Notes and usage examples
+# Process multiple articles in batch
+function add_comments_for_articles() {
+    local article_paths=("$@")
+    
+    for article_path in "${article_paths[@]}"; do
+        add_comment_for_article "$article_path"
+        echo ""
+        # API rate limit countermeasure
+        sleep 1
+    done
+}
 ```
 
-## ファイルリンクの形式 / File Link Format
-記事へのリンクは以下の形式で作成してください：
-```
-https://github.com/mickitty0511/tableau-feature-parity/blob/main/[ARTICLE_PATH]
+## Template Integration
+
+This command fully integrates with the template system established in check-issue-comments:
+
+**Required Template Files:**
+- `.github/ISSUE_COMMENT_TEMPLATE/desktop-only.md`
+- `.github/ISSUE_COMMENT_TEMPLATE/cloud-only.md`
+- `.github/ISSUE_COMMENT_TEMPLATE/both-different.md`
+
+**Template Processing:**
+- Uses same `generate_japanese_comment()` and `generate_english_comment()` functions
+- Automatic placeholder replacement (`{機能名}`, `{Feature Name}`, etc.)
+- Consistent comment format across all tools
+
+## Usage Examples
+
+```bash
+# Add comment for single article
+add_comment_for_article "src/desktop-only/show_summary/jp/show_summary_ja.md"
+
+# Add comments for multiple articles
+add_comments_for_articles \
+    "src/desktop-only/show_summary/jp/show_summary_ja.md" \
+    "src/desktop-only/show_summary/en/show_summary_en.md"
+
+# Process all articles in a category
+find src/desktop-only -name "*_ja.md" -exec add_comment_for_article {} \;
 ```
 
-### URL構成例 / URL Structure Examples
-`https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/access_to_dashboard_formatting/jp/access_to_dashboard_formatting_ja.md`
+## Prerequisites
 
-## 注意事項 / Notes
-- リポジトリは mickitty0511/tableau-feature-parity 固定 / Repository is fixed to mickitty0511/tableau-feature-parity
-- 記事パスは src/ から始まる相対パスを使用 / Use relative paths starting with src/
-- 言語に応じて適切なテンプレートを選択 / Select appropriate template based on language
-- コメントには絵文字を使用して視認性を向上 / Use emojis in comments for better visibility
-- ファイルへの直接リンクにはGitHubの blob/main/ 形式を使用 / Use GitHub's blob/main/ format for direct file links
+1. **Template Files** - Same as check-issue-comments command
+2. **GitHub CLI Authentication** - `gh auth login`
+3. **Correct Article Structure** - Articles must follow naming conventions
+4. **Corresponding Issues** - GitHub issues must exist for features
+
+## Error Handling
+
+- Validate article file existence and structure
+- Check for corresponding GitHub issues
+- Template-based error handling (inherited from check-issue-comments)
+- API rate limiting protection
+
+## Integration Notes
+
+- **Consistency**: Uses identical template system as check-issue-comments
+- **Maintainability**: Template changes affect both commands automatically
+- **Scalability**: Easy to add support for new categories or languages
+- **Reliability**: Inherits all error handling from proven template system
+
+This command works as a complement to check-issue-comments, handling individual article comment posting while maintaining complete consistency in comment format and content.

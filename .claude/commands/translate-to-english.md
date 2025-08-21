@@ -28,7 +28,8 @@ Translate an existing Japanese article to English, creating a new English versio
      - Reference link (keep original GitHub link)
 
 5. **Image Path Adjustment**
-   - Update image paths to use English directory structure if needed
+   - Use `../jp/img/` path structure for all images in English articles
+   - Images remain in the Japanese folder structure and English articles reference them with `../jp/img/`
    - Ensure all relative paths work correctly from the English article location
 
 6. **Quality Check**
@@ -53,7 +54,7 @@ Translate an existing Japanese article to English, creating a new English versio
 ## Format Rules
 - Comparison items: "**Desktop**: Description" / "**Cloud**: Description"
 - Section headings: "## Feature Differences" / "## Usage Instructions" / "## Notes"
-- Image descriptions: "![English description](./img/desktop/filename.png)"
+- Image descriptions: "![English description](../jp/img/desktop/filename.png)"
 - Instructions: Clear and concise English step descriptions
 
 ## Section Translation Mapping
