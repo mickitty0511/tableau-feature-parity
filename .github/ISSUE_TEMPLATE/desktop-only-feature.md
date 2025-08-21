@@ -7,8 +7,7 @@ assignees: []
 ---
 
 ## Feature Difference
-- **Description:**
-  <!-- Describe the feature difference here. -->
+<!-- Describe the feature difference here. -->
 - Desktop: You can XXXX or XXX feature/option is available for YYYY 
 - Cloud: No option is available
 
@@ -18,7 +17,5 @@ assignees: []
 
 # Example
 ## Feature Difference
-Story formatting is available only in Tableau Desktop.
-
 - Desktop: You can format stories
 - Cloud: No option is available

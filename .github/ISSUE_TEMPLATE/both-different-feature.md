@@ -7,8 +7,7 @@ assignees: []
 ---
 
 ## Feature Difference
-- **Description:**
-  <!-- Describe the feature difference here. -->
+<!-- Describe the feature difference here. -->
 - Desktop: You can XXXX or YYYY feature/option is available for AAA
 - Cloud: You can XXXX, but YYYY is not available
 
@@ -18,7 +17,5 @@ assignees: []
 
 # Example
 ## Feature Difference
-Filter edit dialog interface differs between Tableau Desktop and Cloud.
-
 - Desktop: General, Wildcard, Conditional, Top settings are managed in tabs   
 - Cloud: General, Wildcard, Conditional, Top settings are managed in accordion UI
