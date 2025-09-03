@@ -98,6 +98,9 @@ This document provides a Japanese-English terminology reference for Tableau Desk
 | 色の編集 | Edit Colors | 色の詳細設定 |
 | ハイライト色 | Highlight Color | 強調表示用の色 |
 | カスタムカラーパレット | Custom Color Palette | 独自のカラーパレット |
+| 連続カラーパレット | Sequential Color Palette | 連続データのカラーパレット |
+| カテゴリカラーパレット | Categorical Color Palette | カテゴリデータのカラーパレット |
+| 分岐カラーパレット | Diverging Color Palette | 分岐データのカラーパレット |
 | ワークブックテーマ | Workbook Theme | ワークブック全体のデザイン |
 | カスタムテーマ | Custom Theme | 独自のデザインテーマ |
 | 総計ラベル | Grand Total Labels | 総計の表示名設定 |
@@ -241,7 +244,3 @@ This document provides a Japanese-English terminology reference for Tableau Desk
 - [Tableau公式ドキュメント](https://help.tableau.com/)
 - [Tableau Desktop ユーザーガイド](https://help.tableau.com/current/pro/desktop/ja-jp/default.htm)
 - [Feature Parity Issues](../docs/issues/)
-
----
-
-最終更新日 / Last Updated: 2025-07-26

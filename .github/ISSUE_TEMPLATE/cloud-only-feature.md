@@ -1,7 +1,7 @@
 ---
 name: "Cloud-only Feature"
 about: "Document a feature difference between Tableau Cloud and Tableau Desktop"
-title: "[Feature Difference] <short description>"
+title: "<short description>"
 labels: [cloud-only]
 assignees: []
 ---
