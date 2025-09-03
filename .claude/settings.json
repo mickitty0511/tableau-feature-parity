@@ -1,27 +1,4 @@
 {
   "hooks": {
-    "tool-use-post": [
-      {
-        "matcher": {
-          "tool": "Write",
-          "args": {
-            "file_path": "**/docs/issues/**/*.md"
-          }
-        },
-        "commands": [
-          "echo 'Draft issue markdown file created. Please run: github mcpからissue作成して'"
-        ]
-      }
-    ],
-    "slash-command-post": [
-      {
-        "matcher": {
-          "command": "article"
-        },
-        "commands": [
-          "echo 'Article command completed. Searching for related GitHub issue using first word of folder name...'"
-        ]
-      }
-    ]
   }
 }
