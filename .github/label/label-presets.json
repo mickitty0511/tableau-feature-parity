@@ -2,7 +2,7 @@
   {"name": "cloud-only", "color": "17b2ee", "description": "Feature only available in Tableau Cloud"},
   {"name": "desktop-only", "color": "1d76db", "description": "Feature only available in Tableau Desktop"},
   {"name": "both-different", "color": "ededed", "description": "Feature exists in both but with differences"},
-  {"name": "operationally-critical", "color": "FF0000", "description": "Critical issue affecting workbook editing functionality"},
+  {"name": "critical", "color": "FF0000", "description": "Critical issue affecting workbook editing functionality"},
   {"name": "documentation", "color": "c5def5", "description": "Documentation related"},
   {"name": "invalid", "color": "e4e669", "description": "This doesn't seem right"},
   {"name": "question", "color": "d876e3", "description": "Further information is requested"},
