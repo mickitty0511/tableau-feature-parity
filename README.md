@@ -14,6 +14,9 @@ Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を�
 
 | 機能名 | Issue |
 |--------|-------|
+| 3つのタイプのデフォルトカラーパレット選択 | [#96](https://github.com/mickitty0511/tableau-feature-parity/issues/96) |
+| カラーパレット選択オプションへのアクセス | [#95](https://github.com/mickitty0511/tableau-feature-parity/issues/95) |
+| 高度なワークブック制御コマンド | [#93](https://github.com/mickitty0511/tableau-feature-parity/issues/93) |
 | インタラクティブコントロール | [#79](https://github.com/mickitty0511/tableau-feature-parity/issues/79) |
 | ビュー | [#78](https://github.com/mickitty0511/tableau-feature-parity/issues/78) |
 | サイズマークから値として入力 | [#18](https://github.com/mickitty0511/tableau-feature-parity/issues/18) |
@@ -30,6 +33,7 @@ Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を�
 
 | 機能名 | Issue |
 |--------|-------|
+| 書式ペインでの単一書式設定のクリア | [#94](https://github.com/mickitty0511/tableau-feature-parity/issues/94) |
 | ステータスバー表示切替 | [#91](https://github.com/mickitty0511/tableau-feature-parity/issues/91) |
 | セット編集 | [#86](https://github.com/mickitty0511/tableau-feature-parity/issues/86) |
 | パフォーマンス記録 | [#84](https://github.com/mickitty0511/tableau-feature-parity/issues/84) |
