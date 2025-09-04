@@ -89,7 +89,6 @@ Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を�
 | リッチマップタブ設定 | [#26](https://github.com/mickitty0511/tableau-feature-parity/issues/26) |
 | 日付プロパティからのデフォルト会計年度開始月、週開始、日付形式設定 | [#25](https://github.com/mickitty0511/tableau-feature-parity/issues/25) |
 | 参考線、注釈、補助線、タイトル、キャプション、フィールドラベルのデフォルト書式設定 | [#24](https://github.com/mickitty0511/tableau-feature-parity/issues/24) |
-| 分析タブの非表示データ表示コマンドで非表示値の再表示 | [#23](https://github.com/mickitty0511/tableau-feature-parity/issues/23) |
 | フィールド配置のツールチップでのスライダーとルーラー | [#22](https://github.com/mickitty0511/tableau-feature-parity/issues/22) |
 | 分析タブのテーブルレイアウト（空の行/列表示とその他のデザインオプション） | [#21](https://github.com/mickitty0511/tableau-feature-parity/issues/21) |
 | データ可視性差異確認のユーザー切替オプション | [#19](https://github.com/mickitty0511/tableau-feature-parity/issues/19) |
@@ -108,6 +107,7 @@ Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を�
 | データソース複製 | [#74](https://github.com/mickitty0511/tableau-feature-parity/issues/74) |
 | ボックスプロット | [#73](https://github.com/mickitty0511/tableau-feature-parity/issues/73) |
 | 網かけ設定UI | [#72](https://github.com/mickitty0511/tableau-feature-parity/issues/72) |
+| 分析タブの非表示データ表示コマンドで非表示値の再表示 | [#23](https://github.com/mickitty0511/tableau-feature-parity/issues/23) |
 | パブリッシュ時の説明、タグ、権限、表示可能シートの更新 | [#20](https://github.com/mickitty0511/tableau-feature-parity/issues/20) |
 | データソース置換コマンドへのクイックアクセス | [#9](https://github.com/mickitty0511/tableau-feature-parity/issues/9) |
 | アイコンによるフォント、配置、網かけ、境界、線書式の管理 | [#8](https://github.com/mickitty0511/tableau-feature-parity/issues/8) |
