@@ -147,22 +147,6 @@ Each feature is analyzed from the following perspectives:
 - Use cases and application scenarios
 - Screenshots and animated (.gif) explanations
 
-## How to Use
-
-### GitHub Issues Feature Search
-- Search in Issues
-     - [cloud-only](https://github.com/mickitty0511/tableau-feature-parity/issues?q=is%3Aissue+label%3Acloud-only) - Features available only in Tableau Cloud
-     - [desktop-only](https://github.com/mickitty0511/tableau-feature-parity/issues?q=is%3Aissue+label%3Adesktop-only) - Features available only in Tableau Desktop  
-     - [both-different](https://github.com/mickitty0511/tableau-feature-parity/issues?q=is%3Aissue+label%3Aboth-different) - Features that exist in both but behave differently
-
-- Project-wide search
-     - ![Feature search demo](docs/manual/Search%20texts%20in%20Projects.gif)
-
-### For Detailed Feature Information
-1. Check `docs/feature-diff-list/` to confirm feature location
-2. Reference the corresponding category under `docs/issues/`
-3. Check image and video materials under `src/` as needed
-
 ## Contribution
 
 This project welcomes continuous improvement:
@@ -189,9 +173,8 @@ Help support the continued development of this project!
 All sponsors will be listed in **[SPONSORS.md](SPONSORS.md)**.
 
 ## License
-This work is licensed 
-under the Creative Commons Attribution 4.0 International License (CC BY 4.0).  
-https://creativecommons.org/licenses/by/4.0/  
+This work is licensed under the  
+**[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**.  
 © 2025 Miki Yoshida  
 
 ---
