@@ -187,6 +187,11 @@ Help support the continued development of this project!
 
 All sponsors will be listed in **[SPONSORS.md](SPONSORS.md)**.
 
+## License
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+© 2025 Miki Yoshida
+
 ---
 
 **Note**: 

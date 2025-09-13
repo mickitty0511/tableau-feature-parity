@@ -165,9 +165,16 @@ tableau-feature-parity/
 
 - [GitHub Issues](https://github.com/mickitty0511/tableau-feature-parity/issues)
 
+
+この作品は、クリエイティブ・コモンズ 表示 4.0 国際 (CC BY 4.0) ライセンスの下で提供されています。  
+ライセンスの詳細は以下をご覧ください：
+https://creativecommons.org/licenses/by/4.0/deed.ja
+© 2025 Miki Yoshida
+
 ---
 
 **注意**: 
 外部サイトおよび資料で引用される場合は、本サイトのURLを掲載必須です。  
 このプロジェクトは非公式の調査結果であり、Tableau社の公式見解ではありません。  
 機能は製品バージョンによって変更される可能性があります。
+
