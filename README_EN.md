@@ -168,6 +168,7 @@ Each feature is analyzed from the following perspectives:
 This project welcomes continuous improvement:
 - Discovering new feature differences
 - Updates and improvements to existing analysis
+For detailed guidelines, please see **[CONTRIBUTING_EN.md](CONTRIBUTING_EN.md)**.
 
 ## Reference Information
 
@@ -188,9 +189,10 @@ Help support the continued development of this project!
 All sponsors will be listed in **[SPONSORS.md](SPONSORS.md)**.
 
 ## License
-This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
-https://creativecommons.org/licenses/by/4.0/
-© 2025 Miki Yoshida
+This work is licensed 
+under the Creative Commons Attribution 4.0 International License (CC BY 4.0).  
+https://creativecommons.org/licenses/by/4.0/  
+© 2025 Miki Yoshida  
 
 ---
 

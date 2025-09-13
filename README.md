@@ -147,29 +147,24 @@ tableau-feature-parity/
 - 利用例・活用シーン
 - スクリーンショット・動画での解説
 
-## 利用方法
-
-### 特定機能の詳細を確認したい場合
-1. `docs/feature-diff-list/` で機能の所在を確認
-2. 該当する `docs/issues/` 配下のカテゴリを参照
-3. 必要に応じて `src/` 配下の画像・動画資料を確認
-
-
 ## コントリビューション
 
 このプロジェクトは継続的な改善を歓迎します：
 - 新しい機能差異の発見
 - 既存分析の更新・改善
+詳しくは、[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
 
 ## 参考情報
 
 - [GitHub Issues](https://github.com/mickitty0511/tableau-feature-parity/issues)
 
 
-この作品は、クリエイティブ・コモンズ 表示 4.0 国際 (CC BY 4.0) ライセンスの下で提供されています。  
-ライセンスの詳細は以下をご覧ください：
-https://creativecommons.org/licenses/by/4.0/deed.ja
-© 2025 Miki Yoshida
+この作品は、
+クリエイティブ・コモンズ 表示 4.0 国際 (CC BY 4.0) ライセンス
+の下で提供されています。  
+ライセンスの詳細は以下をご覧ください：  
+https://creativecommons.org/licenses/by/4.0/deed.ja  
+© 2025 Miki Yoshida  
 
 ---
 
