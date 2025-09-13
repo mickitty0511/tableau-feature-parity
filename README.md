@@ -160,7 +160,7 @@ tableau-feature-parity/
 
 
 この作品は、
-クリエイティブ・コモンズ 表示 4.0 国際 (CC BY 4.0) ライセンス
+クリエイティブ・コモンズ 表示 4.0 国際 (CC BY 4.0) ライセンス  
 の下で提供されています。  
 ライセンスの詳細は以下をご覧ください：  
 https://creativecommons.org/licenses/by/4.0/deed.ja  
