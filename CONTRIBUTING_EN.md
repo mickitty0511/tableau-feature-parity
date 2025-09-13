@@ -10,7 +10,6 @@ By contributing to this repository (including code, documents, images, or other 
 - You retain copyright of your contributions, but you agree to make them available under CC BY 4.0.
 - If you include third-party content, please ensure it is compatible with CC BY 4.0.
 
-
 ## 📑 Table of Contents
 
 - [Project Purpose](#-project-purpose)
