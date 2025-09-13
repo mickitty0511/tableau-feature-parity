@@ -2,6 +2,15 @@
 
 Thank you for your interest in contributing to the Tableau Feature Parity project! This guide explains how to contribute to the project in detail.
 
+# Contribution Guidelines
+
+By contributing to this repository (including code, documents, images, or other works), you agree that:
+
+- All contributions will be released under the same license as the repository: **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**.
+- You retain copyright of your contributions, but you agree to make them available under CC BY 4.0.
+- If you include third-party content, please ensure it is compatible with CC BY 4.0.
+
+
 ## 📑 Table of Contents
 
 - [Project Purpose](#-project-purpose)

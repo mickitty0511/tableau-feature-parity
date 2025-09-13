@@ -2,6 +2,15 @@
 
 Tableau Feature Parity プロジェクトへのご協力ありがとうございます！このガイドでは、プロジェクトへの貢献方法を詳しく説明します。
 
+# コントリビューションガイドライン
+
+このリポジトリへのコントリビューション（コード、ドキュメント、画像、その他の成果物）を行う場合、
+以下の方針に同意したものとみなします。
+
+- すべてのコントリビューションは、リポジトリ全体と同様に **[クリエイティブ・コモンズ 表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja)** の下で公開されます。
+- あなたが作成したコンテンツを投稿する場合、その著作権を保持したまま、CC BY 4.0 に基づいて利用可能にすることに同意していただきます。
+- 他者の著作物を含める場合は、必ずその利用がCC BY 4.0で許諾可能であることを確認してください。
+
 ## 📑 目次
 
 - [プロジェクトの目的](#-プロジェクトの目的)
@@ -27,27 +36,58 @@ Tableau CloudとTableau Desktopの機能差異を体系的に文書化し、Tabl
 
 ### 1. 🐛 新しい機能差異の報告
 
-**手順:**
-1. [Issues](https://github.com/mickitty0511/tableau-feature-parity/issues/new/choose)から新しいIssueを作成
-2. 適切なラベルを選択：
-   - **必須ラベル**
-    - `cloud-only`: Tableau Cloudでのみ利用可能
-    - `desktop-only`: Tableau Desktopでのみ利用可能  
-    - `both-different`: 両方にあるが動作が異なる
-   - **任意ラベル**
-    - `operationally-critical`: 業務に大きく影響
-    - `ver-YYYY-X.X`: あるバージョンにだけ存在
+#### Claude Code を使用した効率的な記事作成（推奨）
 
-3. Issue テンプレートに従って情報を記入
+**事前準備:**
+1. Claude Code をインストール（詳細は別途記事を参照）
+2. このリポジトリをフォーク・クローン
+   ```bash
+   git clone https://github.com/[your-username]/tableau-feature-parity.git
+   cd tableau-feature-parity
+   ```
 
-**必要な情報:**
-- **機能名**: 具体的な機能名や操作名
-- **動作の違い**: Cloud/Desktopでの具体的な違い
-- **操作手順**: 再現可能な手順
-- **スクリーンショット/動画**: 可能な限り添付
-- **環境情報**: Tableauバージョン
+**作業手順:**
 
----
+**Step 1: 既存の記事構造を確認し作成**
+srcフォルダの各カテゴリにある記事のフォルダ構造は統一しています。参考にして作成してください。
+日本語記事のみ作成のため、jpフォルダのみ作成となります。
+例: (access_sheet_tab_context_menu)[src/both-different/access_sheet_tab_context_menu/jp]
+
+**Step 2: スクリーンショット・動画追加**
+フォルダ作成の次に、jpフォルダ内に画像を保存してください。以下の通りの構成とファイル命名規則で統一します
+例: (access_sheet_tab_context_menu)[src/both-different/access_sheet_tab_context_menu/jp/img]
+
+```
+src/[category]/[feature_name]/jp/img/
+  ┗cloud Cloud版の画像を保存
+  ┗desktop Desktop版の画像を保存
+```
+画像ファイル命名規則: `[機能名]_[環境]_jp.png`
+
+**Step 3: Claude Code カスタムコマンドでIssue作成**
+# プロジェクト固有のカスタムコマンドを使用
+(draft-issue)[.claude/commands/draft-issue.md]コマンドでGitHub Issueのドラフトを作成できます。
+Claude Code内でカスタムコマンドとして定義されていますので、Claude Codeで以下のようにコマンドを入力し、実行ください
+```bash
+/draft-issue @<記事フォルダパス, @を入力すると記事フォルダパスを検索、レコメンドされます>
+```
+
+**Step 4: Claude Code カスタムコマンドで日本語の記事生成**
+(article)[.claude/commands/article.md]コマンドで記事を作成できます。
+Claude Code内でカスタムコマンドとして定義されていますので、Claude Codeで以下のようにコマンドを入力し、実行ください
+```bash
+/article @<記事フォルダパス>
+```
+
+**Step 5: 記事修正**
+作成された文章を確認し、正しい内容へ修正してください。
+手順など正確な内容に更新してもらえますと、すぐに記事の公開ができます。
+
+**Step 6: 最終確認・Pull Request**
+Claude Code
+```bash
+tf-pull-req
+```
 
 ### 2. 📝 既存分析の改善
 
@@ -63,49 +103,13 @@ Tableau CloudとTableau Desktopの機能差異を体系的に文書化し、Tabl
 
 ### 3. 🔍 検証・確認作業
 
-他のユーザーの報告を検証してください：
+Tableau Cloud・Desktop間で検証してください：
 - 同じ環境での動作確認
-- 異なるバージョンでの検証
-- 追加の検証観点の提供
+- 最新バージョンでの検証
 
 ## 📝 文書作成のガイドライン
+Claude Codeの![articleコマンド](./claude/commands/article.md)に定義しています
 
-### ファイル命名規則
-```
-機能名_または_操作名.md
-例: export_dashboard_story_image.md
-```
-
-### 文書構造
-```markdown
-# 機能名
-
-## 概要
-簡潔な機能説明
-
-## Cloud vs Desktop の違い
-具体的な違いを明記
-
-## 操作手順
-### Tableau Cloud
-1. 手順1
-2. 手順2
-
-### Tableau Desktop  
-1. 手順1
-2. 手順2
-
-## スクリーンショット
-![説明](パス/画像.png)
-
-## 影響度
-- **レベル**: 高/中/低
-- **理由**: 具体的な理由
-
-## 関連情報
-- 関連する機能差異
-- 参考リンク
-```
 
 ### 画像・動画のガイドライン
 - **保存場所**: `src/` 配下の適切なカテゴリフォルダ
@@ -145,7 +149,6 @@ Tableau CloudとTableau Desktopの機能差異を体系的に文書化し、Tabl
 ## ❓ 質問・サポート
 
 - **Issues**: 技術的な質問や提案
-- **Discussions**: 一般的な議論や意見交換
 
 ## 📋 品質基準
 
