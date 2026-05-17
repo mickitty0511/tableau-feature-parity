@@ -29,7 +29,7 @@ Tableau Cloud and Tableau Desktop are designed for different environments and of
 | Project name search when publishing | [#11](https://github.com/mickitty0511/tableau-feature-parity/issues/11) |
 | View URL doesn't change when worksheet name is changed | [#10](https://github.com/mickitty0511/tableau-feature-parity/issues/10) |
 
-🖥️ **Desktop-only** (Features available only in Tableau Desktop) 
+🖥 **Desktop-only** (Features available only in Tableau Desktop) 
 
 | Feature Name | Issue |
 |--------------|-------|
@@ -93,7 +93,7 @@ Tableau Cloud and Tableau Desktop are designed for different environments and of
 | Analysis tab table layout (empty row/column display and other design options) | [#21](https://github.com/mickitty0511/tableau-feature-parity/issues/21) |
 | User switching option for data visibility difference confirmation | [#19](https://github.com/mickitty0511/tableau-feature-parity/issues/19) |
 
-⚖️ **Both-different** (Features that exist in both but behave differently)
+⚖ **Both-different** (Features that exist in both but behave differently)
 
 | Feature Name | Issue |
 |--------------|-------|

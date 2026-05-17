@@ -29,7 +29,7 @@ Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を�
 | パブリッシュ時のプロジェクト名検索 | [#11](https://github.com/mickitty0511/tableau-feature-parity/issues/11) |
 | ワークシート名が変更されてもビューURLが変わらない | [#10](https://github.com/mickitty0511/tableau-feature-parity/issues/10) |
 
-🖥️ Desktop-only (Tableau Desktopでのみ利用可能) 
+🖥 Desktop-only (Tableau Desktopでのみ利用可能) 
 
 | 機能名 | Issue |
 |--------|-------|
@@ -93,7 +93,7 @@ Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を�
 | 分析タブのテーブルレイアウト（空の行/列表示とその他のデザインオプション） | [#21](https://github.com/mickitty0511/tableau-feature-parity/issues/21) |
 | データ可視性差異確認のユーザー切替オプション | [#19](https://github.com/mickitty0511/tableau-feature-parity/issues/19) |
 
-⚖️ Both-different (両方にあるが動作が異なる)
+⚖ Both-different (両方にあるが動作が異なる)
 
 | 機能名 | Issue |
 |--------|-------|

@@ -1,0 +1,21 @@
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build and scratch outputs
+dist/
+build/
+out/
+tmp/
+temp/
+
+# Logs and generated files
+*.log
+coverage/

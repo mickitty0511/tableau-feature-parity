@@ -21,7 +21,7 @@ By contributing to this repository (including code, documents, images, or other 
   - [File Naming Rules](#file-naming-rules)
   - [Document Structure](#document-structure)
   - [Image and Video Guidelines](#image-and-video-guidelines)
-- [Label Usage](#️-label-usage)
+- [Label Usage](#-label-usage)
 - [Pull Request Guidelines](#-pull-request-guidelines)
 - [Questions and Support](#-questions-and-support)
 - [Quality Standards](#-quality-standards)
@@ -122,7 +122,7 @@ Specify concrete differences
   - Static images: PNG, JPG
   - Videos: GIF
 
-## 🏷️ Label Usage
+## 🏷 Label Usage
 
 ### Feature Categories
 - `cloud-only`: Cloud-exclusive features
@@ -173,7 +173,7 @@ All contributors will be listed in the contributors section of `README.md`.
 
 ---
 
-**⚠️ Important Notes**:
+**⚠ Important Notes**:
 - This project is unofficial
 - Not an official position of Tableau Inc.
 - Features may change depending on product versions
