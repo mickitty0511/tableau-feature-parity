@@ -5,6 +5,7 @@
 
 ## 今回の成果物
 - `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-summary.pptx`
+- `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-summary-en.pptx`
 - 対象記事:
   - `src/cloud-only/drag_items_in_dashboard_layout/jp/drag_items_in_dashboard_layout_ja.md`
   - `src/desktop-only/adjust_tooltip_layout/jp/adjust_tooltip_layout_ja.md`
@@ -13,6 +14,8 @@
 ## スコープ
 - Tableau Cloud-only と Desktop-only の差分を、説明用PPTXとして簡潔にまとめる。
 - 対象 Issue は #12、#22、#27 に限定する。
+- 発表スクリプトに記録された「Cloud と Desktop の両方を使うユーザー支援で感じた課題」を、プロジェクトの目的と経緯として冒頭に反映する。
+- 日本語版の可読性修正が完了した後、同じ構成の英語版PPTXを作成する。
 
 ## 非スコープ
 - Tableau 製品仕様の網羅的な最新確認。
@@ -30,6 +33,9 @@
 - REQ-03: #22 と #27 を Desktop-only の代表例として説明する。
 - REQ-04: 各差分について、利用可能環境、操作価値、注意点を1枚で理解できる構成にする。
 - REQ-05: PPTX内の主要テキストは編集可能なPowerPointテキストとして保持する。
+- REQ-06: 目的スライドでは、Cloud と Desktop の両方を使うユーザー支援で生じた「同じ機能名でもできることや操作感が異なる」という体験を明示する。
+- REQ-07: 日本語版では、文字がオブジェクト高さで切れないこと、改行が文章理解を妨げないことをレンダリング画像で確認する。
+- REQ-08: 日本語版が修正基準を満たした後、英語版PPTXを同じストーリーラインで提供する。
 
 ## 非機能要件
 - NFR-01: スライドは16:9で作成する。
