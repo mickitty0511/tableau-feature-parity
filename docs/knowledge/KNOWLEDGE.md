@@ -16,6 +16,7 @@
 - `docs/knowledge/constraints.md`
 - 2026-05-17: `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-summary.pptx` を作成。検証記録は `tmp/slides/tableau-feature-diff-summary/` に保存。
 - 2026-05-18: 発表スクリプト由来の目的と経緯を反映し、日本語版の文字切れ・改行を修正。修正基準確認後、`docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-summary-en.pptx` を追加。
+- 2026-05-19: 日本語版・英語版PPTXの可読性を再確認し、小さく見える下段カード本文、画像キャプション、フッター表記を調整。
 
 ## 4. 更新ルール
 - 新しい資料を追加したら、この索引へ追記する。
