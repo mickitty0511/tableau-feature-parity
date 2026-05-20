@@ -21,4 +21,7 @@
 - Use project-local scratch directories such as `tmp/` for generated intermediate files.
 - Do not store secrets or environment files in the repository.
 
+## Shortcut Commands
+- `:ppt`: Treat the request as PowerPoint / presentation-material work. Use the PowerPoint skill for `.pptx` artifacts and use docs-ops for human-facing material traceability before final reporting.
+
 </INSTRUCTIONS>

@@ -15,6 +15,11 @@
 - Rationale: 英語版の一部カード本文が横一行で自動縮小され、発表時に小さく見えるリスクがあったため。
 - Impact: 日本語版・英語版とも、主要本文と補助ラベルの視認性が上がる。
 
+## 2026-05-20: `:ppt` ショートカット追加
+- Decision: プロジェクトの `AGENTS.md` に `:ppt` を PowerPoint / 発表資料作業用ショートカットとして追加する。
+- Rationale: ユーザーが短縮コマンドでPPTX作成・修正・検証作業を開始できるようにするため。
+- Impact: `:ppt` で始まる依頼は、このプロジェクト内ではPowerPointスキルとdocs-opsトレーサビリティを使う資料作業として扱う。
+
 ## 2026-05-17: pre-check blocker対応
 - Decision: U+FE0F Variation Selector を既存文書とコマンド文書から機械除去する。
 - Rationale: `pre-check-security --profile dev-ops` が blocking として検出し、実装ゲートを通過できなかったため。
