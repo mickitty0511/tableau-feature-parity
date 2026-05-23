@@ -20,6 +20,11 @@
 - Rationale: ユーザーが短縮コマンドでPPTX作成・修正・検証作業を開始できるようにするため。
 - Impact: `:ppt` で始まる依頼は、このプロジェクト内ではPowerPointスキルとdocs-opsトレーサビリティを使う資料作業として扱う。
 
+## 2026-05-23: 発表スクリプト二言語化
+- Decision: PPTX成果物に対応する発表スクリプトを、日本語版と英語版の2ファイルで追加する。
+- Rationale: 日本語版・英語版それぞれの発表で、同じ7枚構成に沿って説明できるようにするため。
+- Impact: 発表者はPPTXと同じ順序で、目的、3つの機能差分、使い分けの結論を説明できる。
+
 ## 2026-05-17: pre-check blocker対応
 - Decision: U+FE0F Variation Selector を既存文書とコマンド文書から機械除去する。
 - Rationale: `pre-check-security --profile dev-ops` が blocking として検出し、実装ゲートを通過できなかったため。

@@ -5,8 +5,8 @@
 - `is_design_ground_rule_initialized`: true
 
 ## Current Task
-- ID: `AGENTS-SHORTCUT-PPT-001`
-- Title: `AGENTS.md :ppt ショートカット追加`
+- ID: `PPTX-SCRIPT-BILINGUAL-001`
+- Title: `Tableau Cloud vs Desktop 発表スクリプト日本語版・英語版追加`
 - Status: `done`
 - Worktree: `~/.codex/worktrees/1f7d/tableau-feature-parity`
 - Branch: `codex/tableau-feature-diff-pptx`
@@ -32,21 +32,23 @@
 - `final_check_done`: true
 
 ## Task Checklist
-- [x] 追加対象をプロジェクトローカルの `AGENTS.md` と判断する。
-- [x] `:ppt` を PowerPoint / 発表資料作業用ショートカットとして `AGENTS.md` に追記する。
-- [x] docs-ops として TODO/knowledge を同期する。
+- [x] 既存の発表スクリプト有無を確認する。
+- [x] 日本語版PPTXに対応する発表スクリプトを追加する。
+- [x] 英語版PPTXに対応する発表スクリプトを追加する。
+- [x] docs-ops として specs/design/usecase/TODO/knowledge を同期する。
 - [x] タスク関連ファイルをコミットする。
 
 ## Verification Plan
-- Unit test: NO. ガバナンス文書の更新のみのため。
+- Unit test: NO. 文書成果物の追加のみのため。
 - E2E test: NO. ブラウザUIまたはデスクトップGUIのユーザー操作変更ではないため。
-- Artifact verification: NO. PPTX成果物の変更ではないため。
+- Artifact verification: YES. Markdownスクリプトが日本語版・英語版とも7枚構成に対応していることを確認する。
 
 ## Verification Results
-- AGENTS rule verification: PASS. `AGENTS.md` に `:ppt` のショートカット定義が存在することを確認。
+- Script creation: PASS. `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-ja.md` と `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-en.md` を追加。
+- Script structure verification: PASS. 日本語版・英語版とも `Slide 1` から `Slide 7` の見出しがあることを確認。
 - Home path literal audit: PASS. `check_home_path_literals.ps1 -RepoRoot . -TargetPaths docs` でユーザー固有ホーム絶対パスなし。
 - Pre-check: PASS with warning. `pre-check-security --profile dev-ops` は blocking 0、既存PPTXの opaque warning 2。
-- Security delta review: PASS. ランタイム挙動・外部I/O・秘密情報処理の追加なし。AGENTS/TODO/knowledge の文書更新のみ。
+- Security delta review: PASS. ランタイム挙動・外部I/O・秘密情報処理の追加なし。Markdown発表スクリプトと関連文書の追加のみ。
 - Threat delta review: PASS. 新しい信頼境界、ユーザー入力処理、外部サービス連携は追加していない。
 - Logging rationale: アプリのランタイム挙動変更はないため診断ログ追加は不要。
 
@@ -58,3 +60,4 @@
 - 2026-05-18: 発表スクリプト由来の体験を目的スライドへ反映し、日本語版の文字切れ・改行を修正したうえで英語版PPTXを追加。
 - 2026-05-19: 日本語版・英語版の小さく見える文字を再点検し、下段カード本文、画像キャプション、フッター表記のサイズを調整。
 - 2026-05-20: `AGENTS.md` に `:ppt` ショートカットを追加し、PowerPoint / 発表資料作業の開始合図として定義。
+- 2026-05-23: 日本語版・英語版PPTXに対応する発表スクリプトMarkdownを追加。

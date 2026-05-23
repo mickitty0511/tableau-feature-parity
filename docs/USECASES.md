@@ -4,6 +4,7 @@
 | Feature ID | Implemented feature / behavior | Use Case ID | E2E scenario/test ID | Target surface | Execution status | Result evidence | Blocker / no-E2E rationale |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | FEAT-PPTX-001 | Tableau Cloud vs Desktop 機能差分紹介PPTX作成・日本語版可読性修正・英語版追加 | UC-PPTX-001 | E2E-N/A | PowerPoint artifact | pass | `tmp/slides/tableau-feature-diff-summary/preview-ja/`, `preview-en/`, `inspect-ja.ndjson`, `inspect-en.ndjson` | UI/アプリ挙動変更ではないためE2E対象外 |
+| FEAT-SCRIPT-001 | 日本語版・英語版の発表スクリプト追加 | UC-SCRIPT-001 | E2E-N/A | Markdown presentation script | pass | `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-ja.md`, `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-en.md` | 文書成果物のためE2E対象外 |
 
 ## UC-PPTX-001: 機能差分紹介PPTXを確認する
 
@@ -45,3 +46,36 @@
 - Execution command or Browser Use path: PPTX builder render/export command
 - Result evidence: PASS. `tmp/slides/tableau-feature-diff-summary/preview-ja/`, `preview-en/`, `inspect-ja.ndjson`, and `inspect-en.ndjson`
 - Blocker / no-E2E rationale: 資料生成のみでユーザー操作面の実装変更がないため。
+
+## UC-SCRIPT-001: 発表スクリプトを確認する
+
+### 目的
+- 発表者が日本語版・英語版PPTXに対応した説明内容を確認し、スライド順に話せるようにする。
+
+### 事前条件
+- 日本語版・英語版PPTXが生成済みである。
+- 対応する発表スクリプトMarkdownが存在する。
+
+### 主フロー
+1. ユーザー: 日本語版または英語版の発表スクリプトを開く。
+2. システム: 7枚のスライド順に対応した話者用スクリプトを表示する。
+3. ユーザー: 目的、対象3差分、まとめの順に説明内容を確認する。
+
+### 代替/例外フロー
+1. PPTX本文が更新された場合、対応する発表スクリプトも同じスライド構成に合わせて更新する。
+
+### 完了条件
+- 日本語版スクリプトに7枚分のスライド見出しと本文がある。
+- 英語版スクリプトに7枚分のスライド見出しと本文がある。
+- スクリプト内容がPPTXの目的、差分説明、結論と矛盾しない。
+
+### E2E Coverage
+- E2E scenario/test ID: E2E-N/A
+- Target surface: Markdown presentation script
+- Required assertions:
+  - 日本語版・英語版とも7枚構成に対応する。
+  - 対象3差分 #12/#22/#27 を説明している。
+  - PPTXの目的と結論に矛盾しない。
+- Execution command or Browser Use path: Markdown content review
+- Result evidence: PASS. `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-ja.md` and `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-en.md`
+- Blocker / no-E2E rationale: 文書成果物のみでユーザー操作面の実装変更がないため。

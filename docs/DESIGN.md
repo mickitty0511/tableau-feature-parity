@@ -11,6 +11,8 @@
 - Slide count: 7
 - Output: `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-summary.pptx`
 - English output: `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-summary-en.pptx`
+- Japanese script: `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-ja.md`
+- English script: `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-en.md`
 - Scratch: `tmp/slides/tableau-feature-diff-summary/`
 
 ## Narrative
@@ -38,4 +40,5 @@
 - 日本語版PPTXをPNGにレンダリングし、文字切れと理解を妨げる改行がないことを目視確認する。
 - 日本語版の修正基準を満たした後、英語版PPTXを生成して同じ基準で確認する。
 - 主要テキストが日本語版・英語版の検査記録に含まれることを確認する。
+- 発表スクリプトが日本語版・英語版とも7枚構成に対応していることを確認する。
 - `pre-check-security` を再実行し、blocking findings がないことを確認する。
