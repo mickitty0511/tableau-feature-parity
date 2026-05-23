@@ -25,10 +25,10 @@
 - Slide 7: 使い分けのまとめ
 
 ## Visual Direction
-- Tone: 業務説明向け、落ち着いた分析資料
-- Palette: Tableau blue `#1F77B4`, Cloud accent `#2CB1BC`, Desktop accent `#5B67D8`, paper background `#F8FAFC`, ink `#0F172A`
+- Tone: 業務説明向け、CCC提案書フォーマットに寄せた白基調の資料
+- Palette: white `#FFFFFF`, ink `#111111`, muted gray `#666666`, faint gray `#F3F3F3`, line black `#111111`
 - Typography: Japanese-compatible sans-serif, PowerPoint fallback-safe fonts
-- Layout: 左に要点、右にスクリーンショットまたは比較カードを配置する。
+- Layout: 表紙は中央寄せ、本文は左上斜線とヘッダー罫線を持つ提案書レイアウト。本文スライドは左に要点、右にスクリーンショット、または罫線テーブルを配置する。
 
 ## Design Constraints
 - 主要コピーは編集可能なテキストボックスで作成する。
@@ -37,6 +37,7 @@
 - `.env` 等の環境ファイルは作成しない。秘密情報が必要な作業ではない。
 
 ## Verification
+- CCC提案書マスターの表紙・本文スライドをレンダリングし、主要な視覚要素を日本語版PPTXへ反映する。
 - 日本語版PPTXをPNGにレンダリングし、文字切れと理解を妨げる改行がないことを目視確認する。
 - 日本語版の修正基準を満たした後、英語版PPTXを生成して同じ基準で確認する。
 - 主要テキストが日本語版・英語版の検査記録に含まれることを確認する。

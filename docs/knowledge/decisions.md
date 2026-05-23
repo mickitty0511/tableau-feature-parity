@@ -25,6 +25,11 @@
 - Rationale: 日本語版・英語版それぞれの発表で、同じ7枚構成に沿って説明できるようにするため。
 - Impact: 発表者はPPTXと同じ順序で、目的、3つの機能差分、使い分けの結論を説明できる。
 
+## 2026-05-23: 日本語版PPTXのCCCマスター反映
+- Decision: 日本語版PPTXを `CCC 提案書フォーマット.pptx` の視覚言語に寄せて再生成する。
+- Rationale: ユーザー指定の提案書マスターに合わせ、社内資料として使いやすい白基調・黒罫線中心の見た目にするため。
+- Impact: 日本語版はCCC提案書フォーマット寄せになる。英語版PPTXは今回の対象外として既存デザインを維持する。
+
 ## 2026-05-17: pre-check blocker対応
 - Decision: U+FE0F Variation Selector を既存文書とコマンド文書から機械除去する。
 - Rationale: `pre-check-security --profile dev-ops` が blocking として検出し、実装ゲートを通過できなかったため。

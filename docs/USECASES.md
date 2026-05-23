@@ -3,7 +3,7 @@
 ## Implementation-to-E2E Coverage Matrix
 | Feature ID | Implemented feature / behavior | Use Case ID | E2E scenario/test ID | Target surface | Execution status | Result evidence | Blocker / no-E2E rationale |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FEAT-PPTX-001 | Tableau Cloud vs Desktop 機能差分紹介PPTX作成・日本語版可読性修正・英語版追加 | UC-PPTX-001 | E2E-N/A | PowerPoint artifact | pass | `tmp/slides/tableau-feature-diff-summary/preview-ja/`, `preview-en/`, `inspect-ja.ndjson`, `inspect-en.ndjson` | UI/アプリ挙動変更ではないためE2E対象外 |
+| FEAT-PPTX-001 | Tableau Cloud vs Desktop 機能差分紹介PPTX作成・日本語版CCCマスター反映・英語版追加 | UC-PPTX-001 | E2E-N/A | PowerPoint artifact | pass | `tmp/slides/tableau-feature-diff-summary/preview-ja/`, `preview-en/`, `inspect-ja.ndjson`, `inspect-en.ndjson` | UI/アプリ挙動変更ではないためE2E対象外 |
 | FEAT-SCRIPT-001 | 日本語版・英語版の発表スクリプト追加 | UC-SCRIPT-001 | E2E-N/A | Markdown presentation script | pass | `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-ja.md`, `docs/tech-posts/post/tableau-cloud-vs-desktop-feature-diff-presentation-script-en.md` | 文書成果物のためE2E対象外 |
 
 ## UC-PPTX-001: 機能差分紹介PPTXを確認する
@@ -34,6 +34,7 @@
 - 対象3差分がそれぞれ1枚以上で説明されている。
 - 目的と経緯スライドに、発表スクリプト由来のユーザー支援体験が含まれている。
 - 日本語版の文字切れと理解を妨げる改行が解消されている。
+- 日本語版PPTXがCCC提案書マスター由来の白基調、薄いウォーターマーク、左上斜線、黒罫線中心の表現に寄っている。
 - 主要コピーが編集可能なテキストとして残っている。
 
 ### E2E Coverage
@@ -42,6 +43,7 @@
 - Required assertions:
   - 日本語版・英語版の全スライドがレンダリングできる。
   - 文字切れや主要要素の重なりがない。
+  - 日本語版はCCC提案書マスターの表紙・本文スライドの視覚言語を反映している。
   - 主要コピーが検査記録に含まれる。
 - Execution command or Browser Use path: PPTX builder render/export command
 - Result evidence: PASS. `tmp/slides/tableau-feature-diff-summary/preview-ja/`, `preview-en/`, `inspect-ja.ndjson`, and `inspect-en.ndjson`
