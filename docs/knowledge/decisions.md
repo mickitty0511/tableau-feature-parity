@@ -30,6 +30,11 @@
 - Rationale: ユーザー指定の提案書マスターに合わせ、社内資料として使いやすい白基調・黒罫線中心の見た目にするため。
 - Impact: 日本語版はCCC提案書フォーマット寄せになる。英語版PPTXは今回の対象外として既存デザインを維持する。
 
+## 2026-05-26: branch・worktree統合
+- Decision: `codex/tableau-feature-diff-pptx` を `main` へ統合する。
+- Rationale: PPTX作成、可読性修正、英語版、発表スクリプト、CCCマスター反映、ショートカット追加が検証済みで、統合条件を満たしたため。
+- Impact: mainに資料成果物と関連ドキュメントが反映される。作業worktreeに未関係の未コミット差分が残る場合は、worktree削除を保留する。
+
 ## 2026-05-17: pre-check blocker対応
 - Decision: U+FE0F Variation Selector を既存文書とコマンド文書から機械除去する。
 - Rationale: `pre-check-security --profile dev-ops` が blocking として検出し、実装ゲートを通過できなかったため。
