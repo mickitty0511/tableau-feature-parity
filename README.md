@@ -1,174 +1,179 @@
 # Tableau Feature Parity - Cloud vs Desktop
 
-<a href="README_EN.md"><img src="https://img.shields.io/badge/Documentation-English-blue.svg" alt="EN doc"/></a>
+<a href="README_JP.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
 
-このプロジェクトは、Tableau CloudとTableau Desktopの機能差異を体系的に文書化し、比較分析するためのリポジトリです。
+This repository systematically documents and analyzes feature differences between Tableau Cloud and Tableau Desktop to support Tableau users' decision-making.
 
-## プロジェクト概要
+## Project Overview
 
-Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を想定しており、提供される機能にも差異があります。このプロジェクトでは、実際のユーザー体験に基づいて機能差異を詳細に記録し、Tableauユーザーの意思決定をサポートすることを目的としています。
+Tableau Cloud and Tableau Desktop are designed for different environments and offer varying feature sets. This project aims to provide detailed documentation of feature differences based on actual user experiences, helping Tableau users make informed decisions.
 
-## 機能分類
+## Feature Classification
 
-🌐 Cloud-only (Tableau Cloudでのみ利用可能)
+☁️🖥️ **Cloud / Desktop availability**
 
-| 機能名 | Issue |
-|--------|-------|
-| 3つのタイプのデフォルトカラーパレット選択 | [#96](https://github.com/mickitty0511/tableau-feature-parity/issues/96) |
-| カラーパレット選択オプションへのアクセス | [#95](https://github.com/mickitty0511/tableau-feature-parity/issues/95) |
-| 高度なワークブック制御コマンド | [#93](https://github.com/mickitty0511/tableau-feature-parity/issues/93) |
-| インタラクティブコントロール | [#79](https://github.com/mickitty0511/tableau-feature-parity/issues/79) |
-| ビュー | [#78](https://github.com/mickitty0511/tableau-feature-parity/issues/78) |
-| サイズマークから値として入力 | [#18](https://github.com/mickitty0511/tableau-feature-parity/issues/18) |
-| 地理的ロールのCreate fromオプション（文字列フィールドでも利用可能） | [#17](https://github.com/mickitty0511/tableau-feature-parity/issues/17) |
-| ツールバー：合計オプション、ワークブック書式設定、ダウンロード | [#16](https://github.com/mickitty0511/tableau-feature-parity/issues/16) |
-| メジャー名のコンテキストメニューでの説明表示 | [#15](https://github.com/mickitty0511/tableau-feature-parity/issues/15) |
-| ワークブック下書きの自動保存 | [#14](https://github.com/mickitty0511/tableau-feature-parity/issues/14) |
-| テキスト編集モードでのハイパーリンクと表示名の追加・変更 | [#13](https://github.com/mickitty0511/tableau-feature-parity/issues/13) |
-| ダッシュボードレイアウト階層でのアイテムのドラッグアンドドロップ | [#12](https://github.com/mickitty0511/tableau-feature-parity/issues/12) |
-| パブリッシュ時のプロジェクト名検索 | [#11](https://github.com/mickitty0511/tableau-feature-parity/issues/11) |
-| ワークシート名が変更されてもビューURLが変わらない | [#10](https://github.com/mickitty0511/tableau-feature-parity/issues/10) |
+| Feature name | Cloud | Desktop |
+|--------------|-------|---------|
+| [Three types of default color palette selection](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/set_default_color_palette_types/en/set_default_color_palette_types_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/set_default_color_palette_types/en/set_default_color_palette_types_en.md) | ー |
+| [Access to color palette selection options](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/access_color_palette_options/en/access_color_palette_options_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/access_color_palette_options/en/access_color_palette_options_en.md) | ー |
+| [Advanced workbook control commands](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/advanced_workbook_control/en/advanced_workbook_control_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/advanced_workbook_control/en/advanced_workbook_control_en.md) | ー |
+| [Interactive controls](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/edit_interactive_control/en/edit_interactive_control_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/edit_interactive_control/en/edit_interactive_control_en.md) | ー |
+| [Views](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/manage_advanced_view_options/en/manage_advanced_view_options_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/manage_advanced_view_options/en/manage_advanced_view_options_en.md) | ー |
+| [Input as value from size mark](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/input_size_mark/en/input_size_mark_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/input_size_mark/en/input_size_mark_en.md) | ー |
+| [Create from option for geographic roles (available for string fields too)](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/create_geographic_role/en/create_geographic_role_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/create_geographic_role/en/create_geographic_role_en.md) | ー |
+| [Toolbar: totals option, workbook formatting, download](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/configure_toolbar_options/en/configure_toolbar_options_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/configure_toolbar_options/en/configure_toolbar_options_en.md) | ー |
+| [Description display in measure name context menu](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/display_measure_name_description/en/display_measure_name_description_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/display_measure_name_description/en/display_measure_name_description_en.md) | ー |
+| [Auto-save workbook drafts](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/autosave_workbook/en/autosave_workbook_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/autosave_workbook/en/autosave_workbook_en.md) | ー |
+| [Add/change hyperlinks and display names in text edit mode](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/edit_hyperlink/en/edit_hyperlink_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/edit_hyperlink/en/edit_hyperlink_en.md) | ー |
+| [Drag and drop items in dashboard layout hierarchy](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/drag_items_in_dashboard_layout/en/drag_items_in_dashboard_layout_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/drag_items_in_dashboard_layout/en/drag_items_in_dashboard_layout_en.md) | ー |
+| [Project name search when publishing](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/search_project_publish/en/search_project_publish_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/search_project_publish/en/search_project_publish_en.md) | ー |
+| [View URL doesn't change when worksheet name is changed](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/keep_consistent_view_url/en/keep_consistent_view_url_en.md) | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/cloud-only/keep_consistent_view_url/en/keep_consistent_view_url_en.md) | ー |
+| [Clear single formatting in format pane](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/clear-single-format/en/clear_single_format_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/clear-single-format/en/clear_single_format_en.md) |
+| [Status bar display toggle](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_statusbar/en/toggle_statusbar_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_statusbar/en/toggle_statusbar_en.md) |
+| [Set editing](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/edit_set/en/edit_set_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/edit_set/en/edit_set_en.md) |
+| [Performance recording](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_performance_recording/en/enable_performance_recording_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_performance_recording/en/enable_performance_recording_en.md) |
+| [Data source paste](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/paste_datasource/en/paste_datasource_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/paste_datasource/en/paste_datasource_en.md) |
+| [Save as workbook](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/save_as_workbook/en/save_as_workbook_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/save_as_workbook/en/save_as_workbook_en.md) |
+| [Summary display](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/show_summary/en/show_summary_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/show_summary/en/show_summary_en.md) |
+| [Wildcard union](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/manage_wildcard_union/en/manage_wildcard_union_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/manage_wildcard_union/en/manage_wildcard_union_en.md) |
+| [Fixed default map zoom](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/fix_default_map_zoom/en/fix_default_map_zoom_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/fix_default_map_zoom/en/fix_default_map_zoom_en.md) |
+| [Map layer creation](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/create_map_layers/en/create_map_layers_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/create_map_layers/en/create_map_layers_en.md) |
+| [Context menu for shelf blank areas](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/access_shelf_area_context_menu/en/access_shelf_area_context_menu_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/access_shelf_area_context_menu/en/access_shelf_area_context_menu_en.md) |
+| [Workbook theme options in formatting](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_tableau_workbook_themes/en/set_tableau_workbook_themes_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_tableau_workbook_themes/en/set_tableau_workbook_themes_en.md) |
+| [User filter settings](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_user_filters/en/configure_user_filters_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_user_filters/en/configure_user_filters_en.md) |
+| [Toolbar display toggle](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_toolbar/en/toggle_toolbar_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_toolbar/en/toggle_toolbar_en.md) |
+| [Story formatting](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_story_format/en/configure_story_format_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_story_format/en/configure_story_format_en.md) |
+| [Sheet sorter, filmstrip, tab display options](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_sheet_tabs_display/en/toggle_sheet_tabs_display_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_sheet_tabs_display/en/toggle_sheet_tabs_display_en.md) |
+| [Story back/forward button show/hide](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_story_navigation/en/toggle_story_navigation_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_story_navigation/en/toggle_story_navigation_en.md) |
+| [Shelf, parameter, legend repositioning in worksheet edit screen](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/arrange_workspace_layout/en/arrange_workspace_layout_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/arrange_workspace_layout/en/arrange_workspace_layout_en.md) |
+| [Export single sheet as workbook file](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/export_sheets_as_workbook/en/export_sheets_as_workbook_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/export_sheets_as_workbook/en/export_sheets_as_workbook_en.md) |
+| [Export all data from connected data source to local CSV or Hyper](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/export_data_source/en/export_data_source_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/export_data_source/en/export_data_source_en.md) |
+| [Reference lines available](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_drop_lines/en/enable_drop_lines_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_drop_lines/en/enable_drop_lines_en.md) |
+| [Worksheet blank area context menu (shelf, legend, parameter, caption, summary toggle)](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_shelf_visibility/en/toggle_shelf_visibility_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_shelf_visibility/en/toggle_shelf_visibility_en.md) |
+| [Data pane blank area context menu](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/access_data_pane_context_menu/en/access_data_pane_context_menu_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/access_data_pane_context_menu/en/access_data_pane_context_menu_en.md) |
+| [String field conversion options in data source pane](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/convert_string_fields/en/convert_string_fields_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/convert_string_fields/en/convert_string_fields_en.md) |
+| [Important worksheet bookmark function](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_workbook_bookmarks/en/enable_workbook_bookmarks_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_workbook_bookmarks/en/enable_workbook_bookmarks_en.md) |
+| [Rich print options from file tab](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/access_rich_print_options/en/access_rich_print_options_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/access_rich_print_options/en/access_rich_print_options_en.md) |
+| [Add version name to workbook file when exporting](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/save_workbook_with_version/en/save_workbook_with_version_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/save_workbook_with_version/en/save_workbook_with_version_en.md) |
+| [Analysis: cycle field](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_analytics_cycle_fields/en/enable_analytics_cycle_fields_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_analytics_cycle_fields/en/enable_analytics_cycle_fields_en.md) |
+| [Toolbar: refresh, group members, presentation, dynamic axis, workbook sharing](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/use_toolbar_options/en/use_toolbar_options_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/use_toolbar_options/en/use_toolbar_options_en.md) |
+| [Analysis pane: forecasting, clustering](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_advanced_analytics/en/enable_advanced_analytics_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_advanced_analytics/en/enable_advanced_analytics_en.md) |
+| [Highlight color palette assignment option when highlighting selected items from legend is enabled](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/assign_highlight_color_to_palette/en/assign_highlight_color_to_palette_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/assign_highlight_color_to_palette/en/assign_highlight_color_to_palette_en.md) |
+| [Axis and pane formatting by clicking axis (default, totals, special values like NULL)](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/edit_axis_format/en/edit_axis_format_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/edit_axis_format/en/edit_axis_format_en.md) |
+| [Blend settings options](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_blending/en/enable_blending_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/enable_blending/en/enable_blending_en.md) |
+| [Total/grand total label changes from formatting](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/edit_total_labels/en/edit_total_labels_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/edit_total_labels/en/edit_total_labels_en.md) |
+| [Copy/paste selected sheets from other workbooks](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/paste_other_workbooks_sheets/en/paste_other_workbooks_sheets_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/paste_other_workbooks_sheets/en/paste_other_workbooks_sheets_en.md) |
+| [Copy/paste worksheet formatting](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/paste_worksheet_format/en/paste_worksheet_format_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/paste_worksheet_format/en/paste_worksheet_format_en.md) |
+| [Ctrl+drag sheet duplication shortcut](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/duplicate_sheets_shortcut/en/duplicate_sheets_shortcut_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/duplicate_sheets_shortcut/en/duplicate_sheets_shortcut_en.md) |
+| [Custom color palettes available](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_custom_color_palettes/en/set_custom_color_palettes_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_custom_color_palettes/en/set_custom_color_palettes_en.md) |
+| [Custom shapes available](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_custom_shapes/en/set_custom_shapes_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_custom_shapes/en/set_custom_shapes_en.md) |
+| [Data source replacement command that inherits sort and color settings](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/replace_data_source_preserve_settings/en/replace_data_source_preserve_settings_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/replace_data_source_preserve_settings/en/replace_data_source_preserve_settings_en.md) |
+| [Field default properties (color, number format, comments, shapes for string fields; aggregation and totals for numeric fields)](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_field_default_properties/en/set_field_default_properties_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_field_default_properties/en/set_field_default_properties_en.md) |
+| [Fine cell size adjustment](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/fine_tune_cell_size/en/fine_tune_cell_size_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/fine_tune_cell_size/en/fine_tune_cell_size_en.md) |
+| [Fiscal year settings available](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_fiscal_year/en/set_fiscal_year_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_fiscal_year/en/set_fiscal_year_en.md) |
+| [Hide all unused fields in data pane](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/hide_unused_fields/en/hide_unused_fields_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/hide_unused_fields/en/hide_unused_fields_en.md) |
+| [Custom theme import](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/import_custom_themes/en/import_custom_themes_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/import_custom_themes/en/import_custom_themes_en.md) |
+| [Import other workbooks into current workbook](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/import_workbooks/en/import_workbooks_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/import_workbooks/en/import_workbooks_en.md) |
+| [Label mark text alignment and appearance settings](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_label_format/en/configure_label_format_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_label_format/en/configure_label_format_en.md) |
+| [Workbook list and selection in selected project when publishing (easy overwrite)](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/select_workbooks_publish/en/select_workbooks_publish_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/select_workbooks_publish/en/select_workbooks_publish_en.md) |
+| [Manual/fixed size settings for measure fields in rows/columns](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_advanced_marks_size/en/set_advanced_marks_size_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_advanced_marks_size/en/set_advanced_marks_size_en.md) |
+| [Line chart marker options](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_line_markers/en/set_line_markers_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_line_markers/en/set_line_markers_en.md) |
+| [More keyboard shortcuts](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/access_additional_shortcuts/en/access_additional_shortcuts_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/access_additional_shortcuts/en/access_additional_shortcuts_en.md) |
+| [Multiple pill selection in rows/columns/filters/marks shelves](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/select_multiple_pills/en/select_multiple_pills_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/select_multiple_pills/en/select_multiple_pills_en.md) |
+| [Replace references: bulk replacement of fields used in calculated fields and worksheets](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/replace_field_references/en/replace_field_references_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/replace_field_references/en/replace_field_references_en.md) |
+| [Rich map tab settings](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_map_settings/en/configure_map_settings_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_map_settings/en/configure_map_settings_en.md) |
+| [Default fiscal year start month, week start, date format settings from date properties](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_date_properties_in_data_source/en/set_date_properties_in_data_source_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_date_properties_in_data_source/en/set_date_properties_in_data_source_en.md) |
+| [Default formatting for reference lines, annotations, reference lines, titles, captions, field labels](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_default_analytics_format/en/set_default_analytics_format_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_default_analytics_format/en/set_default_analytics_format_en.md) |
+| [Slider and ruler in field placement tooltips](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/adjust_tooltip_layout/en/adjust_tooltip_layout_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/adjust_tooltip_layout/en/adjust_tooltip_layout_en.md) |
+| [Analysis tab table layout (empty row/column display and other design options)](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_table_layout_options/en/configure_table_layout_options_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/configure_table_layout_options/en/configure_table_layout_options_en.md) |
+| [User switching option for data visibility difference confirmation](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/view_as_another_user/en/view_as_another_user_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/view_as_another_user/en/view_as_another_user_en.md) |
 
-🖥 Desktop-only (Tableau Desktopでのみ利用可能) 
+⚖ **Both-different** (Features that exist in both but behave differently)
 
-| 機能名 | Issue |
-|--------|-------|
-| 書式ペインでの単一書式設定のクリア | [#94](https://github.com/mickitty0511/tableau-feature-parity/issues/94) |
-| ステータスバー表示切替 | [#91](https://github.com/mickitty0511/tableau-feature-parity/issues/91) |
-| セット編集 | [#86](https://github.com/mickitty0511/tableau-feature-parity/issues/86) |
-| パフォーマンス記録 | [#84](https://github.com/mickitty0511/tableau-feature-parity/issues/84) |
-| データソース貼り付け | [#83](https://github.com/mickitty0511/tableau-feature-parity/issues/83) |
-| ワークブックとして保存 | [#82](https://github.com/mickitty0511/tableau-feature-parity/issues/82) |
-| サマリー表示 | [#81](https://github.com/mickitty0511/tableau-feature-parity/issues/81) |
-| ワイルドカードユニオン | [#80](https://github.com/mickitty0511/tableau-feature-parity/issues/80) |
-| デフォルトマップズーム固定 | [#71](https://github.com/mickitty0511/tableau-feature-parity/issues/71) |
-| マップレイヤー作成 | [#70](https://github.com/mickitty0511/tableau-feature-parity/issues/70) |
-| シェルフ空白エリアのコンテキストメニュー | [#69](https://github.com/mickitty0511/tableau-feature-parity/issues/69) |
-| 書式設定でのワークブックテーマオプション | [#68](https://github.com/mickitty0511/tableau-feature-parity/issues/68) |
-| ユーザーフィルター設定 | [#67](https://github.com/mickitty0511/tableau-feature-parity/issues/67) |
-| ツールバー表示切替 | [#66](https://github.com/mickitty0511/tableau-feature-parity/issues/66) |
-| ストーリー書式設定 | [#65](https://github.com/mickitty0511/tableau-feature-parity/issues/65) |
-| シートソーター、フィルムストリップ、タブ表示オプション | [#63](https://github.com/mickitty0511/tableau-feature-parity/issues/63) |
-| ストーリーの戻る/進むボタン表示/非表示 | [#64](https://github.com/mickitty0511/tableau-feature-parity/issues/64) |
-| ワークシート編集画面でのシェルフ、パラメーター、凡例の再配置 | [#62](https://github.com/mickitty0511/tableau-feature-parity/issues/62) |
-| 単一シートをワークブックファイルとしてエクスポート | [#61](https://github.com/mickitty0511/tableau-feature-parity/issues/61) |
-| 接続データソースの全データをローカルCSVまたはHyperにエクスポート | [#60](https://github.com/mickitty0511/tableau-feature-parity/issues/60) |
-| 補助線利用可能 | [#59](https://github.com/mickitty0511/tableau-feature-parity/issues/59) |
-| ワークシート空白エリアのコンテキストメニュー（シェルフ、凡例、パラメーター、キャプション、サマリー切替） | [#58](https://github.com/mickitty0511/tableau-feature-parity/issues/58) |
-| データペイン空白エリアのコンテキストメニュー | [#57](https://github.com/mickitty0511/tableau-feature-parity/issues/57) |
-| データソースペインの文字列フィールド変換オプション | [#56](https://github.com/mickitty0511/tableau-feature-parity/issues/56) |
-| 重要なワークシートのブックマーク機能 | [#55](https://github.com/mickitty0511/tableau-feature-parity/issues/55) |
-| ファイルタブからのリッチな印刷オプション | [#53](https://github.com/mickitty0511/tableau-feature-parity/issues/53) |
-| エクスポート時のワークブックファイルへのバージョン名追加 | [#54](https://github.com/mickitty0511/tableau-feature-parity/issues/54) |
-| 分析：サイクルフィールド | [#52](https://github.com/mickitty0511/tableau-feature-parity/issues/52) |
-| ツールバー：更新、グループメンバー、プレゼンテーション、動的軸、ワークブック共有 | [#51](https://github.com/mickitty0511/tableau-feature-parity/issues/51) |
-| 分析ペイン：予測、クラスタリング | [#50](https://github.com/mickitty0511/tableau-feature-parity/issues/50) |
-| 凡例からの選択項目ハイライト有効時のハイライト色パレット割り当てオプション | [#49](https://github.com/mickitty0511/tableau-feature-parity/issues/49) |
-| 軸クリックによる軸とペインの書式設定（既定、合計、NULL等の特殊値） | [#48](https://github.com/mickitty0511/tableau-feature-parity/issues/48) |
-| ブレンド設定オプション | [#47](https://github.com/mickitty0511/tableau-feature-parity/issues/47) |
-| 書式設定からの合計・総計ラベル変更 | [#46](https://github.com/mickitty0511/tableau-feature-parity/issues/46) |
-| 他のワークブックから選択シートのコピー/貼り付け | [#45](https://github.com/mickitty0511/tableau-feature-parity/issues/45) |
-| ワークシート書式のコピー/貼り付け | [#44](https://github.com/mickitty0511/tableau-feature-parity/issues/44) |
-| Ctrl+ドラッグでシート複製ショートカット | [#43](https://github.com/mickitty0511/tableau-feature-parity/issues/43) |
-| カスタムカラーパレット利用可能 | [#42](https://github.com/mickitty0511/tableau-feature-parity/issues/42) |
-| カスタム図形利用可能 | [#41](https://github.com/mickitty0511/tableau-feature-parity/issues/41) |
-| ソートと色設定を継承するデータソース置換コマンド | [#40](https://github.com/mickitty0511/tableau-feature-parity/issues/40) |
-| フィールドのデフォルトプロパティ（色、数値書式、コメント、文字列フィールドの図形；数値フィールドの集計と合計） | [#39](https://github.com/mickitty0511/tableau-feature-parity/issues/39) |
-| 細かいセルサイズ調整 | [#38](https://github.com/mickitty0511/tableau-feature-parity/issues/38) |
-| 会計年度設定利用可能 | [#37](https://github.com/mickitty0511/tableau-feature-parity/issues/37) |
-| データペインの未使用フィールドをすべて非表示 | [#36](https://github.com/mickitty0511/tableau-feature-parity/issues/36) |
-| カスタムテーマのインポート | [#35](https://github.com/mickitty0511/tableau-feature-parity/issues/35) |
-| 現在のワークブックに他のワークブックをインポート | [#34](https://github.com/mickitty0511/tableau-feature-parity/issues/34) |
-| ラベルマークのテキスト配置と外観設定 | [#33](https://github.com/mickitty0511/tableau-feature-parity/issues/33) |
-| パブリッシュ時の選択プロジェクトでのワークブック一覧と選択（簡単上書き） | [#32](https://github.com/mickitty0511/tableau-feature-parity/issues/32) |
-| 行/列のメジャーフィールドの手動/固定サイズ設定 | [#31](https://github.com/mickitty0511/tableau-feature-parity/issues/31) |
-| 線グラフのマーカーオプション | [#30](https://github.com/mickitty0511/tableau-feature-parity/issues/30) |
-| より多くのキーボードショートカット | [#29](https://github.com/mickitty0511/tableau-feature-parity/issues/29) |
-| 行/列/フィルター/マークシェルフでの複数ピル選択 | [#28](https://github.com/mickitty0511/tableau-feature-parity/issues/28) |
-| 参照の置換：計算フィールドとワークシートで使用されるフィールドの一括置換 | [#27](https://github.com/mickitty0511/tableau-feature-parity/issues/27) |
-| リッチマップタブ設定 | [#26](https://github.com/mickitty0511/tableau-feature-parity/issues/26) |
-| 日付プロパティからのデフォルト会計年度開始月、週開始、日付形式設定 | [#25](https://github.com/mickitty0511/tableau-feature-parity/issues/25) |
-| 参考線、注釈、補助線、タイトル、キャプション、フィールドラベルのデフォルト書式設定 | [#24](https://github.com/mickitty0511/tableau-feature-parity/issues/24) |
-| フィールド配置のツールチップでのスライダーとルーラー | [#22](https://github.com/mickitty0511/tableau-feature-parity/issues/22) |
-| 分析タブのテーブルレイアウト（空の行/列表示とその他のデザインオプション） | [#21](https://github.com/mickitty0511/tableau-feature-parity/issues/21) |
-| データ可視性差異確認のユーザー切替オプション | [#19](https://github.com/mickitty0511/tableau-feature-parity/issues/19) |
+| Feature Name | Article |
+|--------------|---------|
+| Context menu from sheets | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/access_sheet_tab_context_menu/en/access_sheet_tab_context_menu_en.md) |
+| Group editing | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/edit_group/en/edit_group_en.md) |
+| Filter edit dialog | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/configure_filters/en/configure_filters_en.md) |
+| Layout settings UI | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/edit_alignment/en/edit_alignment_en.md) |
+| Reference line formatting | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/edit_reference_line_format/en/edit_reference_line_format_en.md) |
+| Field name change in data pane | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/rename_field_in_data_pane/en/rename_field_in_data_pane_en.md) |
+| Distribution bands | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/edit_distribution_band/en/edit_distribution_band_en.md) |
+| Data source duplication | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/duplicate_datasource/en/duplicate_datasource_en.md) |
+| Box plots | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/edit_box_plot/en/edit_box_plot_en.md) |
+| Shading settings UI | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/edit_shading/en/edit_shading_en.md) |
+| Re-display hidden values with analysis tab show hidden data command | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/show_hidden_data/en/show_hidden_data_en.md) |
+| Update description, tags, permissions, visible sheets when publishing | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/configure_publish_settings/en/configure_publish_settings_en.md) |
+| Quick access to data source replacement command | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/replace_data_source/en/replace_data_source_en.md) |
+| Icon-based font, alignment, shading, border, line formatting management | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/access_worksheet_format/en/access_worksheet_format_en.md) |
+| Toolbar worksheet clear command | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/clear_worksheet/en/clear_worksheet_en.md) |
+| Data display command location | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/enable_view_data/en/enable_view_data_en.md) |
+| Dashboard/story image export | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/export_dashboard_story_as_img/en/export_dashboard_story_as_img_en.md) |
+| Legend/parameter/filter card formatting access | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/edit_legend_parameter_filter_format/en/edit_legend_parameter_filter_format_en.md) |
+| Fields displayed in measure name context menu "Edit Alias" | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/edit_measure_alias/en/edit_measure_alias_en.md) |
+| Multiple field selection context menu in data pane | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/multi_select_field_in_data_pane/en/multi_select_field_in_data_pane_en.md) |
+| Dashboard formatting access | [Article](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/both-different/edit_dashboard_format/en/edit_dashboard_format_en.md) |
 
-⚖ Both-different (両方にあるが動作が異なる)
-
-| 機能名 | Issue |
-|--------|-------|
-| シートからのコンテキストメニュー | [#89](https://github.com/mickitty0511/tableau-feature-parity/issues/89) |
-| グループ編集 | [#88](https://github.com/mickitty0511/tableau-feature-parity/issues/88) |
-| フィルター編集ダイアログ | [#87](https://github.com/mickitty0511/tableau-feature-parity/issues/87) |
-| 配置設定UI | [#85](https://github.com/mickitty0511/tableau-feature-parity/issues/85) |
-| 参考線書式 | [#77](https://github.com/mickitty0511/tableau-feature-parity/issues/77) |
-| データペインでのフィールド名変更 | [#76](https://github.com/mickitty0511/tableau-feature-parity/issues/76) |
-| 分布バンド | [#75](https://github.com/mickitty0511/tableau-feature-parity/issues/75) |
-| データソース複製 | [#74](https://github.com/mickitty0511/tableau-feature-parity/issues/74) |
-| ボックスプロット | [#73](https://github.com/mickitty0511/tableau-feature-parity/issues/73) |
-| 網かけ設定UI | [#72](https://github.com/mickitty0511/tableau-feature-parity/issues/72) |
-| 分析タブの非表示データ表示コマンドで非表示値の再表示 | [#23](https://github.com/mickitty0511/tableau-feature-parity/issues/23) |
-| パブリッシュ時の説明、タグ、権限、表示可能シートの更新 | [#20](https://github.com/mickitty0511/tableau-feature-parity/issues/20) |
-| データソース置換コマンドへのクイックアクセス | [#9](https://github.com/mickitty0511/tableau-feature-parity/issues/9) |
-| アイコンによるフォント、配置、網かけ、境界、線書式の管理 | [#8](https://github.com/mickitty0511/tableau-feature-parity/issues/8) |
-| ツールバーのワークシートクリアコマンド | [#7](https://github.com/mickitty0511/tableau-feature-parity/issues/7) |
-| データ表示コマンドの場所 | [#6](https://github.com/mickitty0511/tableau-feature-parity/issues/6) |
-| ダッシュボード/ストーリー画像エクスポート | [#5](https://github.com/mickitty0511/tableau-feature-parity/issues/5) |
-| 凡例/パラメーター/フィルターカードの書式設定アクセス | [#4](https://github.com/mickitty0511/tableau-feature-parity/issues/4) |
-| メジャー名コンテキストメニューの「エイリアスの編集」に表示されるフィールド | [#3](https://github.com/mickitty0511/tableau-feature-parity/issues/3) |
-| データペインでの複数フィールド選択のコンテキストメニュー | [#2](https://github.com/mickitty0511/tableau-feature-parity/issues/2) |
-| ダッシュボード書式設定へのアクセス | [#1](https://github.com/mickitty0511/tableau-feature-parity/issues/1) |
-
-## ディレクトリ構成
+## Directory Structure
 
 ```
 tableau-feature-parity/
-├── .claude/                     # Claude Code ファイル
-│   ├── commands/                # このプロジェクト専用のカスタムスラッシュコマンド
-│   └── hooks/                   # このプロジェクト専用のカスタムフック
-├── docs/                        # プロジェクト文書
-│   └── terminology/            # 用語定義
-├── src/                        # ソース資料・画像
-│   ├── cloud-only/            # Cloud限定機能の資料
-│   ├── desktop-only/          # Desktop限定機能の資料
-│   └── both-different/        # 両方にあるが差異がある機能の資料
-└── CONTRIBUTING.md            # 日本語コントリビューションファイル
-└── CONTRIBUTING_EN.md         # 英語コントリビューションファイル
-└── README.md                  # このファイル
-└── README_EN.md               # 英語READMEファイル
+├── .claude/                     # Claude Code files
+│   ├── commands/                # Custom slash commands for this project
+│   └── hooks/                   # Custom hooks for this project
+├── docs/                        # Project documentation
+│   └── terminology/            # Terminology definitions
+├── src/                        # Source materials and images
+│   ├── cloud-only/            # Cloud-exclusive feature materials
+│   ├── desktop-only/          # Desktop-exclusive feature materials
+│   └── both-different/        # Feature difference materials
+└── README.md                  # This file
+└── README_JP.md               # Japanese README file
 ```
 
-## 主な成果物
+## Key Deliverables
 
-### 📝 詳細分析
-各機能について以下の観点で分析：
-- 機能の違い（Cloud vs Desktop）
-- 使い方・操作手順
-- 利用例・活用シーン
-- スクリーンショット・動画での解説
+### 📝 Detailed Analysis
+Each feature is analyzed from the following perspectives:
+- Feature differences (Cloud vs Desktop)
+- Usage and operational procedures
+- Use cases and application scenarios
+- Screenshots and animated (.gif) explanations
 
-## コントリビューション
-
-このプロジェクトは継続的な改善を歓迎します：
-- 新しい機能差異の発見
-- 既存分析の更新・改善
-詳しくは、[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
-
-## 参考情報
+## Reference Information
 
 - [GitHub Issues](https://github.com/mickitty0511/tableau-feature-parity/issues)
 
+## 💖 Sponsors
 
-## ライセンス
-この作品は、  
-**[クリエイティブ・コモンズ 表示 4.0 国際 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ja)**   
-の下で提供されています。  
+Help support the continued article maintenance, verification, and upkeep of this project.
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/mickitty0511?style=for-the-badge&logo=github)](https://github.com/sponsors/mickitty0511)
+
+### 💰 One-time Support Tips
+
+| Tier | Details |
+|------|---------|
+| `$4.99` | Thank-you only. No sponsor name listing is included. |
+| `$9.99` | Your public sponsor name will be listed on the repository project page. |
+| `$14.99` | Your public sponsor name will be listed more prominently on the repository project page. |
+
+Sponsor names are listed when the sponsorship is public and the sponsor name is appropriate for a public project page.
+
+### 💰 Fund Usage
+- 📊 Tableau product license purchase and renewal
+- 🔧 Maintenance and expansion of testing environments  
+- 👥 Community activity support
+- ⏰ Time allocation for project continuity
+
+## License
+This work is licensed under the  
+**[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**.  
 © 2025 Miki Yoshida  
 
 ---
 
-**注意**: 
-外部サイトおよび資料で引用される場合は、本サイトのURLを掲載必須です。  
-このプロジェクトは非公式の調査結果であり、Tableau社の公式見解ではありません。  
-機能は製品バージョンによって変更される可能性があります。
-
+**Note**: 
+When citing on external sites and materials, the URL of this site must be included.  
+This project represents unofficial research findings and is not an official position of Tableau.  
+Features may change depending on product versions.
