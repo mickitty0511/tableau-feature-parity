@@ -178,7 +178,7 @@ Sponsor names are listed when the sponsorship is public and the sponsor name is 
 ## License
 This work is licensed under the  
 **[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**.  
-© 2025 Miki Yoshida  
+© 2026 Miki Yoshida  
 
 ---
 
