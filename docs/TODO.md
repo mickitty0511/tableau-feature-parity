@@ -5,11 +5,11 @@
 - `is_design_ground_rule_initialized`: true
 
 ## Task
-- ID: `DOC-CONTRIBUTING-SPONSORS-001`
-- Title: `CONTRIBUTING受付停止文言復元・スポンサー訴求改善・GitHub支援スキル作成`
+- ID: `AGENTS-GG-PUSH-GLOBAL-001`
+- Title: `グローバルAGENTSの:ggショートカットへpush可否確認と安全時pushを追記`
 - Status: `done`
-- Worktree: 専用worktree未作成。サンドボックスの書き込み範囲が現作業ツリーに限定されており、Gitメタデータへのブランチ作成もPermission deniedで失敗。
-- Branch: `main` 上で作業。`git switch -c codex/contributing-sponsor-copy` と `git switch -c codex-contributing-sponsor-copy` はGit参照ロック作成権限で失敗。
+- Worktree: 未作成。グローバルAGENTSの個人設定更新と、誤って追加したプロジェクトAGENTS重複行の削除。
+- Branch: `main`
 
 ## Execution Flags
 - `task_initialized`: true
@@ -35,48 +35,41 @@
 ## Completion Evidence
 - `scope_coverage_checked`: true
 - `completion_integrity_checked`: true
-- `verification_evidence`: `SPONSORS.md` 冒頭に `$9.99` 以上から公開スポンサー名掲載の条件を追加済み。`rg` で `You can be a great supporter` と旧CONTRIBUTING歓迎文言がリポジトリ本文に残っていないことを確認、`quick_validate.py ~/.codex/skills/github` PASS、`git diff` でCONTRIBUTING受付停止復元とスポンサー訴求改善を確認。
-- `feedback_evidence`: user correction、skill-creator validation、sponsor/contributing copy audit、Git diff/status review をReview and Validation Feedbackへ記録し、未処理フィードバックなし。
+- `verification_evidence`: グローバル `~/.codex/AGENTS.md` の `gg` 定義にpush可否確認、fetch、behind確認、安全時pushが含まれることを確認。プロジェクト `AGENTS.md` の重複`:gg`行削除を確認。AGENTS size report PASS、home path literal audit PASS、TODO gate PASS。
+- `feedback_evidence`: user correction、global AGENTS edit verification、project duplicate removal、size report、home path audit、Git diff/status review をReview and Validation Feedbackへ記録し、未処理フィードバックなし。
 - `known_open_issues_count`: 0
 - `unresolved_blockers`: none
-- `commit_status`: staged for `:gg` integration commit; final report records the resulting commit hash.
+- `commit_status`: staged for corrected AGENTS `:gg` shortcut commit; final report records the resulting commit hash.
 
 ## Task Checklist
-- [x] 対象ファイル、スポンサー文言、参照箇所を確認する。
-- [x] TODOを本タスク用に初期化する。
-- [x] `CONTRIBUTING.md` を `CONTRIBUTING_JP.md` にリネームする。
-- [x] `CONTRIBUTING_EN.md` を `CONTRIBUTING.md` にリネームする。
-- [x] `SPONSORS.md` の空状態文言をスポンサーを促す表現へ変更する。
-- [x] `README.md` / `README_JP.md` のスポンサー支援文言をプロジェクト支援・コミュニティ活性寄りに変更する。
-- [x] `~/.codex/skills/github` を作成し、GitHubスポンサー・CONTRIBUTING・コミュニティ支援導線の特化スキルとして検証する。
-- [x] `CONTRIBUTING.md` / `CONTRIBUTING_JP.md` を外部コントリビューション受付停止の内容へ戻す。
-- [x] `You can be a great supporter!` の例文的な文言を、スポンサーしたくなる具体的な価値訴求へ置き換える。
-- [x] `SPONSORS.md` 冒頭にスポンサー名掲載が `$9.99` 以上からであることを明記する。
-- [x] 参照検索とGit差分で変更結果を確認する。
-- [x] TODOと検証結果を完了状態へ同期する。
+- [x] プロジェクト `AGENTS.md` とグローバル `~/.codex/AGENTS.md` のショートカット定義を確認する。
+- [x] `:gg` はグローバル側に入れるというユーザー訂正を受ける。
+- [x] グローバル `~/.codex/AGENTS.md` に `gg` のpush可否確認・安全時push動作を追記する。
+- [x] プロジェクト `AGENTS.md` から重複 `:gg` 行を削除する。
+- [x] 追記内容、AGENTSサイズ、TODOゲートを確認する。
+- [x] 変更をコミットする。
 
 ## Verification Plan
-- Unit test: NO. Markdown文書のリネームと文言変更のみで実行コードがないため。
+- Unit test: NO. AGENTS.mdガバナンス文書のみの変更で実行コードがないため。
 - E2E test: NO. UI/API/外部I/Oの挙動変更がないため。
-- Artifact verification: YES. `rg` で旧ファイル名と空状態文言の残存確認、`git diff --stat` と `git status --short` で差分確認を行う。`python .../quick_validate.py ~/.codex/skills/github` で追加スキルを検証する。
+- Artifact verification: YES. `rg` でグローバル`gg`定義とプロジェクト重複削除を確認し、AGENTSサイズ確認、TODOゲート、Git差分確認を行う。
 
 ## Verification Results
-- Skill validation: PASS. `python ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py ~/.codex/skills/github` は `Skill is valid!`。
-- Sponsor/contributing copy audit: PASS. `rg -n "You can be a great supporter|Open an issue when|Send a pull request|Pull Request で歓迎|受付手順を公開していません" CONTRIBUTING.md CONTRIBUTING_JP.md README.md README_JP.md SPONSORS.md docs/knowledge` はヒットなし。`CONTRIBUTING.md` / `CONTRIBUTING_JP.md` は外部コントリビューション受付停止を明記。
-- Sponsor listing threshold check: PASS. `SPONSORS.md` 冒頭に `Public sponsor names are listed from the $9.99 one-time support tier and above` を追加。
-- File rename check: PASS. `Get-ChildItem -Name CONTRIBUTING*` は `CONTRIBUTING.md` と `CONTRIBUTING_JP.md` のみ。
-- Git review: PASS. `git status --short` は `CONTRIBUTING_EN.md` 削除、`CONTRIBUTING_JP.md` 追加、`CONTRIBUTING.md`/`README.md`/`README_JP.md`/`SPONSORS.md`/docs更新を表示。Git設定参照でユーザーhome配下Permission denied警告あり。
-- Specs sync: PASS. 仕様・プロダクト挙動変更ではないため `docs/SPECS.md` / `docs/USECASES.md` / `docs/DESIGN.md` の更新は不要。
-- Security delta review: PASS. ランタイム挙動、外部I/O、秘密情報処理、信頼境界の追加なし。
-- Logging rationale: アプリのランタイム挙動変更ではなくMarkdownとCodexスキル追加のみのため、診断ログ追加は不要。
+- Global AGENTS content check: PASS. グローバル `~/.codex/AGENTS.md` の `gg` が検証・TODO/docs gate・fetch・behind確認・安全時pushを含むことを確認。
+- Project duplicate check: PASS. プロジェクト `AGENTS.md` から重複 `:gg` 行を削除し、`:ppt` のみ残した。
+- AGENTS size report: PASS. `Get-AgentsFileSizeReport.ps1 -Scope project -ProjectAgentsPath AGENTS.md` は global/project とも32 KB未満。
+- Home path audit: PASS. ユーザー固有ホーム絶対パスの監査で `AGENTS.md` / `docs/TODO.md` / `docs/knowledge/KNOWLEDGE.md` にヒットなし。
+- Git diff review: PASS. 変更対象は `AGENTS.md` と `docs/TODO.md` のみ。
+- Specs sync: PASS. プロジェクトショートカット運用の追記であり、仕様・USECASE・DESIGNの更新は不要。
+- Logging rationale: ランタイム挙動変更ではなくAGENTSガバナンス文書のみのため、診断ログ追加は不要。
 
 ## Review and Validation Feedback
-- `source`: initial repository inspection; `status`: pass; `evidence`: `CONTRIBUTING.md` は日本語、`CONTRIBUTING_EN.md` は英語、`SPONSORS.md` に `No sponsors listed yet.` が2件あることを確認。
-- `source`: skill-creator validation; `status`: pass; `evidence`: `github` skill is valid.
-- `source`: user correction; `status`: fixed; `todo`: `CONTRIBUTING`受付停止復元とスポンサー訴求改善; `evidence`: 例文的な `You can be a great supporter!` を本番文言から削除し、CONTRIBUTINGを受付停止へ戻した。
-- `source`: user correction; `status`: fixed; `todo`: `SPONSORS.md` の名前掲載条件追記; `evidence`: `$9.99` 以上の公開スポンサー名掲載条件を冒頭に追加。
-- `source`: sponsor/contributing copy audit; `status`: pass; `evidence`: 例文的スポンサー文言とCONTRIBUTING歓迎文言の検索は本文対象でヒットなし。
-- `source`: Git diff/status review; `status`: pass; `evidence`: 想定ファイルのみ変更。Git index書き込みは通常権限で失敗後、承認付きでステージング成功。
+- `source`: user approval; `status`: pass; `evidence`: `:g` により提示済み `:gg` AGENTS追記案の実行継続を確認。
+- `source`: user correction; `status`: fixed; `todo`: `:gg` 追記先をグローバルAGENTSへ変更; `evidence`: グローバル `~/.codex/AGENTS.md` を更新し、プロジェクト `AGENTS.md` の重複を削除。
+- `source`: AGENTS edit verification; `status`: pass; `evidence`: グローバル `gg` 定義にpush可否確認、fetch、behind確認、安全時pushの要件が含まれる。
+- `source`: AGENTS size report; `status`: pass; `evidence`: global/project とも32 KB超過なし。
+- `source`: home path audit; `status`: pass; `evidence`: AGENTS/TODO/knowledgeにユーザー固有ホーム絶対パスなし。
+- `source`: Git diff/status review; `status`: pass; `evidence`: 変更対象は `AGENTS.md` と `docs/TODO.md` のみ。
 
 ## Work Log
 - 2026-05-17: タスク開始。対象記事と README の目的定義を確認。
@@ -92,3 +85,4 @@
 - 2026-05-26: `main` を `e40df29` へfast-forward統合し、作業ブランチを削除。対象worktreeの未関係差分はstashへ退避し、Git登録は解除済み。
 - 2026-05-27: `CONTRIBUTING` 英日ファイル名整理、スポンサー支援文言改善、`github` スキル作成を開始。
 - 2026-05-27: ユーザー指摘を受け、CONTRIBUTINGは外部コントリビューション受付停止へ戻し、スポンサー文言は具体的な支援価値訴求へ改善。
+- 2026-05-27: `:gg` にpush可否確認と安全時pushまで実行するルールをグローバルAGENTSへ追記し、プロジェクトAGENTSの重複行を削除。
