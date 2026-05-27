@@ -155,7 +155,7 @@ tableau-feature-parity/
 
 ## 💖 スポンサー
 
-このプロジェクトの継続的な記事整備、検証、メンテナンスを応援できます。
+Tableau Cloud / Desktop の比較記事を維持するための、バージョン確認、スクリーンショット更新、記事メンテナンス、検証時間をスポンサーとして支援できます。
 
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/mickitty0511?style=for-the-badge&logo=github)](https://github.com/sponsors/mickitty0511)
 
@@ -163,9 +163,9 @@ tableau-feature-parity/
 
 | Tier | 内容 |
 |------|------|
-| `$4.99` | お礼のみ。スポンサー名掲載はありません。 |
-| `$9.99` | 公開スポンサー名を [SPONSORS.md](SPONSORS.md) に掲載します。 |
-| `$14.99` | 公開スポンサー名を [SPONSORS.md](SPONSORS.md) で少し目立つ形で掲載します。 |
+| `$4.99` | この比較プロジェクトを継続するためのメンテナンス作業を後押しします。 |
+| `$9.99` | Tableau 機能差分ドキュメントの継続整備を支えるサポーターとして [SPONSORS.md](SPONSORS.md) に掲載します。 |
+| `$14.99` | 継続的な検証と記事整備を目立つ形で支える注目サポーターとして [SPONSORS.md](SPONSORS.md) に掲載します。 |
 
 スポンサー名の掲載は、スポンサー設定が公開で、公開プロジェクトページに掲載して問題ない名前の場合に行います。
 

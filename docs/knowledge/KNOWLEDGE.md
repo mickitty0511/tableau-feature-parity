@@ -21,6 +21,7 @@
 - 2026-05-23: 日本語版・英語版PPTXに対応する発表スクリプトMarkdownを追加。
 - 2026-05-23: 日本語版PPTXを `CCC 提案書フォーマット.pptx` のマスター表現に寄せて再生成。
 - 2026-05-26: `codex/tableau-feature-diff-pptx` を `main` へfast-forward統合し、作業ブランチを削除。未関係差分はstashに退避し、対象worktreeのGit登録は解除済み。
+- 2026-05-27: `CONTRIBUTING.md` を英語版、`CONTRIBUTING_JP.md` を日本語版として整理。外部コントリビューションは受付停止を明記し、スポンサー導線はプロジェクト維持・検証時間・公開ドキュメント整備を支援したくなる訴求へ更新。再利用用の `github` スキルを `~/.codex/skills/github` に作成。
 
 ## 4. 更新ルール
 - 新しい資料を追加したら、この索引へ追記する。

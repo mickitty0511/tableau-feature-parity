@@ -155,7 +155,7 @@ Each feature is analyzed from the following perspectives:
 
 ## 💖 Sponsors
 
-Help support the continued article maintenance, verification, and upkeep of this project.
+Sponsor the ongoing work behind Tableau Cloud / Desktop comparison notes: product-version checks, screenshot refreshes, article maintenance, and verification time that keeps the documentation useful.
 
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/mickitty0511?style=for-the-badge&logo=github)](https://github.com/sponsors/mickitty0511)
 
@@ -163,9 +163,9 @@ Help support the continued article maintenance, verification, and upkeep of this
 
 | Tier | Details |
 |------|---------|
-| `$4.99` | Thank-you only. No sponsor name listing is included. |
-| `$9.99` | Your public sponsor name will be listed in [SPONSORS.md](SPONSORS.md). |
-| `$14.99` | Your public sponsor name will be listed more prominently in [SPONSORS.md](SPONSORS.md). |
+| `$4.99` | Back the maintenance work that keeps this comparison project alive. |
+| `$9.99` | Show public support for maintained Tableau feature-difference documentation in [SPONSORS.md](SPONSORS.md). |
+| `$14.99` | Become a featured supporter and visibly back ongoing verification and documentation upkeep in [SPONSORS.md](SPONSORS.md). |
 
 Sponsor names are listed when the sponsorship is public and the sponsor name is appropriate for a public project page.
 
