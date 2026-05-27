@@ -20,7 +20,7 @@
 - 2026-05-20: `AGENTS.md` に `:ppt` ショートカットを追加。PowerPoint / 発表資料作業の開始合図として扱う。
 - 2026-05-23: 日本語版・英語版PPTXに対応する発表スクリプトMarkdownを追加。
 - 2026-05-23: 日本語版PPTXを `CCC 提案書フォーマット.pptx` のマスター表現に寄せて再生成。
-- 2026-05-26: `codex/tableau-feature-diff-pptx` の統合前検証を完了し、main統合対象として確定。
+- 2026-05-26: `codex/tableau-feature-diff-pptx` を `main` へfast-forward統合し、作業ブランチを削除。未関係差分はstashに退避し、対象worktreeのGit登録は解除済み。
 
 ## 4. 更新ルール
 - 新しい資料を追加したら、この索引へ追記する。

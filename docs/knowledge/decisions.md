@@ -33,7 +33,7 @@
 ## 2026-05-26: branch・worktree統合
 - Decision: `codex/tableau-feature-diff-pptx` を `main` へ統合する。
 - Rationale: PPTX作成、可読性修正、英語版、発表スクリプト、CCCマスター反映、ショートカット追加が検証済みで、統合条件を満たしたため。
-- Impact: mainに資料成果物と関連ドキュメントが反映される。作業worktreeに未関係の未コミット差分が残る場合は、worktree削除を保留する。
+- Impact: mainに資料成果物と関連ドキュメントが反映される。未関係差分はstashへ退避し、作業ブランチを削除する。対象worktreeのGit登録は解除し、Codexプロセスが保持する空フォルダのみ物理削除を保留する。
 
 ## 2026-05-17: pre-check blocker対応
 - Decision: U+FE0F Variation Selector を既存文書とコマンド文書から機械除去する。
