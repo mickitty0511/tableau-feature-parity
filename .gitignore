@@ -38,3 +38,17 @@ Thumbs.db
 # Test coverage
 coverage/
 *.lcov
+
+# Local Codex/Claude workspace artifacts
+.claude/settings.local.json
+.claude/commands/note-article.md
+__initialized/
+*.code-workspace
+
+# Generated drafts and local planning artifacts
+docs/feature-diff-list/
+docs/issues/
+docs/manual/
+docs/plan/
+docs/tech-posts/post/
+docs/tech-posts/sample/
