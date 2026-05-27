@@ -10,7 +10,16 @@ Tableau Cloud and Tableau Desktop are designed for different environments and of
 
 ## Feature Classification
 
-☁️🖥️ **Cloud / Desktop availability** (73 features; 94 total with Both-different)
+Total: 94
+
+| Category | Description | Count |
+|----------|-------------|-------|
+| Desktop-only | Features available in Tableau Desktop but not in Tableau Cloud. | 59 |
+| Cloud-only | Features available in Tableau Cloud but not in Tableau Desktop. | 14 |
+| Both-different | Features available in both products but with different behavior or operation. | 21 |
+| Total | All documented feature parity differences. | 94 |
+
+☁️🖥️ **Cloud / Desktop availability**
 
 | No. | Feature name | Cloud | Desktop |
 |-----|--------------|-------|---------|
@@ -88,7 +97,7 @@ Tableau Cloud and Tableau Desktop are designed for different environments and of
 | 72 | [Workbook theme options in formatting](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_tableau_workbook_themes/en/set_tableau_workbook_themes_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_tableau_workbook_themes/en/set_tableau_workbook_themes_en.md) |
 | 73 | [Worksheet blank area context menu (shelf, legend, parameter, caption, summary toggle)](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_shelf_visibility/en/toggle_shelf_visibility_en.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_shelf_visibility/en/toggle_shelf_visibility_en.md) |
 
-⚖ **Both-different** (Features that exist in both but behave differently) (21 features)
+⚖ **Both-different** (Features that exist in both but behave differently)
 
 | No. | Feature Name | Article |
 |-----|--------------|---------|

@@ -10,7 +10,16 @@ Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を�
 
 ## 機能分類
 
-☁️🖥️ **Cloud / Desktop 可用性** (73件、Both-differentを含む合計94件)
+合計: 94件
+
+| カテゴリ | 説明 | 件数 |
+|----------|------|------|
+| Desktop-only | Tableau Desktopで利用でき、Tableau Cloudでは利用できない機能。 | 59 |
+| Cloud-only | Tableau Cloudで利用でき、Tableau Desktopでは利用できない機能。 | 14 |
+| Both-different | 両方で利用できるが、動作や操作が異なる機能。 | 21 |
+| 合計 | 文書化済みの機能差分すべて。 | 94 |
+
+☁️🖥️ **Cloud / Desktop 可用性**
 
 | No. | 機能名 | Cloud | Desktop |
 |-----|--------|-------|---------|
@@ -88,7 +97,7 @@ Tableau CloudとTableau Desktopは、それぞれ異なる環境での利用を�
 | 72 | [書式設定でのワークブックテーマオプション](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_tableau_workbook_themes/jp/set_tableau_workbook_themes_ja.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/set_tableau_workbook_themes/jp/set_tableau_workbook_themes_ja.md) |
 | 73 | [ワークシート空白エリアのコンテキストメニュー（シェルフ、凡例、パラメーター、キャプション、サマリー切替）](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_shelf_visibility/jp/toggle_shelf_visibility_ja.md) | ー | [◎](https://github.com/mickitty0511/tableau-feature-parity/blob/main/src/desktop-only/toggle_shelf_visibility/jp/toggle_shelf_visibility_ja.md) |
 
-⚖ **Both-different** (両方にあるが動作が異なる) (21件)
+⚖ **Both-different** (両方にあるが動作が異なる)
 
 | No. | 機能名 | 記事 |
 |-----|--------|------|
