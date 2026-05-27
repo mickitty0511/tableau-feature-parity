@@ -1,6 +1,7 @@
 # Tableau Feature Parity - Cloud vs Desktop
 
 <a href="README_JP.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
+<a href="https://deepwiki.com/mickitty0511/tableau-feature-parity"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki" /></a>
 
 This repository systematically documents and analyzes feature differences between Tableau Cloud and Tableau Desktop to support Tableau users' decision-making.
 

@@ -25,6 +25,7 @@
 - 2026-05-27: `README.md` / `README_JP.md` に、公式Tableau比較ページは基本機能要約で全差分ではない点、実操作で観測した機能差分・操作差分を記事化して組織内利用の摩擦低減に役立てる目的、スポンサー支援が検証・保守継続に効く理由を追記。
 - 2026-05-27: READMEの公式ページ言及は、英語READMEでは英語公式ページのみ、日本語READMEでは日本語公式ページのみを参照する方針に修正。
 - 2026-05-27: `pre-check-security` は ignored `tmp/` 配下の過去JSONログも走査対象にする場合がある。`:gg` 前に `tmp/github-issue-comments*.json` のような一時ログが残っていると invisible unicode でブロックされ得るため、成果物でないこととパスがリポジトリ配下 `tmp/` に限定されることを確認してcleanupする。
+- 2026-05-27: README冒頭のバッジ群に DeepWiki のプロジェクトリンク `https://deepwiki.com/mickitty0511/tableau-feature-parity` を追加する方針にした。
 
 ## 4. 更新ルール
 - 新しい資料を追加したら、この索引へ追記する。
