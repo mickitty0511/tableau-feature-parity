@@ -24,29 +24,29 @@
 - `dev_ops_done`: true
 - `implementation_done`: true
 - `verification_done`: true
-- `commit_done`: false
+- `commit_done`: true
 - `docs_ops_done`: true
 - `todo_sync_done`: true
 - `specs_sync_done`: false
 - `knowledge_sync_done`: true
 - `feedback_intake_done`: true
-- `final_check_done`: false
+- `final_check_done`: true
 
 ## Completion Evidence
 - `scope_coverage_checked`: true
 - `completion_integrity_checked`: true
-- `verification_evidence`: `rg -n "deepwiki.com/mickitty0511/tableau-feature-parity|deepwiki.com/badge.svg|Ask DeepWiki" README.md README_JP.md` PASS。`git diff -- README.md README_JP.md docs/TODO.md docs/knowledge/KNOWLEDGE.md` でDeepWikiバッジ、TODO、knowledgeのみの変更であることを確認。
+- `verification_evidence`: `rg -n "deepwiki.com/mickitty0511/tableau-feature-parity|deepwiki.com/badge.svg|Ask DeepWiki" README.md README_JP.md` PASS。`git diff -- README.md README_JP.md docs/TODO.md docs/knowledge/KNOWLEDGE.md` でDeepWikiバッジ、TODO、knowledgeのみの変更であることを確認。`python $HOME/.codex/skills/docs-ops/scripts/todo_gate.py --root tmp/worktrees/readme-deepwiki-badge --phase pre-final --json` PASS。
 - `feedback_evidence`: user request、DeepWiki badge link check、Git diff review をReview and Validation Feedbackへ記録し、未処理フィードバックなし。
 - `known_open_issues_count`: 0
 - `unresolved_blockers`: none
-- `commit_status`: pending commit creation.
+- `commit_status`: task branch commit created: `e073696` (`docs(readme): add DeepWiki badge`); TODO completion sync was committed after it.
 
 ## Task Checklist
 - [x] 既存README、TODO、knowledgeを確認する。
 - [x] 専用worktreeを作成し、作業ブランチを用意する。
 - [x] `README.md` / `README_JP.md` の冒頭バッジ群へDeepWikiリンクを追加する。
 - [x] TODO、knowledge、検証結果を同期する。
-- [ ] 変更を検証し、コミットする。
+- [x] 変更を検証し、コミットする。
 
 ## Verification Plan
 - Unit test: NO. README/TODO/knowledgeの文書変更のみで実行コードがないため。
@@ -87,3 +87,5 @@
 - 2026-05-27: 最終タスクブランチコミットを作成済み。
 - 2026-05-27: README DeepWikiバッジ追加タスクを開始。専用worktree `tmp/worktrees/readme-deepwiki-badge` を作成し、ユーザー提示例のURLをこのリポジトリ用URLへ差し替えてREADME冒頭へ追加。
 - 2026-05-27: `README.md` / `README_JP.md` のDeepWikiリンク確認とGit差分確認を完了。コミット作成後にTODOへコミット証跡を追記する。
+- 2026-05-27: タスクブランチコミット `e073696` を作成。TODO gate 実行後に最終チェック状態を同期する。
+- 2026-05-27: TODO gate pre-final をPASSし、最終チェック完了状態へ更新。
