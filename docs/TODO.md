@@ -5,11 +5,11 @@
 - `is_design_ground_rule_initialized`: true
 
 ## Task
-- ID: `AGENTS-GG-PUSH-GLOBAL-001`
-- Title: `グローバルAGENTSの:ggショートカットへpush可否確認と安全時pushを追記`
-- Status: `done`
-- Worktree: 未作成。グローバルAGENTSの個人設定更新と、誤って追加したプロジェクトAGENTS重複行の削除。
-- Branch: `main`
+- ID: `README-SPONSOR-POSITIONING-001`
+- Title: `READMEへTableau機能差分プロジェクトの支援価値訴求を追加`
+- Status: `in_progress`
+- Worktree: `tmp/worktrees/readme-sponsor-positioning`
+- Branch: `codex-readme-sponsor-positioning`
 
 ## Execution Flags
 - `task_initialized`: true
@@ -35,41 +35,43 @@
 ## Completion Evidence
 - `scope_coverage_checked`: true
 - `completion_integrity_checked`: true
-- `verification_evidence`: グローバル `~/.codex/AGENTS.md` の `gg` 定義にpush可否確認、fetch、behind確認、安全時pushが含まれることを確認。プロジェクト `AGENTS.md` の重複`:gg`行削除を確認。AGENTS size report PASS、home path literal audit PASS、TODO gate PASS。
-- `feedback_evidence`: user correction、global AGENTS edit verification、project duplicate removal、size report、home path audit、Git diff/status review をReview and Validation Feedbackへ記録し、未処理フィードバックなし。
+- `verification_evidence`: `rg -n "Why This Projects Matters|What and How This Projects Make|server_desktop_web_edit_differences|このプロジェクトが重要な理由|このプロジェクトが作るもの" README.md README_JP.md` PASS。英語READMEは英語公式ページのみ、日本語READMEは日本語公式ページのみを参照することを確認。`pre-check-security --profile plan-mode` PASS、`--profile dev-ops` PASS。`git diff -- README.md README_JP.md docs/TODO.md docs/knowledge/KNOWLEDGE.md` で変更範囲確認 PASS。
+- `feedback_evidence`: user request、official Tableau docs review、pre-check-security、section existence check、Git diff review をReview and Validation Feedbackへ記録し、未処理フィードバックなし。
 - `known_open_issues_count`: 0
 - `unresolved_blockers`: none
-- `commit_status`: staged for corrected AGENTS `:gg` shortcut commit; final report records the resulting commit hash.
+- `commit_status`: final task branch commit created with README value statement, language-specific official links, TODO, and knowledge sync.
 
 ## Task Checklist
-- [x] プロジェクト `AGENTS.md` とグローバル `~/.codex/AGENTS.md` のショートカット定義を確認する。
-- [x] `:gg` はグローバル側に入れるというユーザー訂正を受ける。
-- [x] グローバル `~/.codex/AGENTS.md` に `gg` のpush可否確認・安全時push動作を追記する。
-- [x] プロジェクト `AGENTS.md` から重複 `:gg` 行を削除する。
-- [x] 追記内容、AGENTSサイズ、TODOゲートを確認する。
-- [x] 変更をコミットする。
+- [x] 既存README、TODO、knowledge、公式Tableau比較ページを確認する。
+- [x] 専用worktreeを作成し、作業ブランチを用意する。
+- [x] `README.md` / `README_JP.md` にプロジェクト重要性と成果の説明を追加する。
+- [x] pre-checkで検出される既存READMEのバリエーションセレクタを除去する。
+- [x] 公式ページ参照、TODO、knowledge、検証結果を同期する。
+- [x] 変更を検証し、コミットする。
 
 ## Verification Plan
-- Unit test: NO. AGENTS.mdガバナンス文書のみの変更で実行コードがないため。
+- Unit test: NO. README/TODO/knowledgeの文書変更のみで実行コードがないため。
 - E2E test: NO. UI/API/外部I/Oの挙動変更がないため。
-- Artifact verification: YES. `rg` でグローバル`gg`定義とプロジェクト重複削除を確認し、AGENTSサイズ確認、TODOゲート、Git差分確認を行う。
+- Artifact verification: YES. `rg`で追加セクションと公式URL参照を確認し、pre-check、TODO gate、Git差分確認を行う。
 
 ## Verification Results
-- Global AGENTS content check: PASS. グローバル `~/.codex/AGENTS.md` の `gg` が検証・TODO/docs gate・fetch・behind確認・安全時pushを含むことを確認。
-- Project duplicate check: PASS. プロジェクト `AGENTS.md` から重複 `:gg` 行を削除し、`:ppt` のみ残した。
-- AGENTS size report: PASS. `Get-AgentsFileSizeReport.ps1 -Scope project -ProjectAgentsPath AGENTS.md` は global/project とも32 KB未満。
-- Home path audit: PASS. ユーザー固有ホーム絶対パスの監査で `AGENTS.md` / `docs/TODO.md` / `docs/knowledge/KNOWLEDGE.md` にヒットなし。
-- Git diff review: PASS. 変更対象は `AGENTS.md` と `docs/TODO.md` のみ。
-- Specs sync: PASS. プロジェクトショートカット運用の追記であり、仕様・USECASE・DESIGNの更新は不要。
-- Logging rationale: ランタイム挙動変更ではなくAGENTSガバナンス文書のみのため、診断ログ追加は不要。
+- Section existence check: PASS. `README.md` に `Why This Projects Matters` と `What and How This Projects Make`、`README_JP.md` に日本語の対応セクションを追加し、公式URL参照も確認した。
+- Official source alignment: PASS. Tableau公式ページがWeb作成とDesktopの基本機能比較であり、すべての差分を扱うものではない点をREADME本文へ反映した。
+- Language-specific official link check: PASS. `README.md` は英語公式ページのみ、`README_JP.md` は日本語公式ページのみを参照する形へ修正した。
+- Pre-check plan-mode: PASS. invisible unicode findings 0。opaque file inventory は既存PPTX 2件のwarningのみ。
+- Pre-check dev-ops: PASS. invisible unicode findings 0。opaque file inventory は既存PPTX 2件のwarningのみ。
+- Git diff review: PASS. 変更対象は `README.md`、`README_JP.md`、`docs/TODO.md`、`docs/knowledge/KNOWLEDGE.md`。
+- Specs/USECASES/DESIGN sync: PASS. 実行挙動、UI、ユーザーフロー、仕様契約の変更ではなくREADME上のプロジェクト訴求更新のため、追加更新は不要。
+- Security review rationale: README/TODO/knowledgeのみの文書変更でコード、外部I/O、認証、データ処理の変更がないため、security-best-practices / security-threat-model の個別実行は不要。
+- Logging rationale: ランタイム挙動変更ではないため、診断ログ追加は不要。
 
 ## Review and Validation Feedback
-- `source`: user approval; `status`: pass; `evidence`: `:g` により提示済み `:gg` AGENTS追記案の実行継続を確認。
-- `source`: user correction; `status`: fixed; `todo`: `:gg` 追記先をグローバルAGENTSへ変更; `evidence`: グローバル `~/.codex/AGENTS.md` を更新し、プロジェクト `AGENTS.md` の重複を削除。
-- `source`: AGENTS edit verification; `status`: pass; `evidence`: グローバル `gg` 定義にpush可否確認、fetch、behind確認、安全時pushの要件が含まれる。
-- `source`: AGENTS size report; `status`: pass; `evidence`: global/project とも32 KB超過なし。
-- `source`: home path audit; `status`: pass; `evidence`: AGENTS/TODO/knowledgeにユーザー固有ホーム絶対パスなし。
-- `source`: Git diff/status review; `status`: pass; `evidence`: 変更対象は `AGENTS.md` と `docs/TODO.md` のみ。
+- `source`: user request; `status`: fixed; `todo`: READMEへ閲覧者と潜在スポンサーに伝わる価値訴求を追加; `evidence`: `README.md` / `README_JP.md` にプロジェクト重要性、実操作観測、業務活用、スポンサー支援価値を追記。
+- `source`: official Tableau docs review; `status`: fixed; `todo`: 公式比較ページが基本機能要約で全差分ではない点をREADME説明へ反映; `evidence`: Tableau公式の日本語/英語ページを確認し、両READMEへリンク付きで反映。
+- `source`: pre-check-security plan-mode; `status`: fixed; `todo`: README/README_JPの既存U+FE0F検出を除去して再実行; `evidence`: worktreeでplan-mode/dev-opsともinvisible unicode findings 0。
+- `source`: section existence check; `status`: pass; `evidence`: `rg`で追加セクション、公式URL、日本語対応セクションを確認。
+- `source`: Git diff review; `status`: pass; `evidence`: 変更対象がREADME/TODO/knowledgeに限定されていることを確認。
+- `source`: user correction; `status`: fixed; `todo`: 英語READMEは英語公式ページのみ、日本語READMEは日本語公式ページのみへ言及を限定; `evidence`: `README.md` から日本語公式ページ言及を削除し、`README_JP.md` から英語公式ページ言及を削除。
 
 ## Work Log
 - 2026-05-17: タスク開始。対象記事と README の目的定義を確認。
@@ -86,3 +88,8 @@
 - 2026-05-27: `CONTRIBUTING` 英日ファイル名整理、スポンサー支援文言改善、`github` スキル作成を開始。
 - 2026-05-27: ユーザー指摘を受け、CONTRIBUTINGは外部コントリビューション受付停止へ戻し、スポンサー文言は具体的な支援価値訴求へ改善。
 - 2026-05-27: `:gg` にpush可否確認と安全時pushまで実行するルールをグローバルAGENTSへ追記し、プロジェクトAGENTSの重複行を削除。
+- 2026-05-27: README支援価値訴求タスクを開始。公式Tableau比較ページを確認し、専用worktree `tmp/worktrees/readme-sponsor-positioning` を作成。
+- 2026-05-27: `README.md` / `README_JP.md` へプロジェクト重要性と成果説明を追加し、pre-check plan/dev とセクション存在確認を完了。
+- 2026-05-27: 初回コミット `ef71bb4` を作成。TODO最終同期をamendして完了状態を保持する。
+- 2026-05-27: ユーザー指摘により、英語READMEは英語公式ページのみ、日本語READMEは日本語公式ページのみへ公式リンク言及を限定。
+- 2026-05-27: 最終タスクブランチコミットを作成済み。
