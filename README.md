@@ -155,8 +155,8 @@ Help support the continued article maintenance, verification, and upkeep of this
 | Tier | Details |
 |------|---------|
 | `$4.99` | Thank-you only. No sponsor name listing is included. |
-| `$9.99` | Your public sponsor name will be listed on the repository project page. |
-| `$14.99` | Your public sponsor name will be listed more prominently on the repository project page. |
+| `$9.99` | Your public sponsor name will be listed in [SPONSORS.md](SPONSORS.md). |
+| `$14.99` | Your public sponsor name will be listed more prominently in [SPONSORS.md](SPONSORS.md). |
 
 Sponsor names are listed when the sponsorship is public and the sponsor name is appropriate for a public project page.
 
