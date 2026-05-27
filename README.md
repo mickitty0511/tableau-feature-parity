@@ -8,6 +8,20 @@ This repository systematically documents and analyzes feature differences betwee
 
 Tableau Cloud and Tableau Desktop are designed for different environments and offer varying feature sets. This project aims to provide detailed documentation of feature differences based on actual user experiences, helping Tableau users make informed decisions.
 
+## Why This Projects Matters
+
+Tableau's official help provides a valuable [Web Authoring and Tableau Desktop Feature Comparison](https://help.tableau.com/current/online/en-us/server_desktop_web_edit_differences.htm). That official page is a starting point, but it summarizes core authoring functionality and does not cover every practical difference between the desktop and web environments.
+
+In real organizational use, the hard question is often more concrete: which exact feature is available, which operation is missing, which menu moved, and which workflow becomes slower or less comfortable because Cloud and Desktop do not behave the same way. These gaps can affect training, handover, troubleshooting, dashboard maintenance, and the everyday confidence of teams that rely on Tableau for business work.
+
+This project matters because those operational differences are not just a list of product capabilities. They are the small but costly frictions that appear when people try to edit, format, publish, explain, or maintain Tableau workbooks under real work constraints. Keeping this comparison current requires hands-on verification, screenshots, version checks, article maintenance, and time. Sponsorship helps keep that practical knowledge available to teams before they lose hours rediscovering the same differences.
+
+## What and How This Projects Make
+
+This project turns observed Tableau Cloud / Tableau Desktop feature and operation differences into reusable articles. Each article is based on actual operations that could be observed, compared, and documented, so readers can understand not only whether a feature exists, but how the experience changes when they try to use it.
+
+The goal is to make this repository the page people can share when someone asks, "What should we check when Tableau behaves differently?" Anyone can open the comparison, find the relevant feature, and apply it to Tableau-based work such as authoring, review, migration planning, internal support, and team enablement.
+
 ## Feature Classification
 
 Total: 94
@@ -19,7 +33,7 @@ Total: 94
 | Both-different | Features available in both products but with different behavior or operation. | 21 |
 | Total | All documented feature parity differences. | 94 |
 
-☁️🖥️ **Cloud / Desktop availability**
+☁🖥 **Cloud / Desktop availability**
 
 | No. | Feature name | Cloud | Desktop |
 |-----|--------------|-------|---------|
