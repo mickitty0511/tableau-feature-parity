@@ -9,7 +9,7 @@ This repository systematically documents and analyzes feature differences betwee
 
 Tableau Cloud and Tableau Desktop are designed for different environments and offer varying feature sets. This project aims to provide detailed documentation of feature differences based on actual user experiences, helping Tableau users make informed decisions.
 
-## Why This Projects Matters
+## Why This Project Matters
 
 Tableau's official help provides a valuable [Web Authoring and Tableau Desktop Feature Comparison](https://help.tableau.com/current/online/en-us/server_desktop_web_edit_differences.htm). That official page is a starting point, but it summarizes core authoring functionality and does not cover every practical difference between the desktop and web environments.
 
@@ -17,7 +17,7 @@ In real organizational use, the hard question is often more concrete: which exac
 
 This project matters because those operational differences are not just a list of product capabilities. They are the small but costly frictions that appear when people try to edit, format, publish, explain, or maintain Tableau workbooks under real work constraints. Keeping this comparison current requires hands-on verification, screenshots, version checks, article maintenance, and time. Sponsorship helps keep that practical knowledge available to teams before they lose hours rediscovering the same differences.
 
-## What and How This Projects Make
+## What and How This Project Makes
 
 This project turns observed Tableau Cloud / Tableau Desktop feature and operation differences into reusable articles. Each article is based on actual operations that could be observed, compared, and documented, so readers can understand not only whether a feature exists, but how the experience changes when they try to use it.
 
