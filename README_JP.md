@@ -34,7 +34,7 @@ Tableau公式ヘルプには、[Web 作成と Tableau Desktop 機能の比較](h
 | Both-different | 両方で利用できるが、動作や操作が異なる機能。 | 21 |
 | 合計 | 文書化済みの機能差分すべて。 | 94 |
 
-☁🖥 **Cloud / Desktop 可用性**
+☁🖥 **Cloud / Desktop のうちいずれかで利用可能な操作**
 
 | No. | 機能名 | Cloud | Desktop |
 |-----|--------|-------|---------|
